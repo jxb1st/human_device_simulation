@@ -1,0 +1,80 @@
+{
+  "device_id": "printer_generic",
+  "part": "ok_button",
+  "mechanism": "contact_dynamics (kinematic mocap fingertip)",
+  "mujoco_version": "3.5.0",
+  "interval_s": [
+    22.4,
+    23.2
+  ],
+  "state_time_note": "state.npz t = simulation time after the control step (controls.npz t + 1/control_hz)",
+  "params": {
+    "spring_n_per_m": 400.0,
+    "damping_n_s_per_m": 2.0,
+    "mass_kg": 0.01,
+    "range_m": [
+      -0.002,
+      0.0
+    ],
+    "axis": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "timestep_s": 0.0016666667,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "solref_limit": [
+      0.004,
+      1.0
+    ],
+    "solimp_limit": [
+      0.98,
+      0.995,
+      0.0005,
+      0.5,
+      2.0
+    ],
+    "fingertip_radius_m": 0.007,
+    "control_hz": 100,
+    "physics_hz": 600,
+    "negative_offset_dev_m": [
+      -0.05,
+      0.0,
+      0.0
+    ]
+  },
+  "thresholds": {
+    "min_travel_m": 0.0013,
+    "max_penetration_m": 0.0015,
+    "activation_m": 0.0013
+  },
+  "positive": {
+    "min_or_max_travel_m": 0.002315301398202417,
+    "max_ncon": 1,
+    "max_contact_force_n": 22.415978538812116,
+    "max_penetration_m": 0.0007811470414149273,
+    "final_q_m": -7.747488215930055e-17,
+    "final_ncon": 0,
+    "samples": 3521
+  },
+  "negative": {
+    "max_abs_travel_m": 0.0,
+    "max_ncon": 0
+  },
+  "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+  },
+  "pass": true,
+  "sphere_lead_max_m": 0.0012964246872055798,
+  "visible_tip_penetration_max_m": 0.0,
+  "step": "press_ok"
+}

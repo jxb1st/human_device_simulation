@@ -1,0 +1,260 @@
+{
+ "run_id": "printer_use_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "printer_use",
+ "seed": 37,
+ "scene_id": "office_printer",
+ "device_id": "printer_generic",
+ "created": "2026-10-06T09:14:44+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "grasp_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pull_tray",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "release_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "load_paper",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "look_stack",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_tray_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_tray_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "grasp_tray_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "push_tray",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "release_tray_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_3",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_ok",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_ok",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "align_ok",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "press_ok",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "release_ok",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "right_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "print",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_sheet",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_sheet",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pinch_sheet",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "check_sheet",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "right_back_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 35.199999999999996,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 1057,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+  "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "1fe199832741867ca6ca85d063f6357ff2df6ac7c5d5e7ac762ef9694c3fc41f",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.877,
+    "frames": 1057,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "9b713fc98e0f062038cf053717e0a2f47fecf2309d9154ec8ed0dc1136aa87e8"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.841,
+    "frames": 1057,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "9b713fc98e0f062038cf053717e0a2f47fecf2309d9154ec8ed0dc1136aa87e8"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.876,
+    "frames": 1057,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "9b713fc98e0f062038cf053717e0a2f47fecf2309d9154ec8ed0dc1136aa87e8"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "9b713fc98e0f062038cf053717e0a2f47fecf2309d9154ec8ed0dc1136aa87e8",
+ "stages": {
+  "inputs_hash": "1fe199832741867ca6ca85d063f6357ff2df6ac7c5d5e7ac762ef9694c3fc41f",
+  "compile": true,
+  "bake_targets": true,
+  "physics.press_ok": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": 4.6219280484504416e-07,
+  "max_tip_speed_m_s": 0.9365574657280097
+ },
+ "physics": {
+  "press_ok": {
+   "part": "ok_button",
+   "thresholds": {
+    "min_travel_m": 0.0013,
+    "max_penetration_m": 0.0015,
+    "activation_m": 0.0013
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964246872055798,
+   "visible_tip_penetration_max_m": 0.0
+  }
+ }
+}
