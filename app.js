@@ -49,5 +49,6 @@ function evidence(ep){const b=$('#evidence-body'); b.innerHTML=''; const t=el('t
   const ul=el('ul'); ep.limitations.forEach(l=>ul.appendChild(el('li',null,l))); b.appendChild(el('h3',null,'Limitations')); b.appendChild(ul);
   const d=el('details'); d.appendChild(el('summary',null,'Downloads (run records)')); const dl=el('div','mono small'); dl.appendChild(el('div',null,'data/'+ep.id+'/manifest.json · data/'+ep.id+'/events.jsonl · data/'+ep.id+'/physics_*.json')); d.appendChild(dl); b.appendChild(d);}
 $('#mechnote').textContent=Object.entries(D.mechanism_note).map(([k,v])=>k+' = '+v).join('; '); $('#credits').textContent=D.attribution+' Versions: '+(D.episodes[0]?Object.entries(D.episodes[0].versions).map(([k,v])=>k+' '+v).join(', '):'');
+document.querySelectorAll('.tl-bar[data-ep]').forEach(b=>b.addEventListener('click',()=>{const i=D.episodes.findIndex(e=>e.id===b.dataset.ep); if(i<0)return; const t=parseFloat(b.dataset.seek); load(i); const go=()=>{seekAll(t);}; if(main.readyState>=1) go(); main.addEventListener('loadedmetadata',go,{once:true});}));
 cards(); if(D.episodes.length) load(0);
 })();
