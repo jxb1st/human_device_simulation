@@ -1301,6 +1301,3478 @@
     "numpy": "2.4.6"
    },
    "complete": true
+  },
+  {
+   "id": "microwave_v2_cook_seed37",
+   "sequence_id": "microwave_v2_cook",
+   "device_id": "microwave_v2",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 58.800000000000004,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 1765,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "7b65df1fc5cb564d5f07b599b8502dfc51bf2c201877663677d42c0d20f9b031",
+   "views": {
+    "external": {
+     "src": "media/microwave_v2_cook_seed37/external.mp4",
+     "poster": "media/microwave_v2_cook_seed37/external_poster.png",
+     "ok": true,
+     "frames": 1765,
+     "fps": 30.0,
+     "duration_s": 58.833333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.306,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/microwave_v2_cook_seed37/ego.mp4",
+     "poster": "media/microwave_v2_cook_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 1765,
+     "fps": 30.0,
+     "duration_s": 58.833333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.305,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/microwave_v2_cook_seed37/detail.mp4",
+     "poster": "media/microwave_v2_cook_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 1765,
+     "fps": 30.0,
+     "duration_s": 58.833333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.965,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_door",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.95,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle",
+     "action": "pregrasp",
+     "t": 2.95,
+     "t_end": 3.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "open_door",
+     "action": "pull",
+     "t": 3.7,
+     "t_end": 5.9,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door",
+     "action": "release",
+     "t": 5.9,
+     "t_end": 6.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_1",
+     "action": "retreat",
+     "t": 6.5,
+     "t_end": 7.9,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_bowl",
+     "action": "look_at",
+     "t": 7.9,
+     "t_end": 8.5,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "prop_home.bowl"
+    },
+    {
+     "id": "place_bowl",
+     "action": "pick_place",
+     "t": 7.9,
+     "t_end": 13.9,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "bowl"
+    },
+    {
+     "id": "left_back_2",
+     "action": "retreat",
+     "t": 13.9,
+     "t_end": 15.3,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_door_2",
+     "action": "look_at",
+     "t": 15.3,
+     "t_end": 15.9,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle_2",
+     "action": "reach",
+     "t": 15.3,
+     "t_end": 17.25,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle_2",
+     "action": "pregrasp",
+     "t": 17.25,
+     "t_end": 18.0,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "close_door",
+     "action": "push",
+     "t": 18.0,
+     "t_end": 20.0,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door_2",
+     "action": "release",
+     "t": 20.0,
+     "t_end": 20.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_3",
+     "action": "retreat",
+     "t": 20.5,
+     "t_end": 21.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_mode",
+     "action": "look_at",
+     "t": 21.7,
+     "t_end": 22.3,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_microwave_face"
+    },
+    {
+     "id": "reach_mode",
+     "action": "reach",
+     "t": 21.7,
+     "t_end": 23.25,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_microwave_face"
+    },
+    {
+     "id": "align_mode",
+     "action": "pregrasp",
+     "t": 23.25,
+     "t_end": 23.9,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_microwave_face"
+    },
+    {
+     "id": "press_mode",
+     "action": "press",
+     "t": 23.9,
+     "t_end": 24.599999999999998,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_microwave_face"
+    },
+    {
+     "id": "release_mode",
+     "action": "release",
+     "t": 24.599999999999998,
+     "t_end": 25.099999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_microwave_face"
+    },
+    {
+     "id": "look_dial",
+     "action": "look_at",
+     "t": 25.099999999999998,
+     "t_end": 25.599999999999998,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "dial_grip"
+    },
+    {
+     "id": "reach_dial",
+     "action": "reach",
+     "t": 25.099999999999998,
+     "t_end": 26.45,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "pinch_dial",
+     "action": "pregrasp",
+     "t": 26.45,
+     "t_end": 27.099999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "turn_dial",
+     "action": "rotate",
+     "t": 27.099999999999998,
+     "t_end": 28.299999999999997,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "dial"
+    },
+    {
+     "id": "release_dial",
+     "action": "release",
+     "t": 28.299999999999997,
+     "t_end": 28.799999999999997,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "look_start",
+     "action": "look_at",
+     "t": 28.799999999999997,
+     "t_end": 29.299999999999997,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "reach_start",
+     "action": "reach",
+     "t": 28.799999999999997,
+     "t_end": 30.15,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "align_start",
+     "action": "pregrasp",
+     "t": 30.15,
+     "t_end": 30.799999999999997,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "press_start",
+     "action": "press",
+     "t": 30.799999999999997,
+     "t_end": 31.499999999999996,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "release_start",
+     "action": "release",
+     "t": 31.499999999999996,
+     "t_end": 31.999999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "right_back_1",
+     "action": "retreat",
+     "t": 31.999999999999996,
+     "t_end": 33.4,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "cook",
+     "action": "idle",
+     "t": 33.4,
+     "t_end": 38.4,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_stop",
+     "action": "look_at",
+     "t": 38.4,
+     "t_end": 38.9,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_stop_eco_face"
+    },
+    {
+     "id": "reach_stop",
+     "action": "reach",
+     "t": 38.4,
+     "t_end": 39.75,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_stop_eco_face"
+    },
+    {
+     "id": "align_stop",
+     "action": "pregrasp",
+     "t": 39.75,
+     "t_end": 40.4,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_stop_eco_face"
+    },
+    {
+     "id": "press_stop",
+     "action": "press",
+     "t": 40.4,
+     "t_end": 41.1,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_stop_eco_face"
+    },
+    {
+     "id": "release_stop",
+     "action": "release",
+     "t": 41.1,
+     "t_end": 41.6,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_stop_eco_face"
+    },
+    {
+     "id": "right_back_2",
+     "action": "retreat",
+     "t": 41.6,
+     "t_end": 43.0,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "look_door_3",
+     "action": "look_at",
+     "t": 43.0,
+     "t_end": 43.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle_3",
+     "action": "reach",
+     "t": 43.0,
+     "t_end": 44.95,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle_3",
+     "action": "pregrasp",
+     "t": 44.95,
+     "t_end": 45.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "reopen_door",
+     "action": "pull",
+     "t": 45.7,
+     "t_end": 47.900000000000006,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door_3",
+     "action": "release",
+     "t": 47.900000000000006,
+     "t_end": 48.50000000000001,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_4",
+     "action": "retreat",
+     "t": 48.50000000000001,
+     "t_end": 49.900000000000006,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_cavity",
+     "action": "look_at",
+     "t": 49.900000000000006,
+     "t_end": 50.50000000000001,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "cavity_place"
+    },
+    {
+     "id": "take_bowl",
+     "action": "pick_place",
+     "t": 49.900000000000006,
+     "t_end": 55.900000000000006,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "bowl"
+    },
+    {
+     "id": "left_back_5",
+     "action": "retreat",
+     "t": 55.900000000000006,
+     "t_end": 57.300000000000004,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 57.300000000000004,
+     "t_end": 58.800000000000004,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 33.4,
+     "t_end": 38.4
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "interior_light",
+     "mechanism": "illustrative_effect",
+     "t_start": 33.4,
+     "t_end": 38.4
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "turntable",
+     "mechanism": "device_motor",
+     "t_start": 33.4,
+     "t_end": 38.4
+    }
+   ],
+   "measured_events": [
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 24.190000483803008,
+     "step": "press_mode",
+     "part": "key_microwave",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 24.230000484603014,
+     "q_m": 0.0010499672029909098,
+     "step": "press_mode",
+     "part": "key_microwave",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 24.690000493803087,
+     "q_m": -5.570161137936781e-06,
+     "step": "press_mode",
+     "part": "key_microwave",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 24.690000493803087,
+     "step": "press_mode",
+     "part": "key_microwave",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 31.090000621804098,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 31.130000622604104,
+     "q_m": 0.0010505840046834785,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 31.590000631804177,
+     "q_m": -5.515334293060822e-06,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 31.590000631804177,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 40.69000081378709,
+     "step": "press_stop",
+     "part": "key_stop_eco",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 40.73000081458701,
+     "q_m": 0.001049831751653981,
+     "step": "press_stop",
+     "part": "key_stop_eco",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 41.1900008237861,
+     "q_m": -5.599007873269909e-06,
+     "step": "press_stop",
+     "part": "key_stop_eco",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 41.1900008237861,
+     "step": "press_stop",
+     "part": "key_stop_eco",
+     "mechanism": "contact_dynamics"
+    }
+   ],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "open_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_bowl",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "place_bowl",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "close_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_mode",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_mode",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_mode",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_mode",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_mode",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "turn_dial",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_start",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "cook",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_stop",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_stop",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_stop",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_stop",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_stop",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reopen_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_4",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_cavity",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "take_bowl",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_5",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+    "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+    "device_motor: internal part motion (turntable) is an authored actuator track.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {
+    "press_mode": {
+     "part": "key_microwave",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.001592377233692296,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.611289102487344,
+      "max_penetration_m": 0.0005041342550298625,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 5881
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.001296425702178866,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "press_start": {
+     "part": "key_start_30s",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015927153805897272,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6165660041346928,
+      "max_penetration_m": 0.0005045523556422441,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 5881
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964208313650427,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "press_stop": {
+     "part": "key_stop_eco",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015923264366113218,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6104096378703177,
+      "max_penetration_m": 0.0005040648026694442,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 5881
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964232102521212,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.1520423024784051e-06,
+    "max_tip_speed_m_s": 1.0459251961508311
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "microwave_v2_reheat_seed37",
+   "sequence_id": "microwave_v2_reheat",
+   "device_id": "microwave_v2",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 49.949999999999996,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 1500,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "eef13db027903c2743a8dd634488be8964c5b827c4e226adce62879b4c9dd48b",
+   "views": {
+    "external": {
+     "src": "media/microwave_v2_reheat_seed37/external.mp4",
+     "poster": "media/microwave_v2_reheat_seed37/external_poster.png",
+     "ok": true,
+     "frames": 1500,
+     "fps": 30.0,
+     "duration_s": 50.0,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.302,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/microwave_v2_reheat_seed37/ego.mp4",
+     "poster": "media/microwave_v2_reheat_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 1500,
+     "fps": 30.0,
+     "duration_s": 50.0,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.298,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/microwave_v2_reheat_seed37/detail.mp4",
+     "poster": "media/microwave_v2_reheat_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 1500,
+     "fps": 30.0,
+     "duration_s": 50.0,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.814,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_door",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.95,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle",
+     "action": "pregrasp",
+     "t": 2.95,
+     "t_end": 3.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "open_door",
+     "action": "pull",
+     "t": 3.7,
+     "t_end": 5.9,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door",
+     "action": "release",
+     "t": 5.9,
+     "t_end": 6.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_1",
+     "action": "retreat",
+     "t": 6.5,
+     "t_end": 7.9,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_mug",
+     "action": "look_at",
+     "t": 7.9,
+     "t_end": 8.5,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "prop_home.mug"
+    },
+    {
+     "id": "place_mug",
+     "action": "pick_place",
+     "t": 7.9,
+     "t_end": 13.9,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "mug"
+    },
+    {
+     "id": "left_back_2",
+     "action": "retreat",
+     "t": 13.9,
+     "t_end": 15.3,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_door_2",
+     "action": "look_at",
+     "t": 15.3,
+     "t_end": 15.9,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle_2",
+     "action": "reach",
+     "t": 15.3,
+     "t_end": 17.25,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle_2",
+     "action": "pregrasp",
+     "t": 17.25,
+     "t_end": 18.0,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "close_door",
+     "action": "push",
+     "t": 18.0,
+     "t_end": 20.0,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door_2",
+     "action": "release",
+     "t": 20.0,
+     "t_end": 20.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_3",
+     "action": "retreat",
+     "t": 20.5,
+     "t_end": 21.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_start",
+     "action": "look_at",
+     "t": 21.7,
+     "t_end": 22.3,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "reach_start",
+     "action": "reach",
+     "t": 21.7,
+     "t_end": 23.25,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "align_start",
+     "action": "pregrasp",
+     "t": 23.25,
+     "t_end": 23.9,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "press_start_1",
+     "action": "press",
+     "t": 23.9,
+     "t_end": 24.599999999999998,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "lift_1",
+     "action": "release",
+     "t": 24.599999999999998,
+     "t_end": 24.999999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "align_start_2",
+     "action": "pregrasp",
+     "t": 24.999999999999996,
+     "t_end": 25.549999999999997,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "press_start_2",
+     "action": "press",
+     "t": 25.549999999999997,
+     "t_end": 26.249999999999996,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "release_start",
+     "action": "release",
+     "t": 26.249999999999996,
+     "t_end": 26.749999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "right_back_1",
+     "action": "retreat",
+     "t": 26.749999999999996,
+     "t_end": 28.149999999999995,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "heat",
+     "action": "idle",
+     "t": 28.149999999999995,
+     "t_end": 34.14999999999999,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_door_3",
+     "action": "look_at",
+     "t": 34.14999999999999,
+     "t_end": 34.74999999999999,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle_3",
+     "action": "reach",
+     "t": 34.14999999999999,
+     "t_end": 36.099999999999994,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle_3",
+     "action": "pregrasp",
+     "t": 36.099999999999994,
+     "t_end": 36.849999999999994,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "reopen_door",
+     "action": "pull",
+     "t": 36.849999999999994,
+     "t_end": 39.05,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door_3",
+     "action": "release",
+     "t": 39.05,
+     "t_end": 39.65,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_4",
+     "action": "retreat",
+     "t": 39.65,
+     "t_end": 41.05,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_cavity",
+     "action": "look_at",
+     "t": 41.05,
+     "t_end": 41.65,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "cavity_place"
+    },
+    {
+     "id": "take_mug",
+     "action": "pick_place",
+     "t": 41.05,
+     "t_end": 47.05,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "mug"
+    },
+    {
+     "id": "left_back_5",
+     "action": "retreat",
+     "t": 47.05,
+     "t_end": 48.449999999999996,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 48.449999999999996,
+     "t_end": 49.949999999999996,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 28.149999999999995,
+     "t_end": 34.14999999999999
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "interior_light",
+     "mechanism": "illustrative_effect",
+     "t_start": 28.149999999999995,
+     "t_end": 34.14999999999999
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "turntable",
+     "mechanism": "device_motor",
+     "t_start": 28.149999999999995,
+     "t_end": 34.14999999999999
+    }
+   ],
+   "measured_events": [
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 24.190000483803008,
+     "step": "press_start_1",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 24.230000484603014,
+     "q_m": 0.0010505840046834785,
+     "step": "press_start_1",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 24.670000493403084,
+     "q_m": 0.00047712878966244687,
+     "step": "press_start_1",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 24.690000493803087,
+     "step": "press_start_1",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 25.84000051680327,
+     "step": "press_start_2",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 25.880000517603275,
+     "q_m": 0.0010505840046834785,
+     "step": "press_start_2",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 26.340000526803347,
+     "q_m": -5.515334293060822e-06,
+     "step": "press_start_2",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 26.340000526803347,
+     "step": "press_start_2",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    }
+   ],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "open_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_mug",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "place_mug",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "close_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_start_1",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "lift_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_start_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_start_2",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "heat",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reopen_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_4",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_cavity",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "take_mug",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_5",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+    "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+    "device_motor: internal part motion (turntable) is an authored actuator track.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {
+    "press_start_1": {
+     "part": "key_start_30s",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015927153805897272,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6165660041346928,
+      "max_penetration_m": 0.0005045523556422441,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 4996
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964208313650427,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "press_start_2": {
+     "part": "key_start_30s",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015927153805897272,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6165660041346928,
+      "max_penetration_m": 0.0005045523556422441,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 4996
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964208313650427,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.1520423024784051e-06,
+    "max_tip_speed_m_s": 0.8050034664692259
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "microwave_v2_defrost_seed37",
+   "sequence_id": "microwave_v2_defrost",
+   "device_id": "microwave_v2",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 57.0,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 1711,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "dc7caaaf50e03151311532be9957948541f817c2db379112bac6415d00c4c4a3",
+   "views": {
+    "external": {
+     "src": "media/microwave_v2_defrost_seed37/external.mp4",
+     "poster": "media/microwave_v2_defrost_seed37/external_poster.png",
+     "ok": true,
+     "frames": 1711,
+     "fps": 30.0,
+     "duration_s": 57.033333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.731,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/microwave_v2_defrost_seed37/ego.mp4",
+     "poster": "media/microwave_v2_defrost_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 1711,
+     "fps": 30.0,
+     "duration_s": 57.033333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.726,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/microwave_v2_defrost_seed37/detail.mp4",
+     "poster": "media/microwave_v2_defrost_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 1711,
+     "fps": 30.0,
+     "duration_s": 57.033333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.202,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_door",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.95,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle",
+     "action": "pregrasp",
+     "t": 2.95,
+     "t_end": 3.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "open_door",
+     "action": "pull",
+     "t": 3.7,
+     "t_end": 5.9,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door",
+     "action": "release",
+     "t": 5.9,
+     "t_end": 6.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_1",
+     "action": "retreat",
+     "t": 6.5,
+     "t_end": 7.9,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_bowl",
+     "action": "look_at",
+     "t": 7.9,
+     "t_end": 8.5,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "prop_home.bowl"
+    },
+    {
+     "id": "place_bowl",
+     "action": "pick_place",
+     "t": 7.9,
+     "t_end": 13.9,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "bowl"
+    },
+    {
+     "id": "left_back_2",
+     "action": "retreat",
+     "t": 13.9,
+     "t_end": 15.3,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_door_2",
+     "action": "look_at",
+     "t": 15.3,
+     "t_end": 15.9,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle_2",
+     "action": "reach",
+     "t": 15.3,
+     "t_end": 17.25,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle_2",
+     "action": "pregrasp",
+     "t": 17.25,
+     "t_end": 18.0,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "close_door",
+     "action": "push",
+     "t": 18.0,
+     "t_end": 20.0,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door_2",
+     "action": "release",
+     "t": 20.0,
+     "t_end": 20.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_3",
+     "action": "retreat",
+     "t": 20.5,
+     "t_end": 21.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_defrost",
+     "action": "look_at",
+     "t": 21.7,
+     "t_end": 22.3,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_power_defrost_face"
+    },
+    {
+     "id": "reach_defrost",
+     "action": "reach",
+     "t": 21.7,
+     "t_end": 23.25,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_power_defrost_face"
+    },
+    {
+     "id": "align_defrost",
+     "action": "pregrasp",
+     "t": 23.25,
+     "t_end": 23.9,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_power_defrost_face"
+    },
+    {
+     "id": "press_defrost",
+     "action": "press",
+     "t": 23.9,
+     "t_end": 24.599999999999998,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_power_defrost_face"
+    },
+    {
+     "id": "release_defrost",
+     "action": "release",
+     "t": 24.599999999999998,
+     "t_end": 25.099999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_power_defrost_face"
+    },
+    {
+     "id": "look_dial",
+     "action": "look_at",
+     "t": 25.099999999999998,
+     "t_end": 25.599999999999998,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "dial_grip"
+    },
+    {
+     "id": "reach_dial",
+     "action": "reach",
+     "t": 25.099999999999998,
+     "t_end": 26.45,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "pinch_dial",
+     "action": "pregrasp",
+     "t": 26.45,
+     "t_end": 27.099999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "turn_dial",
+     "action": "rotate",
+     "t": 27.099999999999998,
+     "t_end": 28.099999999999998,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "dial"
+    },
+    {
+     "id": "release_dial",
+     "action": "release",
+     "t": 28.099999999999998,
+     "t_end": 28.599999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "look_start",
+     "action": "look_at",
+     "t": 28.599999999999998,
+     "t_end": 29.099999999999998,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "reach_start",
+     "action": "reach",
+     "t": 28.599999999999998,
+     "t_end": 29.95,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "align_start",
+     "action": "pregrasp",
+     "t": 29.95,
+     "t_end": 30.599999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "press_start",
+     "action": "press",
+     "t": 30.599999999999998,
+     "t_end": 31.299999999999997,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "release_start",
+     "action": "release",
+     "t": 31.299999999999997,
+     "t_end": 31.799999999999997,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_start_30s_face"
+    },
+    {
+     "id": "right_back_1",
+     "action": "retreat",
+     "t": 31.799999999999997,
+     "t_end": 33.199999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "defrost",
+     "action": "idle",
+     "t": 33.199999999999996,
+     "t_end": 41.199999999999996,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_door_3",
+     "action": "look_at",
+     "t": 41.199999999999996,
+     "t_end": 41.8,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "door_handle"
+    },
+    {
+     "id": "reach_handle_3",
+     "action": "reach",
+     "t": 41.199999999999996,
+     "t_end": 43.15,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "grasp_handle_3",
+     "action": "pregrasp",
+     "t": 43.15,
+     "t_end": 43.9,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "reopen_door",
+     "action": "pull",
+     "t": 43.9,
+     "t_end": 46.1,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "door"
+    },
+    {
+     "id": "release_door_3",
+     "action": "release",
+     "t": 46.1,
+     "t_end": 46.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "door_handle"
+    },
+    {
+     "id": "left_back_4",
+     "action": "retreat",
+     "t": 46.7,
+     "t_end": 48.1,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_cavity",
+     "action": "look_at",
+     "t": 48.1,
+     "t_end": 48.7,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "cavity_place"
+    },
+    {
+     "id": "take_bowl",
+     "action": "pick_place",
+     "t": 48.1,
+     "t_end": 54.1,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "bowl"
+    },
+    {
+     "id": "left_back_5",
+     "action": "retreat",
+     "t": 54.1,
+     "t_end": 55.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 55.5,
+     "t_end": 57.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 33.199999999999996,
+     "t_end": 41.199999999999996
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "interior_light",
+     "mechanism": "illustrative_effect",
+     "t_start": 33.199999999999996,
+     "t_end": 41.199999999999996
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "turntable",
+     "mechanism": "device_motor",
+     "t_start": 33.199999999999996,
+     "t_end": 41.199999999999996
+    }
+   ],
+   "measured_events": [
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 24.190000483803008,
+     "step": "press_defrost",
+     "part": "key_power_defrost",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 24.230000484603014,
+     "q_m": 0.0010497552993975266,
+     "step": "press_defrost",
+     "part": "key_power_defrost",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 24.690000493803087,
+     "q_m": -5.633160186528945e-06,
+     "step": "press_defrost",
+     "part": "key_power_defrost",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 24.690000493803087,
+     "step": "press_defrost",
+     "part": "key_power_defrost",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 30.890000617804066,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 30.930000618604073,
+     "q_m": 0.0010505840046834785,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 31.390000627804145,
+     "q_m": -5.515334293060822e-06,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 31.390000627804145,
+     "step": "press_start",
+     "part": "key_start_30s",
+     "mechanism": "contact_dynamics"
+    }
+   ],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "open_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_bowl",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "place_bowl",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "close_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_defrost",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_defrost",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_defrost",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_defrost",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_defrost",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "turn_dial",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_start",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_start",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "defrost",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_door_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_handle_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "grasp_handle_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reopen_door",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_door_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_4",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_cavity",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "take_bowl",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_5",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+    "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+    "device_motor: internal part motion (turntable) is an authored actuator track.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {
+    "press_defrost": {
+     "part": "key_power_defrost",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015922902430563141,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6100081611053456,
+      "max_penetration_m": 0.0005040323420627971,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 5701
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964254552326883,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "press_start": {
+     "part": "key_start_30s",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015927153805897272,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6165660041346928,
+      "max_penetration_m": 0.0005045523556422441,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 5701
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964208313650427,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.231242615111414e-06,
+    "max_tip_speed_m_s": 0.9245061318004576
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "microwave_v2_set_clock_seed37",
+   "sequence_id": "microwave_v2_set_clock",
+   "device_id": "microwave_v2",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 18.7,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 562,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "52eb439ddc3cff174e3607e98dc60c2d6ba2734f16e425fdb48b1995f0bd2cab",
+   "views": {
+    "external": {
+     "src": "media/microwave_v2_set_clock_seed37/external.mp4",
+     "poster": "media/microwave_v2_set_clock_seed37/external_poster.png",
+     "ok": true,
+     "frames": 562,
+     "fps": 30.0,
+     "duration_s": 18.733333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.73,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/microwave_v2_set_clock_seed37/ego.mp4",
+     "poster": "media/microwave_v2_set_clock_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 562,
+     "fps": 30.0,
+     "duration_s": 18.733333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.755,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/microwave_v2_set_clock_seed37/detail.mp4",
+     "poster": "media/microwave_v2_set_clock_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 562,
+     "fps": 30.0,
+     "duration_s": 18.733333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.888,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_clock",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_clock_face"
+    },
+    {
+     "id": "reach_clock",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.75,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_clock_face"
+    },
+    {
+     "id": "align_clock",
+     "action": "pregrasp",
+     "t": 2.75,
+     "t_end": 3.4,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_clock_face"
+    },
+    {
+     "id": "press_clock",
+     "action": "press",
+     "t": 3.4,
+     "t_end": 4.1,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "key_clock_face"
+    },
+    {
+     "id": "release_clock",
+     "action": "release",
+     "t": 4.1,
+     "t_end": 4.6,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_clock_face"
+    },
+    {
+     "id": "look_dial",
+     "action": "look_at",
+     "t": 4.6,
+     "t_end": 5.1,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "dial_grip"
+    },
+    {
+     "id": "reach_dial",
+     "action": "reach",
+     "t": 4.6,
+     "t_end": 5.949999999999999,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "pinch_dial",
+     "action": "pregrasp",
+     "t": 5.949999999999999,
+     "t_end": 6.6,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "turn_hours",
+     "action": "rotate",
+     "t": 6.6,
+     "t_end": 7.8,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "dial"
+    },
+    {
+     "id": "release_dial",
+     "action": "release",
+     "t": 7.8,
+     "t_end": 8.3,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "align_select",
+     "action": "pregrasp",
+     "t": 8.3,
+     "t_end": 9.05,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_select_face"
+    },
+    {
+     "id": "press_select",
+     "action": "press",
+     "t": 9.05,
+     "t_end": 9.75,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "dial_select_face"
+    },
+    {
+     "id": "release_select",
+     "action": "release",
+     "t": 9.75,
+     "t_end": 10.25,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_select_face"
+    },
+    {
+     "id": "reach_dial_2",
+     "action": "reach",
+     "t": 10.25,
+     "t_end": 11.2,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "pinch_dial_2",
+     "action": "pregrasp",
+     "t": 11.2,
+     "t_end": 11.85,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "turn_minutes",
+     "action": "rotate",
+     "t": 11.85,
+     "t_end": 12.85,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "dial"
+    },
+    {
+     "id": "release_dial_2",
+     "action": "release",
+     "t": 12.85,
+     "t_end": 13.35,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_grip"
+    },
+    {
+     "id": "align_select_2",
+     "action": "pregrasp",
+     "t": 13.35,
+     "t_end": 14.1,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_select_face"
+    },
+    {
+     "id": "press_select_2",
+     "action": "press",
+     "t": 14.1,
+     "t_end": 14.799999999999999,
+     "mechanism": "contact_dynamics",
+     "hand": "right",
+     "target": "dial_select_face"
+    },
+    {
+     "id": "release_select_2",
+     "action": "release",
+     "t": 14.799999999999999,
+     "t_end": 15.299999999999999,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "dial_select_face"
+    },
+    {
+     "id": "right_back",
+     "action": "retreat",
+     "t": 15.299999999999999,
+     "t_end": 16.7,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "clock_set",
+     "action": "idle",
+     "t": 16.7,
+     "t_end": 18.7,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 16.7,
+     "t_end": 18.7
+    }
+   ],
+   "measured_events": [
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 3.6900000737998524,
+     "step": "press_clock",
+     "part": "key_clock",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 3.730000074599848,
+     "q_m": 0.001050059465533284,
+     "step": "press_clock",
+     "part": "key_clock",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 4.190000083799849,
+     "q_m": -5.568421357908014e-06,
+     "step": "press_clock",
+     "part": "key_clock",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 4.190000083799849,
+     "step": "press_clock",
+     "part": "key_clock",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 9.340000186800662,
+     "step": "press_select",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 9.380000187600668,
+     "q_m": 0.0010501961064531343,
+     "step": "press_select",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 9.840000196800741,
+     "q_m": -5.631357140441157e-06,
+     "step": "press_select",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 9.840000196800741,
+     "step": "press_select",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_start",
+     "t": 14.39000028780146,
+     "step": "press_select_2",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_activated",
+     "t": 14.430000288601466,
+     "q_m": 0.0010501961064531343,
+     "step": "press_select_2",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "button_released",
+     "t": 14.890000297801539,
+     "q_m": -5.631357140441157e-06,
+     "step": "press_select_2",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "source": "measured",
+     "type": "contact_end",
+     "t": 14.890000297801539,
+     "step": "press_select_2",
+     "part": "dial_select",
+     "mechanism": "contact_dynamics"
+    }
+   ],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_clock",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "turn_hours",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_select",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_select",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_select",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "turn_minutes",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_select_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "press_select_2",
+     "mechanism": "contact_dynamics"
+    },
+    {
+     "step": "release_select_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "clock_set",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+    "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {
+    "press_clock": {
+     "part": "key_clock",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015924339486545192,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.6120964780934486,
+      "max_penetration_m": 0.0005041985572149113,
+      "final_q_m": 0.0,
+      "final_ncon": 0,
+      "samples": 1871
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964232102521212,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "press_select": {
+     "part": "dial_select",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015923481231516553,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.610733197900436,
+      "max_penetration_m": 0.0005040903700383884,
+      "final_q_m": -1.7598631305631603e-271,
+      "final_ncon": 0,
+      "samples": 1871
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964208313650427,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "press_select_2": {
+     "part": "dial_select",
+     "pass": true,
+     "checks": {
+      "travel_ge_min": true,
+      "contact_seen": true,
+      "returns_after_release": true,
+      "negative_no_motion": true,
+      "negative_no_contact": true,
+      "penetration_le_max": true
+     },
+     "thresholds": {
+      "min_travel_m": 0.001,
+      "max_penetration_m": 0.001,
+      "activation_m": 0.0009
+     },
+     "positive": {
+      "min_or_max_travel_m": 0.0015923481231516553,
+      "max_ncon": 1,
+      "max_contact_force_n": 2.610733197900436,
+      "max_penetration_m": 0.0005040903700383884,
+      "final_q_m": -1.7598631305631603e-271,
+      "final_ncon": 0,
+      "samples": 1871
+     },
+     "negative": {
+      "max_abs_travel_m": 0.0,
+      "max_ncon": 0
+     },
+     "sphere_lead_max_m": 0.0012964208313650427,
+     "visible_tip_penetration_max_m": 0.0,
+     "params": {
+      "spring_n_per_m": 900.0,
+      "damping_n_s_per_m": 3.0,
+      "mass_kg": 0.004,
+      "range_m": [
+       0.0,
+       0.0015
+      ],
+      "axis": [
+       0.0,
+       1.0,
+       0.0
+      ],
+      "timestep_s": 0.0016666667,
+      "gravity": [
+       0.0,
+       0.0,
+       -9.81
+      ],
+      "solref_limit": [
+       0.004,
+       1.0
+      ],
+      "solimp_limit": [
+       0.98,
+       0.995,
+       0.0005,
+       0.5,
+       2.0
+      ],
+      "fingertip_radius_m": 0.007,
+      "control_hz": 100,
+      "physics_hz": 600,
+      "negative_offset_dev_m": [
+       -0.05,
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.2528994466689087e-06,
+    "max_tip_speed_m_s": 0.8377538428545094
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
   }
  ]
 }
