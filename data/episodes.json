@@ -5383,6 +5383,464 @@
    "complete": true
   },
   {
+   "id": "coffee_steam_milk_seed37",
+   "sequence_id": "coffee_steam_milk",
+   "device_id": "coffee_machine",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 34.4,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 1033,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "2021ab547db47883d75a7c34a7a789bc788f2ecaff8027a9a3115491467d19fa",
+   "views": {
+    "external": {
+     "src": "media/coffee_steam_milk_seed37/external.mp4",
+     "poster": "media/coffee_steam_milk_seed37/external_poster.png",
+     "ok": true,
+     "frames": 1033,
+     "fps": 30.0,
+     "duration_s": 34.433333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.982,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/coffee_steam_milk_seed37/ego.mp4",
+     "poster": "media/coffee_steam_milk_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 1033,
+     "fps": 30.0,
+     "duration_s": 34.433333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.919,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/coffee_steam_milk_seed37/detail.mp4",
+     "poster": "media/coffee_steam_milk_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 1033,
+     "fps": 30.0,
+     "duration_s": 34.433333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.076,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_wand",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "wand_grip"
+    },
+    {
+     "id": "reach_wand",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.75,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "wand_grip"
+    },
+    {
+     "id": "pinch_wand",
+     "action": "pregrasp",
+     "t": 2.75,
+     "t_end": 3.4,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "wand_grip"
+    },
+    {
+     "id": "swing_out",
+     "action": "rotate",
+     "t": 3.4,
+     "t_end": 4.6,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "steam_wand"
+    },
+    {
+     "id": "release_wand",
+     "action": "release",
+     "t": 4.6,
+     "t_end": 5.1,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "wand_grip"
+    },
+    {
+     "id": "right_back_1",
+     "action": "retreat",
+     "t": 5.1,
+     "t_end": 6.3,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "jug_under",
+     "action": "pick_place",
+     "t": 6.3,
+     "t_end": 10.8,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "jug"
+    },
+    {
+     "id": "look_jug",
+     "action": "look_at",
+     "t": 6.3,
+     "t_end": 6.8,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "prop_home.jug"
+    },
+    {
+     "id": "right_back_2",
+     "action": "retreat",
+     "t": 10.8,
+     "t_end": 11.8,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "look_dial",
+     "action": "look_at",
+     "t": 11.8,
+     "t_end": 12.3,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "reach_dial",
+     "action": "reach",
+     "t": 11.8,
+     "t_end": 13.350000000000001,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "pinch_dial",
+     "action": "pregrasp",
+     "t": 13.350000000000001,
+     "t_end": 14.000000000000002,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "steam_on",
+     "action": "rotate",
+     "t": 14.000000000000002,
+     "t_end": 15.000000000000002,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "steam_dial"
+    },
+    {
+     "id": "release_dial",
+     "action": "release",
+     "t": 15.000000000000002,
+     "t_end": 15.500000000000002,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "right_back_3",
+     "action": "retreat",
+     "t": 15.500000000000002,
+     "t_end": 16.5,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "steam",
+     "action": "idle",
+     "t": 16.5,
+     "t_end": 22.5,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_dial_2",
+     "action": "look_at",
+     "t": 22.5,
+     "t_end": 23.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "reach_dial_2",
+     "action": "reach",
+     "t": 22.5,
+     "t_end": 24.05,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "pinch_dial_2",
+     "action": "pregrasp",
+     "t": 24.05,
+     "t_end": 24.7,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "steam_off",
+     "action": "rotate",
+     "t": 24.7,
+     "t_end": 25.7,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "steam_dial"
+    },
+    {
+     "id": "release_dial_2",
+     "action": "release",
+     "t": 25.7,
+     "t_end": 26.2,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "steam_dial_grip"
+    },
+    {
+     "id": "right_back_4",
+     "action": "retreat",
+     "t": 26.2,
+     "t_end": 27.2,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "jug_back",
+     "action": "pick_place",
+     "t": 27.2,
+     "t_end": 31.7,
+     "mechanism": "assisted_grasp",
+     "hand": "right",
+     "target": "jug"
+    },
+    {
+     "id": "look_jug_2",
+     "action": "look_at",
+     "t": 27.2,
+     "t_end": 27.7,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "jug_place"
+    },
+    {
+     "id": "right_back_5",
+     "action": "retreat",
+     "t": 31.7,
+     "t_end": 32.9,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 32.9,
+     "t_end": 34.4,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 16.5,
+     "t_end": 22.5
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "fx_steam",
+     "mechanism": "illustrative_effect",
+     "t_start": 16.5,
+     "t_end": 22.5
+    }
+   ],
+   "measured_events": [],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_wand",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_wand",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_wand",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "swing_out",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_wand",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "jug_under",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "look_jug",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "steam_on",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_dial",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "steam",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pinch_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "steam_off",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "release_dial_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_4",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "jug_back",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "look_jug_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_5",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {},
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": null,
+    "max_tip_speed_m_s": 0.8074663851892412
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
    "id": "coffee_program_seed37",
    "sequence_id": "coffee_program",
    "device_id": "coffee_machine",
@@ -6597,6 +7055,1445 @@
     "ok": true,
     "tip_error_hold_max_m": null,
     "max_tip_speed_m_s": 1.1313807060526408
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "range_boil_seed37",
+   "sequence_id": "range_boil",
+   "device_id": "induction_range",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 38.1,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 1144,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "c1e82a4dfd7667ae19eeaff236540fdfd945121309156c0c653c23664ba62132",
+   "views": {
+    "external": {
+     "src": "media/range_boil_seed37/external.mp4",
+     "poster": "media/range_boil_seed37/external_poster.png",
+     "ok": true,
+     "frames": 1144,
+     "fps": 30.0,
+     "duration_s": 38.133333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.699,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/range_boil_seed37/ego.mp4",
+     "poster": "media/range_boil_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 1144,
+     "fps": 30.0,
+     "duration_s": 38.133333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.835,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/range_boil_seed37/detail.mp4",
+     "poster": "media/range_boil_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 1144,
+     "fps": 30.0,
+     "duration_s": 38.133333,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.489,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_pan",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "prop_home.saucepan"
+    },
+    {
+     "id": "pan_to_zone",
+     "action": "pick_place",
+     "t": 1.0,
+     "t_end": 7.0,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "saucepan"
+    },
+    {
+     "id": "left_back_0",
+     "action": "retreat",
+     "t": 7.0,
+     "t_end": 8.2,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_onoff",
+     "action": "look_at",
+     "t": 8.2,
+     "t_end": 8.799999999999999,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "reach_onoff",
+     "action": "reach",
+     "t": 8.2,
+     "t_end": 9.95,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "align_onoff",
+     "action": "pregrasp",
+     "t": 9.95,
+     "t_end": 10.6,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "touch_onoff",
+     "action": "press",
+     "t": 10.6,
+     "t_end": 11.299999999999999,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "lift_onoff",
+     "action": "release",
+     "t": 11.299999999999999,
+     "t_end": 11.7,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "align_plus",
+     "action": "pregrasp",
+     "t": 11.7,
+     "t_end": 12.45,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "touch_plus_1",
+     "action": "press",
+     "t": 12.45,
+     "t_end": 13.0,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "lift_plus_1",
+     "action": "release",
+     "t": 13.0,
+     "t_end": 13.3,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "touch_plus_2",
+     "action": "press",
+     "t": 13.3,
+     "t_end": 13.850000000000001,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "lift_plus_2",
+     "action": "release",
+     "t": 13.850000000000001,
+     "t_end": 14.150000000000002,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "touch_plus_3",
+     "action": "press",
+     "t": 14.150000000000002,
+     "t_end": 14.700000000000003,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "release_plus",
+     "action": "release",
+     "t": 14.700000000000003,
+     "t_end": 15.200000000000003,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_plus_face"
+    },
+    {
+     "id": "left_back_1",
+     "action": "retreat",
+     "t": 15.200000000000003,
+     "t_end": 16.6,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "heat",
+     "action": "idle",
+     "t": 16.6,
+     "t_end": 24.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_onoff_2",
+     "action": "look_at",
+     "t": 24.6,
+     "t_end": 25.1,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "reach_onoff_2",
+     "action": "reach",
+     "t": 24.6,
+     "t_end": 26.150000000000002,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "align_onoff_2",
+     "action": "pregrasp",
+     "t": 26.150000000000002,
+     "t_end": 26.8,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "touch_off",
+     "action": "press",
+     "t": 26.8,
+     "t_end": 27.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "release_off",
+     "action": "release",
+     "t": 27.5,
+     "t_end": 28.0,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_fl_onoff_face"
+    },
+    {
+     "id": "left_back_2",
+     "action": "retreat",
+     "t": 28.0,
+     "t_end": 29.4,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "look_pan_2",
+     "action": "look_at",
+     "t": 29.4,
+     "t_end": 29.9,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "zone_fl"
+    },
+    {
+     "id": "pan_back",
+     "action": "pick_place",
+     "t": 29.4,
+     "t_end": 35.4,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "saucepan"
+    },
+    {
+     "id": "left_back_3",
+     "action": "retreat",
+     "t": 35.4,
+     "t_end": 36.6,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 36.6,
+     "t_end": 38.1,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 16.6,
+     "t_end": 24.6
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "fx_steam_fl",
+     "mechanism": "illustrative_effect",
+     "t_start": 16.6,
+     "t_end": 24.6
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "fx_zone_fl",
+     "mechanism": "illustrative_effect",
+     "t_start": 16.6,
+     "t_end": 24.6
+    }
+   ],
+   "measured_events": [],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_pan",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pan_to_zone",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_0",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_plus",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_plus_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_plus_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_plus_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_plus_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_plus_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "release_plus",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "heat",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_onoff_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_onoff_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_onoff_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_off",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "release_off",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "left_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_pan_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "pan_back",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "left_back_3",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {},
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.2908224956776623e-06,
+    "max_tip_speed_m_s": 0.000113444723550524
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "range_bake_seed37",
+   "sequence_id": "range_bake",
+   "device_id": "induction_range",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 14.25,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 429,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "408f6db4d007aea8064e5ea9594d675805e7bf6b9e1c8d3dfff23ba3eeaa48e0",
+   "views": {
+    "external": {
+     "src": "media/range_bake_seed37/external.mp4",
+     "poster": "media/range_bake_seed37/external_poster.png",
+     "ok": true,
+     "frames": 429,
+     "fps": 30.0,
+     "duration_s": 14.3,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.698,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/range_bake_seed37/ego.mp4",
+     "poster": "media/range_bake_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 429,
+     "fps": 30.0,
+     "duration_s": 14.3,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.913,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/range_bake_seed37/detail.mp4",
+     "poster": "media/range_bake_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 429,
+     "fps": 30.0,
+     "duration_s": 14.3,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.782,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_bake",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_bake_face"
+    },
+    {
+     "id": "reach_bake",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.75,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_bake_face"
+    },
+    {
+     "id": "align_bake",
+     "action": "pregrasp",
+     "t": 2.75,
+     "t_end": 3.4,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_bake_face"
+    },
+    {
+     "id": "touch_bake",
+     "action": "press",
+     "t": 3.4,
+     "t_end": 4.1,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_bake_face"
+    },
+    {
+     "id": "lift_bake",
+     "action": "release",
+     "t": 4.1,
+     "t_end": 4.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_bake_face"
+    },
+    {
+     "id": "align_up",
+     "action": "pregrasp",
+     "t": 4.5,
+     "t_end": 5.45,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "touch_up_1",
+     "action": "press",
+     "t": 5.45,
+     "t_end": 6.0,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "lift_up_1",
+     "action": "release",
+     "t": 6.0,
+     "t_end": 6.3,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "touch_up_2",
+     "action": "press",
+     "t": 6.3,
+     "t_end": 6.85,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "release_up",
+     "action": "release",
+     "t": 6.85,
+     "t_end": 7.35,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "right_back_1",
+     "action": "retreat",
+     "t": 7.35,
+     "t_end": 8.75,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "preheat",
+     "action": "idle",
+     "t": 8.75,
+     "t_end": 12.75,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 12.75,
+     "t_end": 14.25,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 8.75,
+     "t_end": 12.75
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "interior_light",
+     "mechanism": "illustrative_effect",
+     "t_start": 8.75,
+     "t_end": 12.75
+    }
+   ],
+   "measured_events": [],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_bake",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_bake",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_bake",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_bake",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_bake",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_up",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_up_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_up_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_up_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "release_up",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "preheat",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {},
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.1281665105139261e-06,
+    "max_tip_speed_m_s": 1.3858714099954756
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "range_set_clock_seed37",
+   "sequence_id": "range_set_clock",
+   "device_id": "induction_range",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 12.450000000000001,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 375,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "b15437bc9162ac2d16c14f34dc5e29d495b9fd84e675ff5251f3e7a1b4bf972e",
+   "views": {
+    "external": {
+     "src": "media/range_set_clock_seed37/external.mp4",
+     "poster": "media/range_set_clock_seed37/external_poster.png",
+     "ok": true,
+     "frames": 375,
+     "fps": 30.0,
+     "duration_s": 12.5,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.935,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/range_set_clock_seed37/ego.mp4",
+     "poster": "media/range_set_clock_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 375,
+     "fps": 30.0,
+     "duration_s": 12.5,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.785,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/range_set_clock_seed37/detail.mp4",
+     "poster": "media/range_set_clock_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 375,
+     "fps": 30.0,
+     "duration_s": 12.5,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 2.808,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_clock",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_set_clock_face"
+    },
+    {
+     "id": "reach_clock",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.75,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_set_clock_face"
+    },
+    {
+     "id": "align_clock",
+     "action": "pregrasp",
+     "t": 2.75,
+     "t_end": 3.4,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_set_clock_face"
+    },
+    {
+     "id": "touch_clock",
+     "action": "press",
+     "t": 3.4,
+     "t_end": 4.1,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_set_clock_face"
+    },
+    {
+     "id": "lift_clock",
+     "action": "release",
+     "t": 4.1,
+     "t_end": 4.5,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": "key_set_clock_face"
+    },
+    {
+     "id": "align_up",
+     "action": "pregrasp",
+     "t": 4.5,
+     "t_end": 5.45,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "touch_up_1",
+     "action": "press",
+     "t": 5.45,
+     "t_end": 6.0,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "lift_up_1",
+     "action": "release",
+     "t": 6.0,
+     "t_end": 6.3,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "touch_up_2",
+     "action": "press",
+     "t": 6.3,
+     "t_end": 6.85,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "lift_up_2",
+     "action": "release",
+     "t": 6.85,
+     "t_end": 7.25,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_up_face"
+    },
+    {
+     "id": "align_down",
+     "action": "pregrasp",
+     "t": 7.25,
+     "t_end": 8.0,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_down_face"
+    },
+    {
+     "id": "touch_down",
+     "action": "press",
+     "t": 8.0,
+     "t_end": 8.55,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_down_face"
+    },
+    {
+     "id": "release_down",
+     "action": "release",
+     "t": 8.55,
+     "t_end": 9.05,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_down_face"
+    },
+    {
+     "id": "right_back",
+     "action": "retreat",
+     "t": 9.05,
+     "t_end": 10.450000000000001,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "clock_set",
+     "action": "idle",
+     "t": 10.450000000000001,
+     "t_end": 12.450000000000001,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 10.450000000000001,
+     "t_end": 12.450000000000001
+    }
+   ],
+   "measured_events": [],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_clock",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_up",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_up_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_up_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_up_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_up_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_down",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_down",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "release_down",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "clock_set",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {},
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.2345501886053731e-06,
+    "max_tip_speed_m_s": 1.3858941161692118
+   },
+   "versions": {
+    "blender": "4.5.14",
+    "mujoco": "3.5.0",
+    "python": "3.11.17",
+    "numpy": "2.4.6"
+   },
+   "complete": true
+  },
+  {
+   "id": "range_stockpot_seed37",
+   "sequence_id": "range_stockpot",
+   "device_id": "induction_range",
+   "seed": 37,
+   "status": "rendered_preview",
+   "owner_review": "pending",
+   "profile": "preview",
+   "timing": {
+    "total_s": 21.849999999999994,
+    "control_hz": 100,
+    "fps": 30,
+    "n_frames": 657,
+    "frame_time_s": "index / fps"
+   },
+   "trajectory_hash": "bbc073a5fef5c06b8776682e129e7ef8cabd3cffda01bd536d6d1010688d7e57",
+   "views": {
+    "external": {
+     "src": "media/range_stockpot_seed37/external.mp4",
+     "poster": "media/range_stockpot_seed37/external_poster.png",
+     "ok": true,
+     "frames": 657,
+     "fps": 30.0,
+     "duration_s": 21.9,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.6,
+     "hidden_for_this_camera": []
+    },
+    "ego": {
+     "src": "media/range_stockpot_seed37/ego.mp4",
+     "poster": "media/range_stockpot_seed37/ego_poster.png",
+     "ok": true,
+     "frames": 657,
+     "fps": 30.0,
+     "duration_s": 21.9,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.602,
+     "hidden_for_this_camera": [
+      "Human.eyebrow001",
+      "Human.eyelashes01",
+      "Human.high-poly"
+     ]
+    },
+    "detail": {
+     "src": "media/range_stockpot_seed37/detail.mp4",
+     "poster": "media/range_stockpot_seed37/detail_poster.png",
+     "ok": true,
+     "frames": 657,
+     "fps": 30.0,
+     "duration_s": 21.9,
+     "width": 960,
+     "height": 540,
+     "engine": "CYCLES",
+     "device": "OPTIX",
+     "s_per_frame": 3.603,
+     "hidden_for_this_camera": []
+    }
+   },
+   "chapters": [
+    {
+     "id": "settle",
+     "action": "idle",
+     "t": 0.0,
+     "t_end": 1.0,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_onoff",
+     "action": "look_at",
+     "t": 1.0,
+     "t_end": 1.6,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "reach_onoff",
+     "action": "reach",
+     "t": 1.0,
+     "t_end": 2.75,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "align_onoff",
+     "action": "pregrasp",
+     "t": 2.75,
+     "t_end": 3.4,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "touch_onoff",
+     "action": "press",
+     "t": 3.4,
+     "t_end": 4.1,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "lift_onoff",
+     "action": "release",
+     "t": 4.1,
+     "t_end": 4.5,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "align_plus",
+     "action": "pregrasp",
+     "t": 4.5,
+     "t_end": 5.25,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_plus_face"
+    },
+    {
+     "id": "touch_plus_1",
+     "action": "press",
+     "t": 5.25,
+     "t_end": 5.8,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_plus_face"
+    },
+    {
+     "id": "lift_plus_1",
+     "action": "release",
+     "t": 5.8,
+     "t_end": 6.1,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_plus_face"
+    },
+    {
+     "id": "touch_plus_2",
+     "action": "press",
+     "t": 6.1,
+     "t_end": 6.6499999999999995,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_plus_face"
+    },
+    {
+     "id": "release_plus",
+     "action": "release",
+     "t": 6.6499999999999995,
+     "t_end": 7.1499999999999995,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_plus_face"
+    },
+    {
+     "id": "right_back_1",
+     "action": "retreat",
+     "t": 7.1499999999999995,
+     "t_end": 8.549999999999999,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "heat",
+     "action": "idle",
+     "t": 8.549999999999999,
+     "t_end": 15.549999999999999,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "look_onoff_2",
+     "action": "look_at",
+     "t": 15.549999999999999,
+     "t_end": 16.049999999999997,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "reach_onoff_2",
+     "action": "reach",
+     "t": 15.549999999999999,
+     "t_end": 17.099999999999998,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "align_onoff_2",
+     "action": "pregrasp",
+     "t": 17.099999999999998,
+     "t_end": 17.749999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "touch_off",
+     "action": "press",
+     "t": 17.749999999999996,
+     "t_end": 18.449999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "release_off",
+     "action": "release",
+     "t": 18.449999999999996,
+     "t_end": 18.949999999999996,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": "key_fr_onoff_face"
+    },
+    {
+     "id": "right_back_2",
+     "action": "retreat",
+     "t": 18.949999999999996,
+     "t_end": 20.349999999999994,
+     "mechanism": "kinematic",
+     "hand": "right",
+     "target": null
+    },
+    {
+     "id": "end",
+     "action": "idle",
+     "t": 20.349999999999994,
+     "t_end": 21.849999999999994,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    }
+   ],
+   "effects": [
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "display",
+     "mechanism": "illustrative_effect",
+     "t_start": 8.549999999999999,
+     "t_end": 15.549999999999999
+    },
+    {
+     "source": "planned",
+     "type": "effect",
+     "id": "fx_zone_fr",
+     "mechanism": "illustrative_effect",
+     "t_start": 8.549999999999999,
+     "t_end": 15.549999999999999
+    }
+   ],
+   "measured_events": [],
+   "mechanisms": [
+    {
+     "step": "settle",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_onoff",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_plus",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_plus_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "lift_plus_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_plus_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "release_plus",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_1",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "heat",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "look_onoff_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "reach_onoff_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "align_onoff_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "touch_off",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "release_off",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "right_back_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "end",
+     "mechanism": "kinematic"
+    }
+   ],
+   "limitations": [
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+    "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+    "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+   ],
+   "physics": {},
+   "proxies_check": {
+    "ok": true,
+    "tip_error_hold_max_m": 1.5453455418441968e-06,
+    "max_tip_speed_m_s": 0.5297293780275525
    },
    "versions": {
     "blender": "4.5.14",
