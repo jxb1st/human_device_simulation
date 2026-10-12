@@ -1,0 +1,262 @@
+{
+ "run_id": "coffee_make_espresso_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "coffee_make_espresso",
+ "seed": 37,
+ "scene_id": "kitchen_coffee_machine",
+ "device_id": "coffee_machine",
+ "created": "2026-10-11T23:44:34+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_pf",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pf_to_cradle",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "right_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "grind",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_cradle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pf_to_counter",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "right_back_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_tamper",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "tamp",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "tamper_back",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "right_back_3",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_group",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pf_to_group",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "right_back_4",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "cup_under",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "look_cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_2cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_2cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "align_2cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "press_2cup",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "release_2cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "right_back_5",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "extract",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_cup_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "take_cup",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "left_back_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 59.400000000000006,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 1783,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+  "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "4d70b85594a2b36b372a7d5023bb18196868c4918215015a3e6f3d1eccff091a",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.068,
+    "frames": 1783,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "1829d88f282a7f6a4c925a6898074d3549d79dd4aea72decd900b14400d49727"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.952,
+    "frames": 1783,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "1829d88f282a7f6a4c925a6898074d3549d79dd4aea72decd900b14400d49727"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.863,
+    "frames": 1783,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "1829d88f282a7f6a4c925a6898074d3549d79dd4aea72decd900b14400d49727"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "1829d88f282a7f6a4c925a6898074d3549d79dd4aea72decd900b14400d49727",
+ "stages": {
+  "inputs_hash": "4d70b85594a2b36b372a7d5023bb18196868c4918215015a3e6f3d1eccff091a",
+  "compile": true,
+  "bake_targets": true,
+  "physics.press_2cup": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": 2.0067700663894345e-06,
+  "max_tip_speed_m_s": 1.115085696185436
+ },
+ "physics": {
+  "press_2cup": {
+   "part": "btn_two_cup",
+   "thresholds": {
+    "min_travel_m": 0.0014,
+    "max_penetration_m": 0.0012,
+    "activation_m": 0.0012
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964166381649682,
+   "visible_tip_penetration_max_m": 0.0
+  }
+ }
+}

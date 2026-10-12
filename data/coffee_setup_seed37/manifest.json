@@ -1,0 +1,211 @@
+{
+ "run_id": "coffee_setup_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "coffee_setup",
+ "seed": 37,
+ "scene_id": "kitchen_coffee_machine",
+ "device_id": "coffee_machine",
+ "created": "2026-10-12T00:10:01+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_gs",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_gs",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pinch_gs",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "turn_gs",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "release_gs",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_ga",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_ga",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pinch_ga",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "turn_ga",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "release_ga",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "right_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "grasp_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "pull_tray",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "hold_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "push_tray",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "release_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 21.199999999999996,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 637,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "2370d9aeadffa812c3c29bddfb744eeb511668306c875f0e9964f53696b66e0c",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.662,
+    "frames": 637,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.822,
+    "frames": 637,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.888,
+    "frames": 637,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb",
+ "stages": {
+  "inputs_hash": "2370d9aeadffa812c3c29bddfb744eeb511668306c875f0e9964f53696b66e0c",
+  "compile": true,
+  "bake_targets": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": null,
+  "max_tip_speed_m_s": 1.1313807060526408
+ },
+ "physics": {}
+}
