@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_induction_range",
  "device_id": "induction_range",
- "created": "2026-10-12T01:03:41+00:00",
+ "created": "2026-10-12T23:43:04+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -54,11 +54,19 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "touch_bake",
-   "mechanism": "kinematic"
+   "step": "press_bake",
+   "mechanism": "contact_dynamics"
   },
   {
    "step": "lift_bake",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "look_up",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "reach_up",
    "mechanism": "kinematic"
   },
   {
@@ -66,16 +74,20 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "touch_up_1",
-   "mechanism": "kinematic"
+   "step": "press_up_1",
+   "mechanism": "contact_dynamics"
   },
   {
    "step": "lift_up_1",
    "mechanism": "kinematic"
   },
   {
-   "step": "touch_up_2",
+   "step": "align_up_2",
    "mechanism": "kinematic"
+  },
+  {
+   "step": "press_up_2",
+   "mechanism": "contact_dynamics"
   },
   {
    "step": "release_up",
@@ -83,6 +95,10 @@
   },
   {
    "step": "right_back_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "left_back_1",
    "mechanism": "kinematic"
   },
   {
@@ -95,10 +111,10 @@
   }
  ],
  "timing": {
-  "total_s": 14.25,
+  "total_s": 17.35,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 429,
+  "n_frames": 522,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -108,10 +124,11 @@
  ],
  "limitations": [
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "0e022b50513643dd22d0ef9b706828259cbb139cd3802167bf1e5798dad88fb4",
+ "inputs_hash": "5fb8559cd705bf48c5c3f4dc863c9942885583f9c46da23af7d2dacc1808b91d",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -120,22 +137,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.698,
-    "frames": 429,
+    "seconds_per_frame": 2.757,
+    "frames": 522,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "408f6db4d007aea8064e5ea9594d675805e7bf6b9e1c8d3dfff23ba3eeaa48e0"
+    "trajectory_hash": "a10614dae44acc59e527a35aeb01a7a26af11e1dd65ab8001d1af2f3e90df1d8"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.913,
-    "frames": 429,
+    "seconds_per_frame": 2.865,
+    "frames": 522,
     "resolution": [
      960,
      540
@@ -145,36 +162,97 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "408f6db4d007aea8064e5ea9594d675805e7bf6b9e1c8d3dfff23ba3eeaa48e0"
+    "trajectory_hash": "a10614dae44acc59e527a35aeb01a7a26af11e1dd65ab8001d1af2f3e90df1d8"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.782,
-    "frames": 429,
+    "seconds_per_frame": 2.994,
+    "frames": 522,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "408f6db4d007aea8064e5ea9594d675805e7bf6b9e1c8d3dfff23ba3eeaa48e0"
+    "trajectory_hash": "a10614dae44acc59e527a35aeb01a7a26af11e1dd65ab8001d1af2f3e90df1d8"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "408f6db4d007aea8064e5ea9594d675805e7bf6b9e1c8d3dfff23ba3eeaa48e0",
+ "trajectory_hash": "a10614dae44acc59e527a35aeb01a7a26af11e1dd65ab8001d1af2f3e90df1d8",
  "stages": {
-  "inputs_hash": "0e022b50513643dd22d0ef9b706828259cbb139cd3802167bf1e5798dad88fb4",
+  "inputs_hash": "5fb8559cd705bf48c5c3f4dc863c9942885583f9c46da23af7d2dacc1808b91d",
   "compile": true,
   "bake_targets": true,
+  "physics.press_bake": true,
+  "physics.press_up_1": true,
+  "physics.press_up_2": true,
   "bake_run": true
  },
  "proxies_check": {
   "ok": true,
-  "tip_error_hold_max_m": 1.1281665105139261e-06,
-  "max_tip_speed_m_s": 1.3858714099954756
+  "tip_error_hold_max_m": 1.7170386960140953e-06,
+  "max_tip_speed_m_s": 0.7247104346451849
  },
- "physics": {}
+ "physics": {
+  "press_bake": {
+   "part": "key_bake",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964189772039932,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "press_up_1": {
+   "part": "key_up",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964228814061217,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "press_up_2": {
+   "part": "key_up",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964228814061217,
+   "visible_tip_penetration_max_m": 0.0
+  }
+ }
 }

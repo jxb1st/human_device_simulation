@@ -44,7 +44,7 @@
     "negative_offset_dev_m": [
       -0.05,
       0.0,
-      0.0
+      -0.1
     ]
   },
   "thresholds": {

@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_microwave_v2",
  "device_id": "microwave_v2",
- "created": "2026-10-11T23:04:50+00:00",
+ "created": "2026-10-13T01:28:05+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -32,6 +32,8 @@
   ],
   "printer_generic": [],
   "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
   "partnet_mobility": []
  },
  "mechanisms": [
@@ -147,7 +149,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "feab64c649469acddc8b933c5b8be5c98d2947f6962f4d6747cc30fd5dad891d",
+ "inputs_hash": "a2597bbe27e0eb573f1652369d7a2e557dd45a91ea8a9149bae15f44f1a3a6a4",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -156,21 +158,21 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.73,
+    "seconds_per_frame": 2.857,
     "frames": 562,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "52eb439ddc3cff174e3607e98dc60c2d6ba2734f16e425fdb48b1995f0bd2cab"
+    "trajectory_hash": "262129b3ef465476647eb1ec765aea454cebce80a19948c1846a1ba3794d5d17"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.755,
+    "seconds_per_frame": 3.709,
     "frames": 562,
     "resolution": [
      960,
@@ -181,28 +183,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "52eb439ddc3cff174e3607e98dc60c2d6ba2734f16e425fdb48b1995f0bd2cab"
+    "trajectory_hash": "262129b3ef465476647eb1ec765aea454cebce80a19948c1846a1ba3794d5d17"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.888,
+    "seconds_per_frame": 2.874,
     "frames": 562,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "52eb439ddc3cff174e3607e98dc60c2d6ba2734f16e425fdb48b1995f0bd2cab"
+    "trajectory_hash": "262129b3ef465476647eb1ec765aea454cebce80a19948c1846a1ba3794d5d17"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "52eb439ddc3cff174e3607e98dc60c2d6ba2734f16e425fdb48b1995f0bd2cab",
+ "trajectory_hash": "262129b3ef465476647eb1ec765aea454cebce80a19948c1846a1ba3794d5d17",
  "stages": {
-  "inputs_hash": "feab64c649469acddc8b933c5b8be5c98d2947f6962f4d6747cc30fd5dad891d",
+  "inputs_hash": "a2597bbe27e0eb573f1652369d7a2e557dd45a91ea8a9149bae15f44f1a3a6a4",
   "compile": true,
   "bake_targets": true,
   "physics.press_clock": true,
