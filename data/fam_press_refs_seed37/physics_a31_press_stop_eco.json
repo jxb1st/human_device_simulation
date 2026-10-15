@@ -1,0 +1,80 @@
+{
+  "device_id": "microwave_v2",
+  "part": "key_stop_eco",
+  "mechanism": "contact_dynamics (kinematic mocap fingertip)",
+  "mujoco_version": "3.5.0",
+  "interval_s": [
+    19.58,
+    20.279999999999998
+  ],
+  "state_time_note": "state.npz t = simulation time after the control step (controls.npz t + 1/control_hz)",
+  "params": {
+    "spring_n_per_m": 900.0,
+    "damping_n_s_per_m": 3.0,
+    "mass_kg": 0.004,
+    "range_m": [
+      0.0,
+      0.0015
+    ],
+    "axis": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "timestep_s": 0.0016666667,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "solref_limit": [
+      0.004,
+      1.0
+    ],
+    "solimp_limit": [
+      0.98,
+      0.995,
+      0.0005,
+      0.5,
+      2.0
+    ],
+    "fingertip_radius_m": 0.007,
+    "control_hz": 100,
+    "physics_hz": 600,
+    "negative_offset_dev_m": [
+      -0.05,
+      0.0,
+      -0.1
+    ]
+  },
+  "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+  },
+  "positive": {
+    "min_or_max_travel_m": 0.0015926190954086465,
+    "max_ncon": 1,
+    "max_contact_force_n": 2.615079276244558,
+    "max_penetration_m": 0.0005044346217587129,
+    "final_q_m": 1.4822303543321234e-165,
+    "final_ncon": 0,
+    "samples": 2319
+  },
+  "negative": {
+    "max_abs_travel_m": 0.0,
+    "max_ncon": 0
+  },
+  "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+  },
+  "pass": true,
+  "sphere_lead_max_m": 0.0012964184796762607,
+  "visible_tip_penetration_max_m": 0.0,
+  "step": "a31_press_stop_eco"
+}

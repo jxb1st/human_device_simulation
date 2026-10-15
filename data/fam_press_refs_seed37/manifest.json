@@ -1,0 +1,403 @@
+{
+ "run_id": "fam_press_refs_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "fam_press_refs",
+ "seed": 37,
+ "scene_id": "kitchen_microwave_v2",
+ "device_id": "microwave_v2",
+ "created": "2026-10-14T23:55:51+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "a01_settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a02_look_popcorn",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a03_reach_popcorn",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a04_align_popcorn",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a05_press_popcorn",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a06_release_popcorn",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a07_look_auto_cook",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_align_auto_cook",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a09_press_auto_cook",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a10_release_auto_cook",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a11_look_clock",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a12_align_clock",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a13_press_clock",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a14_release_clock",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a15_look_microwave",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a16_align_microwave",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a17_press_microwave",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a18_release_microwave",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a19_look_start_30s",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a20_align_start_30s",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a21_press_start_30s_1",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a22_lift_start_30s_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a23_realign_start_30s_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a24_press_start_30s_2",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a25_release_start_30s",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a26_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a27_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a28_look_stop_eco",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a29_reach_stop_eco",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a30_align_stop_eco",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a31_press_stop_eco",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a32_release_stop_eco",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a33_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a34_end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 23.179999999999996,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 697,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+  "device_motor: internal part motion (turntable) is an authored actuator track.",
+  "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "fd3ee1aabd29bcb2d5acd00c2b9a9801de90a4374e200e32047d5197539c55ad",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.995,
+    "frames": 697,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "051ee7ec7056c168265e74ca0570acad09c29d29cf75f3e4df4621a5afbf8d93"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.381,
+    "frames": 697,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "051ee7ec7056c168265e74ca0570acad09c29d29cf75f3e4df4621a5afbf8d93"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.821,
+    "frames": 697,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "051ee7ec7056c168265e74ca0570acad09c29d29cf75f3e4df4621a5afbf8d93"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "051ee7ec7056c168265e74ca0570acad09c29d29cf75f3e4df4621a5afbf8d93",
+ "stages": {
+  "inputs_hash": "fd3ee1aabd29bcb2d5acd00c2b9a9801de90a4374e200e32047d5197539c55ad",
+  "compile": true,
+  "bake_targets": true,
+  "physics.a05_press_popcorn": true,
+  "physics.a09_press_auto_cook": true,
+  "physics.a13_press_clock": true,
+  "physics.a17_press_microwave": true,
+  "physics.a21_press_start_30s_1": true,
+  "physics.a24_press_start_30s_2": true,
+  "physics.a31_press_stop_eco": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": 2.9945868920036422e-06,
+  "max_tip_speed_m_s": 0.00010913511171102855
+ },
+ "physics": {
+  "a05_press_popcorn": {
+   "part": "key_popcorn",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964208313650427,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a09_press_auto_cook": {
+   "part": "key_auto_cook",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964208313650427,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a13_press_clock": {
+   "part": "key_clock",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964164296395298,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a17_press_microwave": {
+   "part": "key_microwave",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964210783124428,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a21_press_start_30s_1": {
+   "part": "key_start_30s",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964208313650427,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a24_press_start_30s_2": {
+   "part": "key_start_30s",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964208313650427,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a31_press_stop_eco": {
+   "part": "key_stop_eco",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964184796762607,
+   "visible_tip_penetration_max_m": 0.0
+  }
+ }
+}
