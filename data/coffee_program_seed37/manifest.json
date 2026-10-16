@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-11T23:57:48+00:00",
+ "created": "2026-10-15T03:48:28+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -33,111 +33,120 @@
   "printer_generic": [],
   "microwave_v2_procedural": [],
   "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
   "partnet_mobility": []
  },
  "mechanisms": [
   {
-   "step": "settle",
+   "step": "a01_settle",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_power",
+   "step": "a02_look_btn_power",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_power",
+   "step": "a03_reach_btn_power",
    "mechanism": "kinematic"
   },
   {
-   "step": "align_power",
+   "step": "a04_align_btn_power",
    "mechanism": "kinematic"
   },
   {
-   "step": "press_power",
+   "step": "a05_press_btn_power",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_power",
+   "step": "a06_release_btn_power",
    "mechanism": "kinematic"
   },
   {
-   "step": "warm_up",
+   "step": "a07_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_filter",
+   "step": "a08_wait",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_filter",
+   "step": "a09_look_btn_filter_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "align_filter",
+   "step": "a10_reach_btn_filter_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "press_filter",
+   "step": "a11_align_btn_filter_size",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a12_press_btn_filter_size",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_filter",
+   "step": "a13_release_btn_filter_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_program",
+   "step": "a14_look_btn_program",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_program",
+   "step": "a15_align_btn_program",
    "mechanism": "kinematic"
   },
   {
-   "step": "align_program",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "press_program",
+   "step": "a16_press_btn_program",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_program",
+   "step": "a17_release_btn_program",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_1cup",
+   "step": "a18_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_1cup",
+   "step": "a19_look_btn_one_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "align_1cup",
+   "step": "a20_reach_btn_one_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "press_1cup",
+   "step": "a21_align_btn_one_cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a22_press_btn_one_cup",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_1cup",
+   "step": "a23_release_btn_one_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back",
+   "step": "a24_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "programmed",
+   "step": "a25_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a26_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 19.0,
+  "total_s": 23.309999999999995,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 571,
+  "n_frames": 701,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -151,7 +160,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "8af573a4c6caf6a60acd12094ecd8bc579b1df8e9af9d08a9d6c6e5b5b5567e7",
+ "inputs_hash": "99b971684cf2566282927940e8490975ec54b4bb9d557bec3571a760cbe3a8c9",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -160,22 +169,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.721,
-    "frames": 571,
+    "seconds_per_frame": 2.834,
+    "frames": 701,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "846ffeca128aed8afad16300159ae275e42807dcc9c66d491ef02f773d8bdabe"
+    "trajectory_hash": "66fc95216009143062569c0c5481cb12de6ef2060e6597e274dd471922ce9831"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.939,
-    "frames": 571,
+    "seconds_per_frame": 2.994,
+    "frames": 701,
     "resolution": [
      960,
      540
@@ -185,43 +194,43 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "846ffeca128aed8afad16300159ae275e42807dcc9c66d491ef02f773d8bdabe"
+    "trajectory_hash": "66fc95216009143062569c0c5481cb12de6ef2060e6597e274dd471922ce9831"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.874,
-    "frames": 571,
+    "seconds_per_frame": 2.9,
+    "frames": 701,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "846ffeca128aed8afad16300159ae275e42807dcc9c66d491ef02f773d8bdabe"
+    "trajectory_hash": "66fc95216009143062569c0c5481cb12de6ef2060e6597e274dd471922ce9831"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "846ffeca128aed8afad16300159ae275e42807dcc9c66d491ef02f773d8bdabe",
+ "trajectory_hash": "66fc95216009143062569c0c5481cb12de6ef2060e6597e274dd471922ce9831",
  "stages": {
-  "inputs_hash": "8af573a4c6caf6a60acd12094ecd8bc579b1df8e9af9d08a9d6c6e5b5b5567e7",
+  "inputs_hash": "99b971684cf2566282927940e8490975ec54b4bb9d557bec3571a760cbe3a8c9",
   "compile": true,
   "bake_targets": true,
-  "physics.press_power": true,
-  "physics.press_filter": true,
-  "physics.press_program": true,
-  "physics.press_1cup": true,
+  "physics.a05_press_btn_power": true,
+  "physics.a12_press_btn_filter_size": true,
+  "physics.a16_press_btn_program": true,
+  "physics.a22_press_btn_one_cup": true,
   "bake_run": true
  },
  "proxies_check": {
   "ok": true,
-  "tip_error_hold_max_m": 1.8483353494350333e-06,
-  "max_tip_speed_m_s": 0.8659564296327992
+  "tip_error_hold_max_m": 2.2165047543705066e-06,
+  "max_tip_speed_m_s": 0.7289013934694965
  },
  "physics": {
-  "press_power": {
+  "a05_press_btn_power": {
    "part": "btn_power",
    "thresholds": {
     "min_travel_m": 0.0014,
@@ -237,10 +246,10 @@
     "penetration_le_max": true
    },
    "pass": true,
-   "sphere_lead_max_m": 0.0012964328012247531,
+   "sphere_lead_max_m": 0.0012964219698364133,
    "visible_tip_penetration_max_m": 0.0
   },
-  "press_filter": {
+  "a12_press_btn_filter_size": {
    "part": "btn_filter_size",
    "thresholds": {
     "min_travel_m": 0.0014,
@@ -256,10 +265,10 @@
     "penetration_le_max": true
    },
    "pass": true,
-   "sphere_lead_max_m": 0.0012964286733757326,
+   "sphere_lead_max_m": 0.0012964225893366782,
    "visible_tip_penetration_max_m": 0.0
   },
-  "press_program": {
+  "a16_press_btn_program": {
    "part": "btn_program",
    "thresholds": {
     "min_travel_m": 0.0014,
@@ -275,10 +284,10 @@
     "penetration_le_max": true
    },
    "pass": true,
-   "sphere_lead_max_m": 0.0012964208313650427,
+   "sphere_lead_max_m": 0.0012964265771687623,
    "visible_tip_penetration_max_m": 0.0
   },
-  "press_1cup": {
+  "a22_press_btn_one_cup": {
    "part": "btn_one_cup",
    "thresholds": {
     "min_travel_m": 0.0014,

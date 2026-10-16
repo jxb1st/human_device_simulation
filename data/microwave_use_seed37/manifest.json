@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_microwave",
  "device_id": "microwave_robocasa_032",
- "created": "2026-10-06T07:09:09+00:00",
+ "created": "2026-10-15T03:50:43+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -31,167 +31,158 @@
    "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
   ],
   "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
   "partnet_mobility": []
  },
  "mechanisms": [
   {
-   "step": "settle",
+   "step": "a01_settle",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_door",
+   "step": "a02_look_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_handle",
+   "step": "a03_reach_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_handle",
+   "step": "a04_align_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "open_door",
+   "step": "a05_pull_door",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_door",
+   "step": "a06_release_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_1",
+   "step": "a07_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_bowl",
+   "step": "a08_look_bowl",
    "mechanism": "kinematic"
   },
   {
-   "step": "place_bowl",
+   "step": "a09_move_bowl",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "left_back_2",
+   "step": "a10_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_door_2",
+   "step": "a11_look_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_handle_2",
+   "step": "a12_reach_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_handle_2",
+   "step": "a13_align_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "close_door",
+   "step": "a14_push_door",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_door_2",
+   "step": "a15_release_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_3",
+   "step": "a16_look_timer_knob",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_panel",
+   "step": "a17_align_timer_knob",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_knob",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "pinch_knob",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "turn_knob",
+   "step": "a18_turn_timer_knob",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_knob",
+   "step": "a19_release_timer_knob",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_start",
+   "step": "a20_look_start_button",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_start",
+   "step": "a21_align_start_button",
    "mechanism": "kinematic"
   },
   {
-   "step": "align_start",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "press_start",
+   "step": "a22_press_start_button",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_start",
+   "step": "a23_release_start_button",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_1",
+   "step": "a24_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "watch",
+   "step": "a25_wait",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_door_3",
+   "step": "a26_look_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_handle_3",
+   "step": "a27_reach_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_handle_3",
+   "step": "a28_align_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "reopen_door",
+   "step": "a29_pull_door",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_door_3",
+   "step": "a30_release_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_4",
+   "step": "a31_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_cavity",
+   "step": "a32_look_bowl",
    "mechanism": "kinematic"
   },
   {
-   "step": "take_bowl",
+   "step": "a33_move_bowl",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "left_back_5",
+   "step": "a34_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "end",
+   "step": "a35_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 51.1,
+  "total_s": 42.28999999999999,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 1534,
+  "n_frames": 1270,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -207,7 +198,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "a44a487960230bbc602d0c773cc50d7587be44aafa384537edff20886eb4391f",
+ "inputs_hash": "acf2458ac878075de10748c75a43b78c799cc9c9adcb44e638e95e9ee5597c2b",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -216,22 +207,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.065,
-    "frames": 1534,
+    "seconds_per_frame": 3.741,
+    "frames": 1270,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "b14a797825299b851070cfaf96ab268c6ac79bb30debda44b6377e3d57874bc6"
+    "trajectory_hash": "3763366909aa8f51f1887b2ba118e5e44337dfc3bf4b5efa1b85d0127691408d"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.16,
-    "frames": 1534,
+    "seconds_per_frame": 3.298,
+    "frames": 1270,
     "resolution": [
      960,
      540
@@ -241,40 +232,40 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "b14a797825299b851070cfaf96ab268c6ac79bb30debda44b6377e3d57874bc6"
+    "trajectory_hash": "3763366909aa8f51f1887b2ba118e5e44337dfc3bf4b5efa1b85d0127691408d"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.964,
-    "frames": 1534,
+    "seconds_per_frame": 2.817,
+    "frames": 1270,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "b14a797825299b851070cfaf96ab268c6ac79bb30debda44b6377e3d57874bc6"
+    "trajectory_hash": "3763366909aa8f51f1887b2ba118e5e44337dfc3bf4b5efa1b85d0127691408d"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "b14a797825299b851070cfaf96ab268c6ac79bb30debda44b6377e3d57874bc6",
+ "trajectory_hash": "3763366909aa8f51f1887b2ba118e5e44337dfc3bf4b5efa1b85d0127691408d",
  "stages": {
-  "inputs_hash": "a44a487960230bbc602d0c773cc50d7587be44aafa384537edff20886eb4391f",
+  "inputs_hash": "acf2458ac878075de10748c75a43b78c799cc9c9adcb44e638e95e9ee5597c2b",
   "compile": true,
   "bake_targets": true,
-  "physics.press_start": true,
+  "physics.a22_press_start_button": true,
   "bake_run": true
  },
  "proxies_check": {
   "ok": true,
-  "tip_error_hold_max_m": 1.3241969726140131e-06,
-  "max_tip_speed_m_s": 0.8519341867487542
+  "tip_error_hold_max_m": 1.61294620941774e-06,
+  "max_tip_speed_m_s": 0.00011198696033987961
  },
  "physics": {
-  "press_start": {
+  "a22_press_start_button": {
    "part": "start_button",
    "thresholds": {
     "min_travel_m": 0.002,

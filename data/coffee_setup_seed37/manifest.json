@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-12T00:10:01+00:00",
+ "created": "2026-10-15T03:49:21+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -33,103 +33,116 @@
   "printer_generic": [],
   "microwave_v2_procedural": [],
   "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
   "partnet_mobility": []
  },
  "mechanisms": [
   {
-   "step": "settle",
+   "step": "a01_settle",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_gs",
+   "step": "a02_look_grind_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_gs",
+   "step": "a03_reach_grind_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "pinch_gs",
+   "step": "a04_align_grind_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "turn_gs",
+   "step": "a05_turn_grind_size",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_gs",
+   "step": "a06_release_grind_size",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_1",
+   "step": "a07_look_grind_amount",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_ga",
+   "step": "a08_align_grind_amount",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_ga",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "pinch_ga",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "turn_ga",
+   "step": "a09_turn_grind_amount",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_ga",
+   "step": "a10_release_grind_amount",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_1",
+   "step": "a11_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_tray",
+   "step": "a12_look_drip_tray",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_tray",
+   "step": "a13_reach_drip_tray",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_tray",
+   "step": "a14_align_drip_tray",
    "mechanism": "kinematic"
   },
   {
-   "step": "pull_tray",
+   "step": "a15_pull_drip_tray",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "hold_tray",
+   "step": "a16_release_drip_tray",
    "mechanism": "kinematic"
   },
   {
-   "step": "push_tray",
+   "step": "a17_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a18_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a19_look_drip_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a20_reach_drip_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a21_align_drip_tray",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a22_push_drip_tray",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_tray",
+   "step": "a23_release_drip_tray",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_2",
+   "step": "a24_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "end",
+   "step": "a25_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 21.199999999999996,
+  "total_s": 23.91,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 637,
+  "n_frames": 719,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -142,7 +155,7 @@
   "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "2370d9aeadffa812c3c29bddfb744eeb511668306c875f0e9964f53696b66e0c",
+ "inputs_hash": "377046bd5480e7ccf91b1198aed1a3c23c452ce27623acb3842fd3fef1aa8ab1",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -151,22 +164,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.662,
-    "frames": 637,
+    "seconds_per_frame": 2.836,
+    "frames": 719,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb"
+    "trajectory_hash": "80ad81062cb8da74e5b0a9aceecf6b3b866ec1ee8fe258faa550aa3bfe4b3d0a"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.822,
-    "frames": 637,
+    "seconds_per_frame": 2.874,
+    "frames": 719,
     "resolution": [
      960,
      540
@@ -176,28 +189,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb"
+    "trajectory_hash": "80ad81062cb8da74e5b0a9aceecf6b3b866ec1ee8fe258faa550aa3bfe4b3d0a"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.888,
-    "frames": 637,
+    "seconds_per_frame": 3.164,
+    "frames": 719,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb"
+    "trajectory_hash": "80ad81062cb8da74e5b0a9aceecf6b3b866ec1ee8fe258faa550aa3bfe4b3d0a"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "f7d009eb7146d337093ba188d79b22eb038eb84d95954f742bbf1cbdda5d1ceb",
+ "trajectory_hash": "80ad81062cb8da74e5b0a9aceecf6b3b866ec1ee8fe258faa550aa3bfe4b3d0a",
  "stages": {
-  "inputs_hash": "2370d9aeadffa812c3c29bddfb744eeb511668306c875f0e9964f53696b66e0c",
+  "inputs_hash": "377046bd5480e7ccf91b1198aed1a3c23c452ce27623acb3842fd3fef1aa8ab1",
   "compile": true,
   "bake_targets": true,
   "bake_run": true
@@ -205,7 +218,7 @@
  "proxies_check": {
   "ok": true,
   "tip_error_hold_max_m": null,
-  "max_tip_speed_m_s": 1.1313807060526408
+  "max_tip_speed_m_s": 0.00012113095183909878
  },
  "physics": {}
 }

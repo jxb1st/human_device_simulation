@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_microwave_v2",
  "device_id": "microwave_v2",
- "created": "2026-10-13T01:54:47+00:00",
+ "created": "2026-10-15T04:02:48+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -38,183 +38,191 @@
  },
  "mechanisms": [
   {
-   "step": "settle",
+   "step": "a01_settle",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_door",
+   "step": "a02_look_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_handle",
+   "step": "a03_reach_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_handle",
+   "step": "a04_align_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "open_door",
+   "step": "a05_pull_door",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_door",
+   "step": "a06_release_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_1",
+   "step": "a07_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_bowl",
+   "step": "a08_look_bowl",
    "mechanism": "kinematic"
   },
   {
-   "step": "place_bowl",
+   "step": "a09_move_bowl",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "left_back_2",
+   "step": "a10_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_door_2",
+   "step": "a11_look_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_handle_2",
+   "step": "a12_reach_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_handle_2",
+   "step": "a13_align_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "close_door",
+   "step": "a14_push_door",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_door_2",
+   "step": "a15_release_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_3",
+   "step": "a16_look_power_defrost",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_defrost",
+   "step": "a17_align_power_defrost",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_defrost",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "align_defrost",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "press_defrost",
+   "step": "a18_press_power_defrost",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_defrost",
+   "step": "a19_release_power_defrost",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_dial",
+   "step": "a20_look_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_dial",
+   "step": "a21_align_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "pinch_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "turn_dial",
+   "step": "a22_turn_dial",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_dial",
+   "step": "a23_release_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_start",
+   "step": "a24_look_start_30s",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_start",
+   "step": "a25_align_start_30s",
    "mechanism": "kinematic"
   },
   {
-   "step": "align_start",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "press_start",
+   "step": "a26_press_start_30s",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "release_start",
+   "step": "a27_release_start_30s",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_1",
+   "step": "a28_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "defrost",
+   "step": "a29_wait",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_door_3",
+   "step": "a30_look_stop_eco",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_handle_3",
+   "step": "a31_reach_stop_eco",
    "mechanism": "kinematic"
   },
   {
-   "step": "grasp_handle_3",
+   "step": "a32_align_stop_eco",
    "mechanism": "kinematic"
   },
   {
-   "step": "reopen_door",
+   "step": "a33_press_stop_eco",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a34_release_stop_eco",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a35_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a36_look_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a37_reach_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a38_align_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a39_pull_door",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_door_3",
+   "step": "a40_release_door",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_4",
+   "step": "a41_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_cavity",
+   "step": "a42_look_bowl",
    "mechanism": "kinematic"
   },
   {
-   "step": "take_bowl",
+   "step": "a43_move_bowl",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "left_back_5",
+   "step": "a44_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "end",
+   "step": "a45_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 57.0,
+  "total_s": 49.4,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 1711,
+  "n_frames": 1483,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -230,7 +238,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "7e355cfdd416f3ed2af8bb461065a4d7e4a91f3e404953644d5c59b3fed9a49b",
+ "inputs_hash": "0ea67b39a4478dd5769c24b43e308581de9c42a4f6d879495bed41a772c4dc95",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -239,22 +247,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.77,
-    "frames": 1711,
+    "seconds_per_frame": 2.642,
+    "frames": 1483,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "24d432b5f1eab4ccd2c12d2ce298e89de20430d3bda29bb98c9ffa887078c810"
+    "trajectory_hash": "9266b769aa2de7c8bbb017b12c65985dac4bdc30fe1a83aba3d358a1b52baedc"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.823,
-    "frames": 1711,
+    "seconds_per_frame": 3.058,
+    "frames": 1483,
     "resolution": [
      960,
      540
@@ -264,41 +272,42 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "24d432b5f1eab4ccd2c12d2ce298e89de20430d3bda29bb98c9ffa887078c810"
+    "trajectory_hash": "9266b769aa2de7c8bbb017b12c65985dac4bdc30fe1a83aba3d358a1b52baedc"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.104,
-    "frames": 1711,
+    "seconds_per_frame": 3.527,
+    "frames": 1483,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "24d432b5f1eab4ccd2c12d2ce298e89de20430d3bda29bb98c9ffa887078c810"
+    "trajectory_hash": "9266b769aa2de7c8bbb017b12c65985dac4bdc30fe1a83aba3d358a1b52baedc"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "24d432b5f1eab4ccd2c12d2ce298e89de20430d3bda29bb98c9ffa887078c810",
+ "trajectory_hash": "9266b769aa2de7c8bbb017b12c65985dac4bdc30fe1a83aba3d358a1b52baedc",
  "stages": {
-  "inputs_hash": "7e355cfdd416f3ed2af8bb461065a4d7e4a91f3e404953644d5c59b3fed9a49b",
+  "inputs_hash": "0ea67b39a4478dd5769c24b43e308581de9c42a4f6d879495bed41a772c4dc95",
   "compile": true,
   "bake_targets": true,
-  "physics.press_defrost": true,
-  "physics.press_start": true,
+  "physics.a18_press_power_defrost": true,
+  "physics.a26_press_start_30s": true,
+  "physics.a33_press_stop_eco": true,
   "bake_run": true
  },
  "proxies_check": {
   "ok": true,
-  "tip_error_hold_max_m": 1.231242615111414e-06,
-  "max_tip_speed_m_s": 0.9245061318004576
+  "tip_error_hold_max_m": 2.112703386122463e-06,
+  "max_tip_speed_m_s": 0.00012127751081809881
  },
  "physics": {
-  "press_defrost": {
+  "a18_press_power_defrost": {
    "part": "key_power_defrost",
    "thresholds": {
     "min_travel_m": 0.001,
@@ -314,10 +323,10 @@
     "penetration_le_max": true
    },
    "pass": true,
-   "sphere_lead_max_m": 0.0012964254552326883,
+   "sphere_lead_max_m": 0.0012964208313650427,
    "visible_tip_penetration_max_m": 0.0
   },
-  "press_start": {
+  "a26_press_start_30s": {
    "part": "key_start_30s",
    "thresholds": {
     "min_travel_m": 0.001,
@@ -334,6 +343,25 @@
    },
    "pass": true,
    "sphere_lead_max_m": 0.0012964208313650427,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a33_press_stop_eco": {
+   "part": "key_stop_eco",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964184796762607,
    "visible_tip_penetration_max_m": 0.0
   }
  }

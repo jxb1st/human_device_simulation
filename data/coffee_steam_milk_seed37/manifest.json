@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-12T01:07:46+00:00",
+ "created": "2026-10-15T04:03:31+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -38,119 +38,123 @@
  },
  "mechanisms": [
   {
-   "step": "settle",
+   "step": "a01_settle",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_wand",
+   "step": "a02_look_portafilter",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_wand",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "pinch_wand",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "swing_out",
+   "step": "a03_move_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_wand",
+   "step": "a04_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_1",
+   "step": "a05_look_steam_wand",
    "mechanism": "kinematic"
   },
   {
-   "step": "jug_under",
+   "step": "a06_reach_steam_wand",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a07_align_steam_wand",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_pull_steam_wand",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "look_jug",
+   "step": "a09_release_steam_wand",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_2",
+   "step": "a10_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_dial",
+   "step": "a11_look_jug",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "pinch_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "steam_on",
+   "step": "a12_move_jug",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_dial",
+   "step": "a13_look_steam_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_3",
+   "step": "a14_align_steam_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "steam",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "look_dial_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "reach_dial_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "pinch_dial_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "steam_off",
+   "step": "a15_turn_steam_dial",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_dial_2",
+   "step": "a16_release_steam_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_4",
+   "step": "a17_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "jug_back",
+   "step": "a18_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a19_look_steam_dial",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a20_reach_steam_dial",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a21_align_steam_dial",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a22_turn_steam_dial",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "look_jug_2",
+   "step": "a23_release_steam_dial",
    "mechanism": "kinematic"
   },
   {
-   "step": "right_back_5",
+   "step": "a24_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "end",
+   "step": "a25_look_jug",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a26_move_jug",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a27_right_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a28_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 34.4,
+  "total_s": 36.87,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 1033,
+  "n_frames": 1108,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -164,7 +168,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "10c362e43c60d8cf628ddf76413a4a0c3483d323d2a8d29f6e6d6ac78fa99c80",
+ "inputs_hash": "f034e7b0df607f61b36a41914201bc3414bae6255464a862fa373531ab7b3616",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -173,22 +177,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.982,
-    "frames": 1033,
+    "seconds_per_frame": 3.032,
+    "frames": 1108,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "2021ab547db47883d75a7c34a7a789bc788f2ecaff8027a9a3115491467d19fa"
+    "trajectory_hash": "1259b1db2fa1928aaa951837b5f48d67da71b28771d867c7673e9dba63f7687f"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.919,
-    "frames": 1033,
+    "seconds_per_frame": 3.157,
+    "frames": 1108,
     "resolution": [
      960,
      540
@@ -198,28 +202,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "2021ab547db47883d75a7c34a7a789bc788f2ecaff8027a9a3115491467d19fa"
+    "trajectory_hash": "1259b1db2fa1928aaa951837b5f48d67da71b28771d867c7673e9dba63f7687f"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.076,
-    "frames": 1033,
+    "seconds_per_frame": 3.161,
+    "frames": 1108,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "2021ab547db47883d75a7c34a7a789bc788f2ecaff8027a9a3115491467d19fa"
+    "trajectory_hash": "1259b1db2fa1928aaa951837b5f48d67da71b28771d867c7673e9dba63f7687f"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "2021ab547db47883d75a7c34a7a789bc788f2ecaff8027a9a3115491467d19fa",
+ "trajectory_hash": "1259b1db2fa1928aaa951837b5f48d67da71b28771d867c7673e9dba63f7687f",
  "stages": {
-  "inputs_hash": "10c362e43c60d8cf628ddf76413a4a0c3483d323d2a8d29f6e6d6ac78fa99c80",
+  "inputs_hash": "f034e7b0df607f61b36a41914201bc3414bae6255464a862fa373531ab7b3616",
   "compile": true,
   "bake_targets": true,
   "bake_run": true
@@ -227,7 +231,7 @@
  "proxies_check": {
   "ok": true,
   "tip_error_hold_max_m": null,
-  "max_tip_speed_m_s": 0.8074663851892412
+  "max_tip_speed_m_s": 1.47992770703864
  },
  "physics": {}
 }

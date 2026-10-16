@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_induction_range",
  "device_id": "induction_range",
- "created": "2026-10-13T01:16:02+00:00",
+ "created": "2026-10-15T03:48:48+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -38,119 +38,111 @@
  },
  "mechanisms": [
   {
-   "step": "settle",
+   "step": "a01_settle",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_pan",
+   "step": "a02_look_saucepan",
    "mechanism": "kinematic"
   },
   {
-   "step": "pan_to_zone",
+   "step": "a03_move_saucepan",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "left_back_0",
+   "step": "a04_look_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_knob",
+   "step": "a05_align_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_knob",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "pinch_knob",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "turn_1",
+   "step": "a06_turn_knob_fl_1",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "regrip_1",
+   "step": "a07_regrip_knob_fl_1",
    "mechanism": "kinematic"
   },
   {
-   "step": "pinch_knob_2",
+   "step": "a08_pinch_knob_fl_1",
    "mechanism": "kinematic"
   },
   {
-   "step": "turn_2",
+   "step": "a09_turn_knob_fl_2",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_knob",
+   "step": "a10_release_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_1",
+   "step": "a11_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "heat",
+   "step": "a12_wait",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_knob_2",
+   "step": "a13_look_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "reach_knob_2",
+   "step": "a14_reach_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "pinch_knob_3",
+   "step": "a15_align_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "turn_3",
+   "step": "a16_turn_knob_fl_1",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "regrip_2",
+   "step": "a17_regrip_knob_fl_1",
    "mechanism": "kinematic"
   },
   {
-   "step": "pinch_knob_4",
+   "step": "a18_pinch_knob_fl_1",
    "mechanism": "kinematic"
   },
   {
-   "step": "turn_4",
+   "step": "a19_turn_knob_fl_2",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "release_knob_2",
+   "step": "a20_release_knob_fl",
    "mechanism": "kinematic"
   },
   {
-   "step": "left_back_2",
+   "step": "a21_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "look_pan_2",
+   "step": "a22_look_saucepan",
    "mechanism": "kinematic"
   },
   {
-   "step": "pan_back",
+   "step": "a23_move_saucepan",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "left_back_3",
+   "step": "a24_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "end",
+   "step": "a25_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 40.39999999999999,
+  "total_s": 31.15,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 1213,
+  "n_frames": 936,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -164,7 +156,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "82c17797756d6dc0fdcc63407e8d6d4edfd99c6fc4fe030a824773cb3844f3d6",
+ "inputs_hash": "9756c4af75441aaab6d706068aaccf463e9110cf63330039398662752371b939",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -173,22 +165,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.971,
-    "frames": 1213,
+    "seconds_per_frame": 2.654,
+    "frames": 936,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "a95beacadac53b09720fe1b74cbca2b82e8c209ce1eb3b24fc62d39023068c2f"
+    "trajectory_hash": "048da949230c199fd7ea0b0ca1078c17457bd967bb02625325c05f829bd8cc0b"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.08,
-    "frames": 1213,
+    "seconds_per_frame": 3.749,
+    "frames": 936,
     "resolution": [
      960,
      540
@@ -198,28 +190,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "a95beacadac53b09720fe1b74cbca2b82e8c209ce1eb3b24fc62d39023068c2f"
+    "trajectory_hash": "048da949230c199fd7ea0b0ca1078c17457bd967bb02625325c05f829bd8cc0b"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.9,
-    "frames": 1213,
+    "seconds_per_frame": 3.751,
+    "frames": 936,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "a95beacadac53b09720fe1b74cbca2b82e8c209ce1eb3b24fc62d39023068c2f"
+    "trajectory_hash": "048da949230c199fd7ea0b0ca1078c17457bd967bb02625325c05f829bd8cc0b"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "a95beacadac53b09720fe1b74cbca2b82e8c209ce1eb3b24fc62d39023068c2f",
+ "trajectory_hash": "048da949230c199fd7ea0b0ca1078c17457bd967bb02625325c05f829bd8cc0b",
  "stages": {
-  "inputs_hash": "82c17797756d6dc0fdcc63407e8d6d4edfd99c6fc4fe030a824773cb3844f3d6",
+  "inputs_hash": "9756c4af75441aaab6d706068aaccf463e9110cf63330039398662752371b939",
   "compile": true,
   "bake_targets": true,
   "bake_run": true
@@ -227,7 +219,7 @@
  "proxies_check": {
   "ok": true,
   "tip_error_hold_max_m": null,
-  "max_tip_speed_m_s": 8.301966355552745e-05
+  "max_tip_speed_m_s": 0.0001086048314469373
  },
  "physics": {}
 }
