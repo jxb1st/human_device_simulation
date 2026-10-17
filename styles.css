@@ -71,3 +71,21 @@ table.expand td.bar .small{font-size:.7rem}table.expand td:nth-child(2){min-widt
 .fcol figcaption,.flab b{font-size:.72rem;color:var(--muted);text-align:center;height:20px;line-height:20px;font-weight:500}.flab{display:flex;flex-direction:column;gap:3px;width:84px;font-size:.72rem;color:var(--muted)}.flab span{height:90px;display:flex;align-items:center}
 .fcol.on img{outline:2px solid #fff}
 @media(max-width:860px){.flow{flex-direction:column}.flow .arr{transform:rotate(90deg)}}
+
+table.fammat{width:100%;border-collapse:separate;border-spacing:4px;margin:4px 0 2px;table-layout:fixed}
+table.fammat thead th{text-align:center;color:var(--muted);font-weight:500;font-size:.76rem;padding:2px 0 6px;border:0}
+table.fammat thead th img{display:block;width:100%;max-width:120px;aspect-ratio:4/3;object-fit:contain;background:var(--well);border-radius:6px;margin:0 auto 4px}
+table.fammat thead th:first-child{width:112px}
+table.fammat tbody th{text-align:left;font-weight:500;color:var(--ink);padding:4px 6px;border:0;white-space:nowrap}table.fammat tbody th i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--c);margin-right:8px;vertical-align:-1px}
+table.fammat tbody td{background:var(--panel);border:0;border-radius:6px;text-align:center;padding:8px 4px;font-size:.82rem;color:var(--ink)}table.fammat tbody td b{font-weight:500}
+table.fammat tbody td.na{background:transparent;color:var(--muted);border:1px dashed var(--line)}table.fammat tbody td.na span{display:block;font-size:.68rem;line-height:1.2;margin-top:2px}
+.nalist{margin:6px 0 0}.nalist span{color:var(--ink)}
+.dspace{margin-top:40px}.dhead{display:flex;gap:14px;align-items:center}.dhead img{width:120px;aspect-ratio:4/3;object-fit:contain;background:var(--well);border-radius:8px;flex:none}.dhead h2{margin:0 0 2px}
+.cmds{display:grid;grid-template-columns:minmax(0,1fr);gap:6px}.cmd{display:grid;grid-template-columns:90px minmax(220px,1fr) 1.3fr;gap:4px 14px;background:var(--panel);border-left:4px solid var(--c);border-radius:0 8px 8px 0;padding:8px 12px;align-items:start;min-width:0}
+.cfam{font-weight:500}.ctpl{display:flex;flex-direction:column;align-items:flex-start;gap:3px;font-size:.78rem;min-width:0}.ctpl span{background:var(--panel-2);border-radius:4px;padding:1px 8px;max-width:100%;overflow-wrap:anywhere}.cdom{min-width:0}
+.cdom div{color:var(--ink)}.cdom .cmean{color:var(--muted);margin-top:3px}
+.vocab{margin:10px 0 4px}.vocab summary{cursor:pointer;color:var(--muted);font-size:.85rem}.vocab pre{white-space:pre-wrap;background:var(--panel);border-radius:8px;padding:12px 14px;margin:8px 0 0;font-size:.76rem;line-height:1.45;color:var(--ink)}
+table.fbtable tr.tl-bar{cursor:pointer}table.fbtable tr.tl-bar.on td{background:var(--panel-2)}table.fbtable tr.tl-bar.on td:first-child{color:#fff}
+.fchip{display:inline-block;padding:0 8px;border-radius:4px;font-size:.74rem;border-left:3px solid var(--c);background:var(--panel-2);white-space:nowrap}
+.chgs{max-width:420px}.chg{display:inline-block;background:var(--panel-2);border-radius:4px;padding:1px 7px;margin:1px 3px 1px 0;font-size:.76rem;white-space:nowrap}.chg b{font-weight:500;color:var(--muted);margin-right:4px}.chg.rej{white-space:normal}
+@media(max-width:860px){.cmd{grid-template-columns:1fr}table.fammat thead th:first-child{width:70px}table.fammat tbody th{font-size:.76rem}}
