@@ -1,0 +1,161 @@
+{
+ "run_id": "sweep_wand_angle_1_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "sweep_wand_angle_1",
+ "seed": 37,
+ "scene_id": "kitchen_coffee_machine",
+ "device_id": "coffee_machine",
+ "created": "2026-10-21T01:18:15+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "a01_settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a02_look_steam_wand",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a03_reach_steam_wand",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a04_align_steam_wand",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a05_pull_steam_wand",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a06_release_steam_wand",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a07_right_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a09_end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 8.59,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 259,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "32079ac4905f2c26d4a11329c05ba57d9de483acdc9fee397ab3a683121e1b82",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.944,
+    "frames": 259,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "87a2211cd91321102dc45d611434468df7e9a0bf1123044283130f7a41d4ba0a"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.202,
+    "frames": 259,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "87a2211cd91321102dc45d611434468df7e9a0bf1123044283130f7a41d4ba0a"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.227,
+    "frames": 259,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "87a2211cd91321102dc45d611434468df7e9a0bf1123044283130f7a41d4ba0a"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "87a2211cd91321102dc45d611434468df7e9a0bf1123044283130f7a41d4ba0a",
+ "stages": {
+  "inputs_hash": "32079ac4905f2c26d4a11329c05ba57d9de483acdc9fee397ab3a683121e1b82",
+  "compile": true,
+  "bake_targets": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": null,
+  "max_tip_speed_m_s": 0.5093913135699848
+ },
+ "physics": {}
+}

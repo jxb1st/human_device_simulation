@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-19T19:06:09+00:00",
+ "created": "2026-10-21T01:17:49+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -59,10 +59,10 @@
   }
  ],
  "timing": {
-  "total_s": 13.200000000000001,
+  "total_s": 12.200000000000001,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 397,
+  "n_frames": 367,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -76,7 +76,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "8d5f82df7ddf92ef8ba10456519aeb06e22bc39b8406d6dd4970258692b5b293",
+ "inputs_hash": "88fb67f09be69f611668f46819c8a50342f0906fc9a5b446bbeaa2a0dccca188",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -85,22 +85,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.772,
-    "frames": 397,
+    "seconds_per_frame": 3.149,
+    "frames": 367,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "8c63722e4e55bbf5c9989e9f4360ce31267826c36e8213758246e8e56501926f"
+    "trajectory_hash": "1e1e2e5b128100d415739bb45e9f35efdc8d437e9b28ad1a15cecfdbad70cdea"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 2.965,
-    "frames": 397,
+    "seconds_per_frame": 3.363,
+    "frames": 367,
     "resolution": [
      960,
      540
@@ -110,28 +110,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "8c63722e4e55bbf5c9989e9f4360ce31267826c36e8213758246e8e56501926f"
+    "trajectory_hash": "1e1e2e5b128100d415739bb45e9f35efdc8d437e9b28ad1a15cecfdbad70cdea"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.172,
-    "frames": 397,
+    "seconds_per_frame": 3.225,
+    "frames": 367,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "8c63722e4e55bbf5c9989e9f4360ce31267826c36e8213758246e8e56501926f"
+    "trajectory_hash": "1e1e2e5b128100d415739bb45e9f35efdc8d437e9b28ad1a15cecfdbad70cdea"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "8c63722e4e55bbf5c9989e9f4360ce31267826c36e8213758246e8e56501926f",
+ "trajectory_hash": "1e1e2e5b128100d415739bb45e9f35efdc8d437e9b28ad1a15cecfdbad70cdea",
  "stages": {
-  "inputs_hash": "8d5f82df7ddf92ef8ba10456519aeb06e22bc39b8406d6dd4970258692b5b293",
+  "inputs_hash": "88fb67f09be69f611668f46819c8a50342f0906fc9a5b446bbeaa2a0dccca188",
   "compile": true,
   "bake_targets": true,
   "bake_run": true

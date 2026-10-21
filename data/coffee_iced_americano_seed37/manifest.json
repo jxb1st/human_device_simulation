@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-18T11:27:44+00:00",
+ "created": "2026-10-21T01:19:34+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -42,11 +42,11 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a02_look_scoop",
+   "step": "a02_look_glass",
    "mechanism": "kinematic"
   },
   {
-   "step": "a03_pour_scoop",
+   "step": "a03_move_glass",
    "mechanism": "assisted_grasp"
   },
   {
@@ -54,43 +54,43 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a05_look_portafilter",
+   "step": "a05_look_scoop",
    "mechanism": "kinematic"
   },
   {
-   "step": "a06_move_portafilter",
+   "step": "a06_pour_scoop",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a07_right_back",
+   "step": "a07_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a08_wait",
+   "step": "a08_look_portafilter",
    "mechanism": "kinematic"
   },
   {
-   "step": "a09_wait_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a10_look_portafilter",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a11_move_portafilter",
+   "step": "a09_move_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a12_right_back",
+   "step": "a10_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a13_look_tamper",
+   "step": "a11_grind",
    "mechanism": "kinematic"
   },
   {
-   "step": "a14_move_tamper",
+   "step": "a12_grind_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a13_look_portafilter",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a14_move_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
@@ -98,11 +98,11 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a16_look_tamper",
+   "step": "a16_look_wdt_tool",
    "mechanism": "kinematic"
   },
   {
-   "step": "a17_move_tamper",
+   "step": "a17_stir_wdt_tool",
    "mechanism": "assisted_grasp"
   },
   {
@@ -110,11 +110,11 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a19_look_portafilter",
+   "step": "a19_look_tamper",
    "mechanism": "kinematic"
   },
   {
-   "step": "a20_move_portafilter",
+   "step": "a20_press_down_tamper",
    "mechanism": "assisted_grasp"
   },
   {
@@ -122,175 +122,115 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a22_look_cup",
+   "step": "a22_look_portafilter",
    "mechanism": "kinematic"
   },
   {
-   "step": "a23_move_cup",
+   "step": "a23_move_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a24_left_back",
+   "step": "a24_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a25_look_btn_one_cup",
+   "step": "a25_look_glass_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "a26_reach_btn_one_cup",
+   "step": "a26_move_glass_cup",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a27_look_btn_two_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "a27_align_btn_one_cup",
+   "step": "a28_align_btn_two_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "a28_press_btn_one_cup",
+   "step": "a29_press_btn_two_cup",
    "mechanism": "contact_dynamics"
   },
   {
-   "step": "a29_release_btn_one_cup",
+   "step": "a30_release_btn_two_cup",
    "mechanism": "kinematic"
   },
   {
-   "step": "a30_right_back",
+   "step": "a31_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a31_wait",
+   "step": "a32_brew",
    "mechanism": "kinematic"
   },
   {
-   "step": "a32_wait_2",
+   "step": "a33_brew_2",
    "mechanism": "kinematic"
   },
   {
-   "step": "a33_wait_3",
+   "step": "a34_brew_3",
    "mechanism": "kinematic"
   },
   {
-   "step": "a34_wait_4",
+   "step": "a35_brew_4",
    "mechanism": "kinematic"
   },
   {
-   "step": "a35_wait_5",
+   "step": "a36_brew_5",
    "mechanism": "kinematic"
   },
   {
-   "step": "a36_look_cup",
+   "step": "a37_brew_6",
    "mechanism": "kinematic"
   },
   {
-   "step": "a37_move_cup",
+   "step": "a38_look_glass_cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a39_pour_glass_cup",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a38_left_back",
+   "step": "a40_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a39_look_cup",
+   "step": "a41_look_water_pitcher",
    "mechanism": "kinematic"
   },
   {
-   "step": "a40_pour_cup",
+   "step": "a42_pour_water_pitcher",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a41_left_back",
+   "step": "a43_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a42_look_glass",
+   "step": "a44_look_glass",
    "mechanism": "kinematic"
   },
   {
-   "step": "a43_move_glass",
+   "step": "a45_move_glass",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a44_left_back",
+   "step": "a46_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a45_look_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a46_reach_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a47_align_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a48_turn_steam_dial",
-   "mechanism": "assisted_grasp"
-  },
-  {
-   "step": "a49_release_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a50_right_back",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a51_wait",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a52_wait_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a53_look_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a54_reach_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a55_align_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a56_turn_steam_dial",
-   "mechanism": "assisted_grasp"
-  },
-  {
-   "step": "a57_release_steam_dial",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a58_right_back",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a59_look_glass",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a60_move_glass",
-   "mechanism": "assisted_grasp"
-  },
-  {
-   "step": "a61_left_back",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a62_end",
+   "step": "a47_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 129.33,
+  "total_s": 125.71000000000002,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 3881,
+  "n_frames": 3773,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -305,7 +245,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "7a47c805dbccb00dacdd6f9f2ebddd7ca870dd911d74825d9ed4ff01c8b6e5df",
+ "inputs_hash": "7d5f75e96f1371d88ff66a7a3e51100ccf17db3e62778ca8282ca011b0be793f",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -314,22 +254,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 10.987,
-    "frames": 3881,
+    "seconds_per_frame": 3.105,
+    "frames": 3773,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "1b3f4b851ed777249cae2ef271e2efcc576f2ca8fc7977831d5fe0fdc98df9fc"
+    "trajectory_hash": "5af795044620164331cd46464f232feeeb36823ed32d13ac0af2661d358933fb"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 12.139,
-    "frames": 3881,
+    "seconds_per_frame": 3.443,
+    "frames": 3773,
     "resolution": [
      960,
      540
@@ -339,41 +279,41 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "1b3f4b851ed777249cae2ef271e2efcc576f2ca8fc7977831d5fe0fdc98df9fc"
+    "trajectory_hash": "5af795044620164331cd46464f232feeeb36823ed32d13ac0af2661d358933fb"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.223,
-    "frames": 3881,
+    "seconds_per_frame": 3.789,
+    "frames": 3773,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "1b3f4b851ed777249cae2ef271e2efcc576f2ca8fc7977831d5fe0fdc98df9fc"
+    "trajectory_hash": "5af795044620164331cd46464f232feeeb36823ed32d13ac0af2661d358933fb"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "1b3f4b851ed777249cae2ef271e2efcc576f2ca8fc7977831d5fe0fdc98df9fc",
+ "trajectory_hash": "5af795044620164331cd46464f232feeeb36823ed32d13ac0af2661d358933fb",
  "stages": {
-  "inputs_hash": "7a47c805dbccb00dacdd6f9f2ebddd7ca870dd911d74825d9ed4ff01c8b6e5df",
+  "inputs_hash": "7d5f75e96f1371d88ff66a7a3e51100ccf17db3e62778ca8282ca011b0be793f",
   "compile": true,
   "bake_targets": true,
-  "physics.a28_press_btn_one_cup": true,
+  "physics.a29_press_btn_two_cup": true,
   "bake_run": true
  },
  "proxies_check": {
   "ok": true,
-  "tip_error_hold_max_m": 1.4081728975096936e-06,
-  "max_tip_speed_m_s": 0.9559158213906402
+  "tip_error_hold_max_m": 2.0067700663894345e-06,
+  "max_tip_speed_m_s": 1.2636008128696046
  },
  "physics": {
-  "a28_press_btn_one_cup": {
-   "part": "btn_one_cup",
+  "a29_press_btn_two_cup": {
+   "part": "btn_two_cup",
    "thresholds": {
     "min_travel_m": 0.0014,
     "max_penetration_m": 0.0012,
