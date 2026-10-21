@@ -1,0 +1,184 @@
+{
+ "run_id": "fam_open_025_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "fam_open_025",
+ "seed": 37,
+ "scene_id": "kitchen_microwave_v2",
+ "device_id": "microwave_v2",
+ "created": "2026-10-14T23:39:48+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "a01_settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a02_look_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a03_reach_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a04_align_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a05_pull_door",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a06_release_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a07_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a09_look_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a10_reach_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a11_align_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a12_push_door",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a13_release_door",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a14_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a15_end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 14.22,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 428,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "72f79856f4c143b815bbe4abdb024fb297df765d74befa9bb272fff587a26329",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.717,
+    "frames": 428,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "f71f609d004a364f891eabb7d37c564db33aa59f37a3f28cd0c0c1bd4a7c689e"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.669,
+    "frames": 428,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "f71f609d004a364f891eabb7d37c564db33aa59f37a3f28cd0c0c1bd4a7c689e"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.63,
+    "frames": 428,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "f71f609d004a364f891eabb7d37c564db33aa59f37a3f28cd0c0c1bd4a7c689e"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "f71f609d004a364f891eabb7d37c564db33aa59f37a3f28cd0c0c1bd4a7c689e",
+ "stages": {
+  "inputs_hash": "72f79856f4c143b815bbe4abdb024fb297df765d74befa9bb272fff587a26329",
+  "compile": true,
+  "bake_targets": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": null,
+  "max_tip_speed_m_s": 0.0
+ },
+ "physics": {}
+}

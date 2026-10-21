@@ -1,0 +1,13 @@
+{"source": "planned", "type": "step", "id": "a01_settle", "action": "idle", "t_start": 0.0, "t_end": 1.0, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a02_look_milk_carton", "action": "look_at", "t_start": 1.0, "t_end": 1.6, "mechanism": "kinematic", "hand": null, "target": "prop_home.milk_carton", "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a03_pour_milk_carton", "action": "pour", "t_start": 1.0, "t_end": 9.13, "mechanism": "assisted_grasp", "hand": "right", "target": null, "settle_s": 0.0, "prop": "milk_carton", "grasp": "body", "over": "prop_home.jug", "dip": null, "t_attach": 2.6, "t_detach": 8.63, "pour_s": 1.83, "amount": 50.0, "unit": "mL", "substance": "milk"}
+{"source": "planned", "type": "state_fx", "id": "fx_hopper_beans_1", "group": "fx_hopper_beans", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_ice_bucket_fill_1", "group": "fx_ice_bucket_fill", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_tank_fill_2", "group": "fx_tank_fill", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_water_pitcher_fill_3", "group": "fx_water_pitcher_fill", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "attach", "t": 2.6, "hand": "right", "prop": "milk_carton", "grasp": "body", "mechanism": "assisted_grasp", "object_pose": [0.6, 0.17, 0.9, 0.0, -0.0, -0.0, -1.0], "offset_in_hand": {"pos": [-0.036202, 0.209138, -0.020671], "quat": [-0.740797, -0.670915, 0.023825, 0.022905]}}
+{"source": "planned", "type": "effect", "id": "fx_milk_carton_pour", "mechanism": "illustrative_effect", "t_start": 4.5, "t_end": 6.83}
+{"source": "planned", "type": "detach", "t": 8.63, "prop": "milk_carton", "mechanism": "assisted_grasp", "object_pose": [0.6, 0.17, 0.9, 0.0, -0.0, -0.0, -1.0]}
+{"source": "planned", "type": "step", "id": "a04_right_back", "action": "retreat", "t_start": 9.13, "t_end": 10.530000000000001, "mechanism": "kinematic", "hand": "right", "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "state_fx", "id": "fx_jug_fill_1", "group": "fx_jug_fill", "t": 9.13, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a05_end", "action": "idle", "t_start": 10.530000000000001, "t_end": 11.530000000000001, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}

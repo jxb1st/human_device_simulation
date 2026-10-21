@@ -1,0 +1,250 @@
+{
+ "run_id": "sweep_oven_temp_2_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "sweep_oven_temp_2",
+ "seed": 37,
+ "scene_id": "kitchen_induction_range",
+ "device_id": "induction_range",
+ "created": "2026-10-19T19:05:40+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "a01_settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a02_look_bake",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a03_reach_bake",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a04_align_bake",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a05_press_bake",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a06_release_bake",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a07_look_up",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_align_up",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a09_press_up_1",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a10_lift_up_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a11_realign_up_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a12_press_up_2",
+   "mechanism": "contact_dynamics"
+  },
+  {
+   "step": "a13_release_up",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a14_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a15_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a16_end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 11.72,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 353,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "contact_dynamics: only the receiving device part is simulated in MuJoCo; the fingertip is a kinematic mocap proxy.",
+  "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "316e6f51ae061ebbb12c377f074757b5639ecd3317ffe403124637241bc1a2b2",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.632,
+    "frames": 353,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "651490bbd6847f7e9d24e8b8d541c10de4ed077ab0dd6a76504f189ce8fa5382"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.198,
+    "frames": 353,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "651490bbd6847f7e9d24e8b8d541c10de4ed077ab0dd6a76504f189ce8fa5382"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.889,
+    "frames": 353,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "651490bbd6847f7e9d24e8b8d541c10de4ed077ab0dd6a76504f189ce8fa5382"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "651490bbd6847f7e9d24e8b8d541c10de4ed077ab0dd6a76504f189ce8fa5382",
+ "stages": {
+  "inputs_hash": "316e6f51ae061ebbb12c377f074757b5639ecd3317ffe403124637241bc1a2b2",
+  "compile": true,
+  "bake_targets": true,
+  "physics.a05_press_bake": true,
+  "physics.a09_press_up_1": true,
+  "physics.a12_press_up_2": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": 2.41623292976618e-06,
+  "max_tip_speed_m_s": 8.78031245628371e-05
+ },
+ "physics": {
+  "a05_press_bake": {
+   "part": "key_bake",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964226927960915,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a09_press_up_1": {
+   "part": "key_up",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964275016471107,
+   "visible_tip_penetration_max_m": 0.0
+  },
+  "a12_press_up_2": {
+   "part": "key_up",
+   "thresholds": {
+    "min_travel_m": 0.001,
+    "max_penetration_m": 0.001,
+    "activation_m": 0.0009
+   },
+   "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+   },
+   "pass": true,
+   "sphere_lead_max_m": 0.0012964275016471107,
+   "visible_tip_penetration_max_m": 0.0
+  }
+ }
+}

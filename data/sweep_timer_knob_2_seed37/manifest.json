@@ -1,0 +1,172 @@
+{
+ "run_id": "sweep_timer_knob_2_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "sweep_timer_knob_2",
+ "seed": 37,
+ "scene_id": "kitchen_microwave",
+ "device_id": "microwave_robocasa_032",
+ "created": "2026-10-19T19:06:36+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "a01_settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a02_look_timer_knob",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a03_reach_timer_knob",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a04_align_timer_knob",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a05_turn_timer_knob_1",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a06_regrip_timer_knob_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a07_pinch_timer_knob_1",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_turn_timer_knob_2",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a09_release_timer_knob",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a10_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a11_wait",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a12_end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 10.62,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 320,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "8cec675c85c8218e66cfa585f69ad47a887a3fb007065873eef8ed97e5611b5b",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.812,
+    "frames": 320,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "d2a7c953cdab54c0a8b2a64eea64beff69a388235a2a889b353e2e19f2e99c23"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.62,
+    "frames": 320,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "d2a7c953cdab54c0a8b2a64eea64beff69a388235a2a889b353e2e19f2e99c23"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 2.971,
+    "frames": 320,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "d2a7c953cdab54c0a8b2a64eea64beff69a388235a2a889b353e2e19f2e99c23"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "d2a7c953cdab54c0a8b2a64eea64beff69a388235a2a889b353e2e19f2e99c23",
+ "stages": {
+  "inputs_hash": "8cec675c85c8218e66cfa585f69ad47a887a3fb007065873eef8ed97e5611b5b",
+  "compile": true,
+  "bake_targets": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": null,
+  "max_tip_speed_m_s": 0.0
+ },
+ "physics": {}
+}

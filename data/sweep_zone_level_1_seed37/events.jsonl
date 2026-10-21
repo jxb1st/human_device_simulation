@@ -1,0 +1,15 @@
+{"source": "planned", "type": "step", "id": "a01_settle", "action": "idle", "t_start": 0.0, "t_end": 1.0, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a02_look_knob_fl", "action": "look_at", "t_start": 1.0, "t_end": 1.6, "mechanism": "kinematic", "hand": null, "target": "knob_fl_grip", "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a03_reach_knob_fl", "action": "reach", "t_start": 1.0, "t_end": 2.99, "mechanism": "kinematic", "hand": "left", "target": "knob_fl_grip", "settle_s": 0.15, "shoulder_distance_m": 0.4626, "lean_pitch_rad": 0.45, "contact_goal": [-0.3145, 0.489, 1.03716], "grip": "pinch_side"}
+{"source": "planned", "type": "step", "id": "a04_align_knob_fl", "action": "pregrasp", "t_start": 2.99, "t_end": 3.64, "mechanism": "kinematic", "hand": "left", "target": "knob_fl_grip", "settle_s": 0.15, "shoulder_distance_m": 0.4612, "lean_pitch_rad": 0.45, "contact_goal": [-0.3145, 0.539, 1.03716], "grip": "pinch_side"}
+{"source": "planned", "type": "step", "id": "a05_turn_knob_fl", "action": "rotate", "t_start": 3.64, "t_end": 4.8, "mechanism": "assisted_grasp", "hand": "left", "target": null, "settle_s": 0.0, "part": "knob_fl", "joint_from": 0.0, "joint_to": 1.0472, "grip": "pinch_side"}
+{"source": "planned", "type": "attach", "t": 3.64, "hand": "left", "part": "knob_fl", "anchor": "knob_fl_grip", "mechanism": "assisted_grasp", "joint_from": 0.0}
+{"source": "planned", "type": "display", "display": "zone_fl", "t": 3.64, "text": "1", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a06_release_knob_fl", "action": "release", "t_start": 4.8, "t_end": 5.3, "mechanism": "kinematic", "hand": "left", "target": "knob_fl_grip", "settle_s": 0.0, "shoulder_distance_m": 0.4626, "lean_pitch_rad": 0.45, "contact_goal": [-0.3145, 0.489, 1.03716], "grip": "pinch_side"}
+{"source": "planned", "type": "detach", "t": 4.8, "hand": "left", "part": "knob_fl", "anchor": "knob_fl_grip", "mechanism": "assisted_grasp", "joint_to": 1.0472}
+{"source": "planned", "type": "display", "display": "zone_fl", "t": 4.8, "text": "2", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a07_left_back", "action": "retreat", "t_start": 5.3, "t_end": 6.699999999999999, "mechanism": "kinematic", "hand": "left", "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a08_wait", "action": "idle", "t_start": 6.699999999999999, "t_end": 8.7, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "effect", "id": "display", "mechanism": "illustrative_effect", "t_start": 6.699999999999999, "t_end": 8.7}
+{"source": "planned", "type": "effect", "id": "fx_zone_fl", "mechanism": "illustrative_effect", "t_start": 6.699999999999999, "t_end": 8.7}
+{"source": "planned", "type": "step", "id": "a09_end", "action": "idle", "t_start": 8.7, "t_end": 9.7, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}

@@ -1,0 +1,80 @@
+{
+  "device_id": "microwave_robocasa_032",
+  "part": "start_button",
+  "mechanism": "contact_dynamics (kinematic mocap fingertip)",
+  "mujoco_version": "3.5.0",
+  "interval_s": [
+    27.599999999999998,
+    28.4
+  ],
+  "state_time_note": "state.npz t = simulation time after the control step (controls.npz t + 1/control_hz)",
+  "params": {
+    "spring_n_per_m": 400.0,
+    "damping_n_s_per_m": 2.0,
+    "mass_kg": 0.01,
+    "range_m": [
+      0.0,
+      0.003
+    ],
+    "axis": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "timestep_s": 0.0016666667,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "solref_limit": [
+      0.004,
+      1.0
+    ],
+    "solimp_limit": [
+      0.98,
+      0.995,
+      0.0005,
+      0.5,
+      2.0
+    ],
+    "fingertip_radius_m": 0.007,
+    "control_hz": 100,
+    "physics_hz": 600,
+    "negative_offset_dev_m": [
+      -0.05,
+      0.0,
+      0.0
+    ]
+  },
+  "thresholds": {
+    "min_travel_m": 0.002,
+    "max_penetration_m": 0.0025,
+    "activation_m": 0.002
+  },
+  "positive": {
+    "min_or_max_travel_m": 0.003206739203358814,
+    "max_ncon": 1,
+    "max_contact_force_n": 9.79891382935414,
+    "max_penetration_m": 0.0005901171319179074,
+    "final_q_m": 1.002371533078941e-16,
+    "final_ncon": 0,
+    "samples": 5111
+  },
+  "negative": {
+    "max_abs_travel_m": 0.0,
+    "max_ncon": 0
+  },
+  "checks": {
+    "travel_ge_min": true,
+    "contact_seen": true,
+    "returns_after_release": true,
+    "negative_no_motion": true,
+    "negative_no_contact": true,
+    "penetration_le_max": true
+  },
+  "pass": true,
+  "sphere_lead_max_m": 0.0012964210783124428,
+  "visible_tip_penetration_max_m": 0.0,
+  "step": "press_start"
+}
