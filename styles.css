@@ -82,6 +82,9 @@ table.changes td:nth-child(2){min-width:200px}table.changes td.mono{white-space:
 .fcol.on img{outline:2px solid #fff}
 @media(max-width:860px){.flow{flex-direction:column}.flow .arr{transform:rotate(90deg)}}
 
+.clips{margin:14px 0 6px}.clips h4{margin:0 0 4px;font-size:1.05rem}
+.pclips{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.sclip .setup{display:block;color:var(--muted);font-size:.72rem;margin-top:2px;opacity:.75}
 .nalist{margin:6px 0 0}.nalist span{color:var(--ink)}
 .dspace{margin-top:40px}.dhead{display:flex;gap:14px;align-items:center}.dhead img{width:120px;aspect-ratio:4/3;object-fit:contain;background:var(--well);border-radius:8px;flex:none}.dhead h2{margin:0 0 2px}
 .cmds{display:grid;grid-template-columns:minmax(0,1fr);gap:6px}.cmd{display:grid;grid-template-columns:90px minmax(220px,1fr) 1.3fr;gap:4px 14px;background:var(--panel);border-left:4px solid var(--c);border-radius:0 8px 8px 0;padding:8px 12px;align-items:start;min-width:0}
@@ -101,6 +104,10 @@ table.fbtable tr.tl-bar{cursor:pointer}table.fbtable tr.tl-bar.on td{background:
 .fchip{display:inline-block;padding:0 8px;border-radius:4px;font-size:.74rem;border-left:3px solid var(--c);background:var(--panel-2);white-space:nowrap}
 .chgs{max-width:420px}.chg{display:inline-block;background:var(--panel-2);border-radius:4px;padding:1px 7px;margin:1px 3px 1px 0;font-size:.76rem;white-space:nowrap}.chg b{font-weight:500;color:var(--muted);margin-right:4px}.chg.rej{white-space:normal}
 .refs{background:var(--panel);border-radius:8px;padding:8px 12px}.cnote{margin:8px 0 0}.mkey{margin:4px 0 0}
+.cmd .calias{grid-column:2/4;min-width:0}.alias{margin:2px 0}.aforms{background:var(--panel-2);border-radius:4px;padding:1px 8px;font-size:.78rem;overflow-wrap:anywhere}
+.procs{display:flex;flex-direction:column;gap:4px}.proc{background:var(--panel);border-radius:6px;padding:4px 10px}.proc summary{cursor:pointer;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-size:.86rem}
+.proc summary b{font-weight:500}.pmeta{color:var(--muted)}.psteps{margin:6px 0 4px;padding-left:28px;font-size:.78rem;line-height:1.6}
+table.metrics{border-collapse:collapse;margin:0}table.metrics td,table.metrics th{border-bottom:1px solid var(--line);padding:4px 10px;font-size:.8rem;text-align:left;vertical-align:top}table.metrics th{color:var(--muted);font-weight:500}
 table.fmatrix{border-collapse:collapse;width:auto;margin:0}table.fmatrix td,table.fmatrix th{border-bottom:1px solid var(--line);padding:2px 3px;font-size:.76rem;text-align:center;vertical-align:bottom}
 table.fmatrix th.mfam{text-align:left;font-weight:500;color:var(--ink);white-space:nowrap;padding-right:10px}table.fmatrix td.mn{color:var(--muted);padding-right:8px}
 table.fmatrix th.mt{color:var(--muted);font-weight:400;height:118px;min-width:18px}table.fmatrix th.mt span{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;display:inline-block}

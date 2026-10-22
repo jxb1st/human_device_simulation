@@ -1,0 +1,14 @@
+{"source": "planned", "type": "step", "id": "a01_settle", "action": "idle", "t_start": 0.0, "t_end": 1.0, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "level", "id": "fx_hopper_fill", "t0": 0.0, "t1": 1.0, "v0": 60.0, "v1": 60.0, "capacity": 250.0, "height_m": 0.11, "carries": [], "substance": "beans", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_tank_fill", "t0": 0.0, "t1": 1.0, "v0": 1200.0, "v1": 1200.0, "capacity": 2000.0, "height_m": 0.18, "carries": [], "substance": "water", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_water_pitcher_fill", "t0": 0.0, "t1": 1.0, "v0": 1500.0, "v1": 1500.0, "capacity": 1500.0, "height_m": 0.174, "carries": [], "substance": "water", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a02_look_cloth", "action": "look_at", "t_start": 1.0, "t_end": 1.6, "mechanism": "kinematic", "hand": null, "target": "prop_home.cloth", "settle_s": 0.0, "subject": "prop_home.cloth", "subject_kind": "object"}
+{"source": "planned", "type": "step", "id": "a03_stroke_cloth", "action": "use_tool", "t_start": 1.0, "t_end": 7.4, "mechanism": "assisted_grasp", "hand": "right", "target": null, "settle_s": 0.0, "subject": "wand_wipe", "subject_kind": "place", "prop": "cloth", "grasp": "top", "motion": "stroke", "params": {"axis": [-0.3746, 0.0, 0.9272], "above_m": 0.0, "length_m": 0.08, "strokes": 3}, "motion_s": 1.5, "t_attach": 2.6, "t_detach": 6.9, "t_motion0": 3.8, "t_motion1": 5.3, "anchor": "wand_wipe"}
+{"source": "planned", "type": "state_fx", "id": "fx_ice_bucket_fill_1", "group": "fx_ice_bucket_fill", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_led_power_on", "group": "fx_led_power_on", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_wand_milk", "group": "fx_wand_milk", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "attach", "t": 2.6, "hand": "right", "prop": "cloth", "grasp": "top", "mechanism": "assisted_grasp", "object_pose": [0.085, 0.225, 1.245, 1.0, 0.0, 0.0, 0.0], "offset_in_hand": {"pos": [-0.017412, 0.119311, -0.011799], "quat": [0.683777, 0.177384, 0.664237, -0.244484]}}
+{"source": "planned", "type": "detach", "t": 6.9, "prop": "cloth", "mechanism": "assisted_grasp", "object_pose": [0.085, 0.225, 1.245, 1.0, 0.0, 0.0, 0.0]}
+{"source": "planned", "type": "step", "id": "a04_right_back", "action": "retreat", "t_start": 7.4, "t_end": 8.8, "mechanism": "kinematic", "hand": "right", "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "state_fx", "clear": "fx_wand_milk", "t": 7.4, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a05_end", "action": "idle", "t_start": 8.8, "t_end": 9.8, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}

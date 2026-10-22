@@ -1,0 +1,156 @@
+{
+ "run_id": "prim_move_seed37",
+ "schema_version": "1.1",
+ "sequence_id": "prim_move",
+ "seed": 37,
+ "scene_id": "kitchen_coffee_machine",
+ "device_id": "coffee_machine",
+ "created": "2026-10-22T01:05:28+00:00",
+ "versions": {
+  "blender": "4.5.14",
+  "mujoco": "3.5.0",
+  "python": "3.11.17",
+  "numpy": "2.4.6"
+ },
+ "asset_hashes": {
+  "blender": [
+   "9ba871ff2ecd36526b77432745980b7e6664ecd0c7ca11c48849073dcfe06da3"
+  ],
+  "mpfb": [
+   "4f0a879d64a39bf646fbf5f53601ac678855da329d650617dca5737548239a87"
+  ],
+  "makehuman_system_assets": [
+   "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  ],
+  "makehuman_clothes_packs": [
+   "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+   "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+   "ded3f70428505eabbf1f6d7b5f61196a7366ef20757103d276ad0ed336c35ada"
+  ],
+  "robocasa_fixtures_lightwheel": [
+   "62c1c87776edda9b7c42dda7b00781a1e5a7f90acc3e49d06c39c9545cbd6c3e"
+  ],
+  "printer_generic": [],
+  "microwave_v2_procedural": [],
+  "coffee_machine_procedural": [],
+  "induction_range_procedural": [],
+  "partnet_mobility": []
+ },
+ "mechanisms": [
+  {
+   "step": "a01_settle",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a02_look_cup",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a03_move_cup",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a04_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a05_look_portafilter",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a06_move_portafilter",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a07_right_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_end",
+   "mechanism": "kinematic"
+  }
+ ],
+ "timing": {
+  "total_s": 13.92,
+  "control_hz": 100,
+  "fps": 30,
+  "n_frames": 419,
+  "frame_time_s": "index / fps"
+ },
+ "cameras": [
+  "external",
+  "ego",
+  "detail"
+ ],
+ "limitations": [
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
+  "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
+  "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
+ ],
+ "inputs_hash": "29aafea4410ddc9bd928973624f02e1e509f332499df9b742d7e74bd6a3ba54a",
+ "status": "rendered_preview",
+ "render": {
+  "preview": {
+   "external": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.094,
+    "frames": 419,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "bc6fb64835a67cf99f175b1bdea972e6fdd0025a7b429d007f8f4506ee53dd1f"
+   },
+   "ego": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.118,
+    "frames": 419,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [
+     "Human.eyebrow001",
+     "Human.eyelashes01",
+     "Human.high-poly"
+    ],
+    "trajectory_hash": "bc6fb64835a67cf99f175b1bdea972e6fdd0025a7b429d007f8f4506ee53dd1f"
+   },
+   "detail": {
+    "ok": true,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "gpu_renderer": null,
+    "seconds_per_frame": 3.185,
+    "frames": 419,
+    "resolution": [
+     960,
+     540
+    ],
+    "hidden_for_this_camera": [],
+    "trajectory_hash": "bc6fb64835a67cf99f175b1bdea972e6fdd0025a7b429d007f8f4506ee53dd1f"
+   }
+  }
+ },
+ "owner_review": "pending",
+ "trajectory_hash": "bc6fb64835a67cf99f175b1bdea972e6fdd0025a7b429d007f8f4506ee53dd1f",
+ "stages": {
+  "inputs_hash": "29aafea4410ddc9bd928973624f02e1e509f332499df9b742d7e74bd6a3ba54a",
+  "compile": true,
+  "bake_targets": true,
+  "bake_run": true
+ },
+ "proxies_check": {
+  "ok": true,
+  "tip_error_hold_max_m": null,
+  "max_tip_speed_m_s": 0.9559158213906402
+ },
+ "physics": {}
+}

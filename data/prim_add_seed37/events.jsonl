@@ -1,0 +1,16 @@
+{"source": "planned", "type": "step", "id": "a01_settle", "action": "idle", "t_start": 0.0, "t_end": 1.0, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "level", "id": "fx_hopper_fill", "t0": 0.0, "t1": 1.0, "v0": 60.0, "v1": 60.0, "capacity": 250.0, "height_m": 0.11, "carries": [], "substance": "beans", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_tank_fill", "t0": 0.0, "t1": 1.0, "v0": 1200.0, "v1": 1200.0, "capacity": 2000.0, "height_m": 0.18, "carries": [], "substance": "water", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_water_pitcher_fill", "t0": 0.0, "t1": 1.0, "v0": 1500.0, "v1": 1500.0, "capacity": 1500.0, "height_m": 0.174, "carries": [], "substance": "water", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a02_look_scoop", "action": "look_at", "t_start": 1.0, "t_end": 1.6, "mechanism": "kinematic", "hand": null, "target": "prop_home.scoop", "settle_s": 0.0, "subject": "prop_home.scoop", "subject_kind": "object"}
+{"source": "planned", "type": "step", "id": "a03_pour_scoop", "action": "pour", "t_start": 1.0, "t_end": 11.2, "mechanism": "assisted_grasp", "hand": "left", "target": null, "settle_s": 0.0, "subject": "prop_home.glass", "subject_kind": "container", "prop": "scoop", "grasp": "handle", "over": "prop_home.glass", "dip": "bucket_dip", "t_attach": 2.6, "t_detach": 10.7, "pour_s": 3.0, "amount": 75.0, "unit": "g", "substance": "ice", "t_pour0": 5.4, "t_pour1": 8.4}
+{"source": "planned", "type": "state_fx", "id": "fx_ice_bucket_fill_1", "group": "fx_ice_bucket_fill", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_led_power_on", "group": "fx_led_power_on", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "attach", "t": 2.6, "hand": "left", "prop": "scoop", "grasp": "handle", "mechanism": "assisted_grasp", "object_pose": [-0.2025, 0.2975, 0.9, 0.707107, 0.0, 0.0, -0.707107], "offset_in_hand": {"pos": [-0.037731, 0.009782, -0.001045], "quat": [0.506976, 0.458213, 0.540669, 0.490605]}}
+{"source": "planned", "type": "effect", "id": "fx_scoop_ice", "mechanism": "illustrative_effect", "t_start": 3.5, "t_end": 8.9}
+{"source": "planned", "type": "detach", "t": 10.7, "prop": "scoop", "mechanism": "assisted_grasp", "object_pose": [-0.2025, 0.2975, 0.9, 0.707107, 0.0, 0.0, -0.707107]}
+{"source": "planned", "type": "step", "id": "a04_left_back", "action": "retreat", "t_start": 11.2, "t_end": 12.6, "mechanism": "kinematic", "hand": "left", "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "state_fx", "id": "fx_glass_icecube1", "group": "fx_glass_icecube1", "t": 11.2, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_glass_icecube2", "group": "fx_glass_icecube2", "t": 11.2, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_glass_icecube3", "group": "fx_glass_icecube3", "t": 11.2, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a05_end", "action": "idle", "t_start": 12.6, "t_end": 13.6, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}

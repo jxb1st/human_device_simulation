@@ -1,0 +1,12 @@
+{"source": "planned", "type": "step", "id": "a01_settle", "action": "idle", "t_start": 0.0, "t_end": 1.0, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "display", "display": "scale", "t": 0.0, "text": "120.0", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_hopper_fill", "t0": 0.0, "t1": 1.0, "v0": 60.0, "v1": 60.0, "capacity": 250.0, "height_m": 0.11, "carries": [], "substance": "beans", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_tank_fill", "t0": 0.0, "t1": 1.0, "v0": 1200.0, "v1": 1200.0, "capacity": 2000.0, "height_m": 0.18, "carries": [], "substance": "water", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "level", "id": "fx_water_pitcher_fill", "t0": 0.0, "t1": 1.0, "v0": 1500.0, "v1": 1500.0, "capacity": 1500.0, "height_m": 0.174, "carries": [], "substance": "water", "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a02_read_look", "action": "look_at", "t_start": 1.0, "t_end": 1.8, "mechanism": "kinematic", "hand": null, "target": "scale_place", "settle_s": 0.0, "subject": "scale_place", "subject_kind": "container"}
+{"source": "planned", "type": "state_fx", "id": "fx_ice_bucket_fill_1", "group": "fx_ice_bucket_fill", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "state_fx", "id": "fx_led_power_on", "group": "fx_led_power_on", "t": 1.0, "mechanism": "illustrative_effect"}
+{"source": "planned", "type": "step", "id": "a03_read_hold", "action": "idle", "t_start": 1.8, "t_end": 2.4, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a04_read_look", "action": "look_at", "t_start": 2.4, "t_end": 3.2, "mechanism": "kinematic", "hand": null, "target": "tank_fill", "settle_s": 0.0, "subject": "tank_fill", "subject_kind": "container"}
+{"source": "planned", "type": "step", "id": "a05_read_hold", "action": "idle", "t_start": 3.2, "t_end": 3.8000000000000003, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
+{"source": "planned", "type": "step", "id": "a06_end", "action": "idle", "t_start": 3.8000000000000003, "t_end": 4.800000000000001, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0}
