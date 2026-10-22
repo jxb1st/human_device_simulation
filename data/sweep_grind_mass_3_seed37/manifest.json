@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-21T01:19:11+00:00",
+ "created": "2026-10-22T07:05:19+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -54,35 +54,43 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a05_grind",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a06_grind_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a07_look_portafilter",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a08_move_portafilter",
+   "step": "a05_tap_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a09_right_back",
+   "step": "a06_grind",
    "mechanism": "kinematic"
   },
   {
-   "step": "a10_end",
+   "step": "a07_grind_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a08_left_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a09_look_portafilter",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a10_move_portafilter",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a11_right_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a12_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 23.379999999999995,
+  "total_s": 30.179999999999996,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 703,
+  "n_frames": 907,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -96,7 +104,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "2a226c3dcac7dd0af2a891fb8bd8a157ba83e43335c90fff44b7e4959048c594",
+ "inputs_hash": "75b8a8d8787fec78d5936f6dc64e24a457001cad162573fc4f36da511f044489",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -105,22 +113,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.444,
-    "frames": 703,
+    "seconds_per_frame": 2.995,
+    "frames": 907,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "e1aa48e07942a5e410a9864f72be08cf952d17508957f9fdd29acf3593959e13"
+    "trajectory_hash": "79207783b0c1f6680c0158195dd6090ccaabd53df61bbaccc3938bdf5d094099"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.814,
-    "frames": 703,
+    "seconds_per_frame": 3.124,
+    "frames": 907,
     "resolution": [
      960,
      540
@@ -130,28 +138,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "e1aa48e07942a5e410a9864f72be08cf952d17508957f9fdd29acf3593959e13"
+    "trajectory_hash": "79207783b0c1f6680c0158195dd6090ccaabd53df61bbaccc3938bdf5d094099"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.229,
-    "frames": 703,
+    "seconds_per_frame": 3.298,
+    "frames": 907,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "e1aa48e07942a5e410a9864f72be08cf952d17508957f9fdd29acf3593959e13"
+    "trajectory_hash": "79207783b0c1f6680c0158195dd6090ccaabd53df61bbaccc3938bdf5d094099"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "e1aa48e07942a5e410a9864f72be08cf952d17508957f9fdd29acf3593959e13",
+ "trajectory_hash": "79207783b0c1f6680c0158195dd6090ccaabd53df61bbaccc3938bdf5d094099",
  "stages": {
-  "inputs_hash": "2a226c3dcac7dd0af2a891fb8bd8a157ba83e43335c90fff44b7e4959048c594",
+  "inputs_hash": "75b8a8d8787fec78d5936f6dc64e24a457001cad162573fc4f36da511f044489",
   "compile": true,
   "bake_targets": true,
   "bake_run": true

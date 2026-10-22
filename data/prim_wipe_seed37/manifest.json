@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-22T01:05:20+00:00",
+ "created": "2026-10-22T06:21:31+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -75,7 +75,7 @@
   "assisted_grasp: carried objects and pulled/rotated parts follow the hand through an explicit attachment; not a frictional grasp.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "0228153e2a5b1b09b7e8c5e9a0b69bef9c60c2c5c1adea27d5e039c7c583113c",
+ "inputs_hash": "170b13fb3d0f103f3af0cb3a2b71f1945747e5b6ea8e9dc87f48ad24f4f52104",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -98,7 +98,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.147,
+    "seconds_per_frame": 2.993,
     "frames": 295,
     "resolution": [
      960,
@@ -130,7 +130,7 @@
  "owner_review": "pending",
  "trajectory_hash": "493bec6bee6af4aa383c9a931e2c403f6a2302571bdd62b456253ecf71e6c4f7",
  "stages": {
-  "inputs_hash": "0228153e2a5b1b09b7e8c5e9a0b69bef9c60c2c5c1adea27d5e039c7c583113c",
+  "inputs_hash": "170b13fb3d0f103f3af0cb3a2b71f1945747e5b6ea8e9dc87f48ad24f4f52104",
   "compile": true,
   "bake_targets": true,
   "bake_run": true

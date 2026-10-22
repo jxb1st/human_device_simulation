@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-22T01:05:13+00:00",
+ "created": "2026-10-22T06:21:23+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -78,7 +78,7 @@
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "f312f2d85762de9be38bbfce1110caed31750ad20df3e0bd982a980c9965eaa0",
+ "inputs_hash": "7c40c3f88bc67c422a4e1fe03893af803b05aea40540303fd30f3cf1a6413dfa",
  "status": "rendered_preview_partial",
  "render": {
   "preview": {
@@ -101,7 +101,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.313,
+    "seconds_per_frame": 3.222,
     "frames": 145,
     "resolution": [
      960,
@@ -133,7 +133,7 @@
  "owner_review": "pending",
  "trajectory_hash": "ff34b768127685b006c1ef579b0744360b2bd91f9db2b27196710a4774aaca65",
  "stages": {
-  "inputs_hash": "f312f2d85762de9be38bbfce1110caed31750ad20df3e0bd982a980c9965eaa0",
+  "inputs_hash": "7c40c3f88bc67c422a4e1fe03893af803b05aea40540303fd30f3cf1a6413dfa",
   "compile": true,
   "bake_targets": true,
   "bake_run": true

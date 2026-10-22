@@ -38,14 +38,14 @@
 {"source": "planned", "type": "step", "id": "a19_release_steam_dial", "action": "release", "t_start": 29.15, "t_end": 29.65, "mechanism": "kinematic", "hand": "right", "target": "steam_dial_grip", "settle_s": 0.0, "subject": "steam_dial_grip", "subject_kind": "control", "shoulder_distance_m": 0.4862, "lean_pitch_rad": 0.14, "contact_goal": [0.221, 0.27, 1.1875], "grip": "pinch_side"}
 {"source": "planned", "type": "detach", "t": 29.15, "hand": "right", "part": "steam_dial", "anchor": "steam_dial_grip", "mechanism": "assisted_grasp", "joint_to": 1.0}
 {"source": "planned", "type": "step", "id": "a20_right_back", "action": "retreat", "t_start": 29.65, "t_end": 31.049999999999997, "mechanism": "kinematic", "hand": "right", "target": null, "settle_s": 0.0}
-{"source": "planned", "type": "step", "id": "a21_steam", "action": "idle", "t_start": 31.049999999999997, "t_end": 36.05, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "jug_place", "subject_kind": "container"}
+{"source": "planned", "type": "step", "id": "a21_wait", "action": "idle", "t_start": 31.049999999999997, "t_end": 36.05, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "jug_place", "subject_kind": "container"}
 {"source": "planned", "type": "effect", "id": "display", "mechanism": "illustrative_effect", "t_start": 31.049999999999997, "t_end": 36.05}
 {"source": "planned", "type": "effect", "id": "fx_steam", "mechanism": "illustrative_effect", "t_start": 31.049999999999997, "t_end": 36.05}
-{"source": "planned", "type": "step", "id": "a22_steam_2", "action": "idle", "t_start": 36.05, "t_end": 41.05, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "jug_place", "subject_kind": "container"}
+{"source": "planned", "type": "step", "id": "a22_wait_2", "action": "idle", "t_start": 36.05, "t_end": 41.05, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "jug_place", "subject_kind": "container"}
 {"source": "planned", "type": "effect", "id": "display", "mechanism": "illustrative_effect", "t_start": 36.05, "t_end": 41.05}
 {"source": "planned", "type": "state_fx", "id": "fx_jug_foam", "group": "fx_jug_foam", "t": 36.05, "mechanism": "illustrative_effect"}
 {"source": "planned", "type": "effect", "id": "fx_steam", "mechanism": "illustrative_effect", "t_start": 36.05, "t_end": 41.05}
-{"source": "planned", "type": "step", "id": "a23_steam_3", "action": "idle", "t_start": 41.05, "t_end": 43.05, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "jug_place", "subject_kind": "container"}
+{"source": "planned", "type": "step", "id": "a23_wait_3", "action": "idle", "t_start": 41.05, "t_end": 43.05, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "jug_place", "subject_kind": "container"}
 {"source": "planned", "type": "effect", "id": "display", "mechanism": "illustrative_effect", "t_start": 41.05, "t_end": 43.05}
 {"source": "planned", "type": "effect", "id": "fx_steam", "mechanism": "illustrative_effect", "t_start": 41.05, "t_end": 43.05}
 {"source": "planned", "type": "step", "id": "a24_look_steam_dial", "action": "look_at", "t_start": 43.05, "t_end": 43.65, "mechanism": "kinematic", "hand": null, "target": "steam_dial_grip", "settle_s": 0.0, "subject": "steam_dial_grip", "subject_kind": "control"}

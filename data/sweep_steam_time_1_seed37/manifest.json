@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-21T01:20:19+00:00",
+ "created": "2026-10-22T07:06:21+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -118,7 +118,7 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a21_steam",
+   "step": "a21_wait",
    "mechanism": "kinematic"
   },
   {
@@ -180,7 +180,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "ed36a306805809617fdc98db523f5409756f7117d29b01ec7b9f9d4e7a8b2f1c",
+ "inputs_hash": "c20c89ca8671d9f98c8a194fdc272afdc8ae70ca401c5da6e69cfb483555287b",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -189,7 +189,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.688,
+    "seconds_per_frame": null,
     "frames": 1407,
     "resolution": [
      960,
@@ -203,7 +203,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.344,
+    "seconds_per_frame": 3.168,
     "frames": 1407,
     "resolution": [
      960,
@@ -221,7 +221,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.389,
+    "seconds_per_frame": null,
     "frames": 1407,
     "resolution": [
      960,
@@ -235,7 +235,7 @@
  "owner_review": "pending",
  "trajectory_hash": "966f8d50832f1fac9f0e349b0335bec7025c6e247e34f540d7d6c1a5b3179cf0",
  "stages": {
-  "inputs_hash": "ed36a306805809617fdc98db523f5409756f7117d29b01ec7b9f9d4e7a8b2f1c",
+  "inputs_hash": "c20c89ca8671d9f98c8a194fdc272afdc8ae70ca401c5da6e69cfb483555287b",
   "compile": true,
   "bake_targets": true,
   "bake_run": true

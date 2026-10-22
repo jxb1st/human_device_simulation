@@ -17,7 +17,7 @@
 {"source": "planned", "type": "step", "id": "a07_release_steam_dial", "action": "release", "t_start": 7.1, "t_end": 7.6, "mechanism": "kinematic", "hand": "right", "target": "steam_dial_grip", "settle_s": 0.0, "subject": "steam_dial_grip", "subject_kind": "control", "shoulder_distance_m": 0.4862, "lean_pitch_rad": 0.14, "contact_goal": [0.221, 0.27, 1.1875], "grip": "pinch_side"}
 {"source": "planned", "type": "detach", "t": 7.1, "hand": "right", "part": "steam_dial", "anchor": "steam_dial_grip", "mechanism": "assisted_grasp", "joint_to": -1.0}
 {"source": "planned", "type": "step", "id": "a08_right_back", "action": "retreat", "t_start": 7.6, "t_end": 9.0, "mechanism": "kinematic", "hand": "right", "target": null, "settle_s": 0.0}
-{"source": "planned", "type": "step", "id": "a09_hot_water", "action": "idle", "t_start": 9.0, "t_end": 12.33, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "hot_water_place", "subject_kind": "container"}
+{"source": "planned", "type": "step", "id": "a09_wait", "action": "idle", "t_start": 9.0, "t_end": 12.33, "mechanism": "kinematic", "hand": null, "target": null, "settle_s": 0.0, "subject": "hot_water_place", "subject_kind": "container"}
 {"source": "planned", "type": "effect", "id": "display", "mechanism": "illustrative_effect", "t_start": 9.0, "t_end": 12.33}
 {"source": "planned", "type": "effect", "id": "fx_hot_water", "mechanism": "illustrative_effect", "t_start": 9.0, "t_end": 12.33}
 {"source": "planned", "type": "step", "id": "a10_look_steam_dial", "action": "look_at", "t_start": 12.33, "t_end": 12.93, "mechanism": "kinematic", "hand": null, "target": "steam_dial_grip", "settle_s": 0.0, "subject": "steam_dial_grip", "subject_kind": "control"}

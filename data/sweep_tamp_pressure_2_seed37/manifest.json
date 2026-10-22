@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-21T01:20:03+00:00",
+ "created": "2026-10-22T07:05:44+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -54,47 +54,55 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a05_grind",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a06_grind_2",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a07_look_portafilter",
-   "mechanism": "kinematic"
-  },
-  {
-   "step": "a08_move_portafilter",
+   "step": "a05_tap_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a09_right_back",
+   "step": "a06_left_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a10_look_tamper",
+   "step": "a07_wait",
    "mechanism": "kinematic"
   },
   {
-   "step": "a11_press_down_tamper",
+   "step": "a08_wait_2",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a09_look_portafilter",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a10_move_portafilter",
    "mechanism": "assisted_grasp"
   },
   {
-   "step": "a12_right_back",
+   "step": "a11_right_back",
    "mechanism": "kinematic"
   },
   {
-   "step": "a13_end",
+   "step": "a12_look_tamper",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a13_press_down_tamper",
+   "mechanism": "assisted_grasp"
+  },
+  {
+   "step": "a14_right_back",
+   "mechanism": "kinematic"
+  },
+  {
+   "step": "a15_end",
    "mechanism": "kinematic"
   }
  ],
  "timing": {
-  "total_s": 30.879999999999995,
+  "total_s": 37.68,
   "control_hz": 100,
   "fps": 30,
-  "n_frames": 928,
+  "n_frames": 1132,
   "frame_time_s": "index / fps"
  },
  "cameras": [
@@ -108,7 +116,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "be82feb9e0a76a3dc165ace6ad00d841c564749b97ed281ab8875ff0f910d903",
+ "inputs_hash": "972ed6e17db2e2ce9fdb50ac2a785ae8742d663ffbb7aabf778530bc96f7c04e",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -117,22 +125,22 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.222,
-    "frames": 928,
+    "seconds_per_frame": 3.082,
+    "frames": 1132,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "6c966e50ccf76a3474d2c71c7b8a26a79f3c86f4afd3f2325d08e7f168124fdb"
+    "trajectory_hash": "2dec12faf5b4197316cadb89ad3967b16dbc1d6a07e7a8f4926aa16091f74d40"
    },
    "ego": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.837,
-    "frames": 928,
+    "seconds_per_frame": 3.154,
+    "frames": 1132,
     "resolution": [
      960,
      540
@@ -142,28 +150,28 @@
      "Human.eyelashes01",
      "Human.high-poly"
     ],
-    "trajectory_hash": "6c966e50ccf76a3474d2c71c7b8a26a79f3c86f4afd3f2325d08e7f168124fdb"
+    "trajectory_hash": "2dec12faf5b4197316cadb89ad3967b16dbc1d6a07e7a8f4926aa16091f74d40"
    },
    "detail": {
     "ok": true,
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 4.017,
-    "frames": 928,
+    "seconds_per_frame": 3.262,
+    "frames": 1132,
     "resolution": [
      960,
      540
     ],
     "hidden_for_this_camera": [],
-    "trajectory_hash": "6c966e50ccf76a3474d2c71c7b8a26a79f3c86f4afd3f2325d08e7f168124fdb"
+    "trajectory_hash": "2dec12faf5b4197316cadb89ad3967b16dbc1d6a07e7a8f4926aa16091f74d40"
    }
   }
  },
  "owner_review": "pending",
- "trajectory_hash": "6c966e50ccf76a3474d2c71c7b8a26a79f3c86f4afd3f2325d08e7f168124fdb",
+ "trajectory_hash": "2dec12faf5b4197316cadb89ad3967b16dbc1d6a07e7a8f4926aa16091f74d40",
  "stages": {
-  "inputs_hash": "be82feb9e0a76a3dc165ace6ad00d841c564749b97ed281ab8875ff0f910d903",
+  "inputs_hash": "972ed6e17db2e2ce9fdb50ac2a785ae8742d663ffbb7aabf778530bc96f7c04e",
   "compile": true,
   "bake_targets": true,
   "bake_run": true

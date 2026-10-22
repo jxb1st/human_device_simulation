@@ -22567,7 +22567,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.176,
+     "s_per_frame": 2.997,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -22822,7 +22822,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.214,
+     "s_per_frame": 3.447,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -23038,7 +23038,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.508,
+     "s_per_frame": 3.17,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -23293,7 +23293,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.391,
+     "s_per_frame": 3.002,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -23457,7 +23457,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.363,
+     "s_per_frame": 3.164,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -23621,7 +23621,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.296,
+     "s_per_frame": 3.254,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -23785,7 +23785,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.449,
+     "s_per_frame": 3.236,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -24027,7 +24027,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.995,
+     "s_per_frame": 3.405,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -24269,7 +24269,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.991,
+     "s_per_frame": 3.204,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -24511,7 +24511,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.202,
+     "s_per_frame": 3.256,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -24727,7 +24727,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.286,
+     "s_per_frame": 3.251,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -24943,7 +24943,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.25,
+     "s_per_frame": 3.433,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -25145,7 +25145,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.075,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     },
     "ego": {
@@ -25159,7 +25159,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.942,
+     "s_per_frame": 3.027,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -25177,7 +25177,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.621,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     }
    },
@@ -25255,7 +25255,7 @@
      "target": null
     },
     {
-     "id": "a09_hot_water",
+     "id": "a09_wait",
      "action": "idle",
      "t": 9.0,
      "t_end": 12.33,
@@ -25407,7 +25407,7 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a09_hot_water",
+     "step": "a09_wait",
      "mechanism": "kinematic"
     },
     {
@@ -25499,7 +25499,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.503,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     },
     "ego": {
@@ -25513,7 +25513,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.696,
+     "s_per_frame": 3.415,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -25531,7 +25531,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.683,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     }
    },
@@ -25609,7 +25609,7 @@
      "target": null
     },
     {
-     "id": "a09_hot_water",
+     "id": "a09_wait",
      "action": "idle",
      "t": 9.0,
      "t_end": 14.0,
@@ -25618,7 +25618,7 @@
      "target": null
     },
     {
-     "id": "a10_hot_water_2",
+     "id": "a10_wait_2",
      "action": "idle",
      "t": 14.0,
      "t_end": 15.67,
@@ -25786,11 +25786,11 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a09_hot_water",
+     "step": "a09_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_hot_water_2",
+     "step": "a10_wait_2",
      "mechanism": "kinematic"
     },
     {
@@ -25882,7 +25882,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.128,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     },
     "ego": {
@@ -25896,7 +25896,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.669,
+     "s_per_frame": 3.24,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -25914,7 +25914,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.24,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     }
    },
@@ -25992,7 +25992,7 @@
      "target": null
     },
     {
-     "id": "a09_hot_water",
+     "id": "a09_wait",
      "action": "idle",
      "t": 9.0,
      "t_end": 14.0,
@@ -26001,7 +26001,7 @@
      "target": null
     },
     {
-     "id": "a10_hot_water_2",
+     "id": "a10_wait_2",
      "action": "idle",
      "t": 14.0,
      "t_end": 19.0,
@@ -26010,7 +26010,7 @@
      "target": null
     },
     {
-     "id": "a11_hot_water_3",
+     "id": "a11_wait_3",
      "action": "idle",
      "t": 19.0,
      "t_end": 22.33,
@@ -26194,15 +26194,15 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a09_hot_water",
+     "step": "a09_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_hot_water_2",
+     "step": "a10_wait_2",
      "mechanism": "kinematic"
     },
     {
-     "step": "a11_hot_water_3",
+     "step": "a11_wait_3",
      "mechanism": "kinematic"
     },
     {
@@ -26294,7 +26294,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.688,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     },
     "ego": {
@@ -26308,7 +26308,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.344,
+     "s_per_frame": 3.168,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -26326,7 +26326,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.389,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     }
    },
@@ -26512,7 +26512,7 @@
      "target": null
     },
     {
-     "id": "a21_steam",
+     "id": "a21_wait",
      "action": "idle",
      "t": 31.049999999999997,
      "t_end": 35.05,
@@ -26720,7 +26720,7 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a21_steam",
+     "step": "a21_wait",
      "mechanism": "kinematic"
     },
     {
@@ -26812,7 +26812,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.726,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     },
     "ego": {
@@ -26826,7 +26826,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.82,
+     "s_per_frame": 3.449,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -26844,7 +26844,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.829,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     }
    },
@@ -27030,7 +27030,7 @@
      "target": null
     },
     {
-     "id": "a21_steam",
+     "id": "a21_wait",
      "action": "idle",
      "t": 31.049999999999997,
      "t_end": 36.05,
@@ -27039,7 +27039,7 @@
      "target": null
     },
     {
-     "id": "a22_steam_2",
+     "id": "a22_wait_2",
      "action": "idle",
      "t": 36.05,
      "t_end": 39.05,
@@ -27263,11 +27263,11 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a21_steam",
+     "step": "a21_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a22_steam_2",
+     "step": "a22_wait_2",
      "mechanism": "kinematic"
     },
     {
@@ -27359,7 +27359,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.777,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     },
     "ego": {
@@ -27373,7 +27373,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.389,
+     "s_per_frame": 3.026,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -27391,7 +27391,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.41,
+     "s_per_frame": null,
      "hidden_for_this_camera": []
     }
    },
@@ -27577,7 +27577,7 @@
      "target": null
     },
     {
-     "id": "a21_steam",
+     "id": "a21_wait",
      "action": "idle",
      "t": 31.049999999999997,
      "t_end": 36.05,
@@ -27586,7 +27586,7 @@
      "target": null
     },
     {
-     "id": "a22_steam_2",
+     "id": "a22_wait_2",
      "action": "idle",
      "t": 36.05,
      "t_end": 41.05,
@@ -27595,7 +27595,7 @@
      "target": null
     },
     {
-     "id": "a23_steam_3",
+     "id": "a23_wait_3",
      "action": "idle",
      "t": 41.05,
      "t_end": 43.05,
@@ -27835,15 +27835,15 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a21_steam",
+     "step": "a21_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a22_steam_2",
+     "step": "a22_wait_2",
      "mechanism": "kinematic"
     },
     {
-     "step": "a23_steam_3",
+     "step": "a23_wait_3",
      "mechanism": "kinematic"
     },
     {
@@ -27916,40 +27916,40 @@
    "owner_review": "pending",
    "profile": "preview",
    "timing": {
-    "total_s": 19.38,
+    "total_s": 26.179999999999996,
     "control_hz": 100,
     "fps": 30,
-    "n_frames": 583,
+    "n_frames": 787,
     "frame_time_s": "index / fps"
    },
-   "trajectory_hash": "5f12d51f6ded39d9b06b815aa2799b5693d875ad78d40955101ce97df1211310",
+   "trajectory_hash": "ba12d556f455e9ee7f26043fea972ec1c0f5f60ca148edfd344946beaefa9d57",
    "views": {
     "external": {
      "src": "media/sweep_grind_mass_1_seed37/external.mp4",
      "poster": "media/sweep_grind_mass_1_seed37/external_poster.png",
      "ok": true,
-     "frames": 583,
+     "frames": 787,
      "fps": 30.0,
-     "duration_s": 19.433333,
+     "duration_s": 26.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.83,
+     "s_per_frame": 2.889,
      "hidden_for_this_camera": []
     },
     "ego": {
      "src": "media/sweep_grind_mass_1_seed37/ego.mp4",
      "poster": "media/sweep_grind_mass_1_seed37/ego_poster.png",
      "ok": true,
-     "frames": 583,
+     "frames": 787,
      "fps": 30.0,
-     "duration_s": 19.433333,
+     "duration_s": 26.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.463,
+     "s_per_frame": 3.425,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -27960,14 +27960,14 @@
      "src": "media/sweep_grind_mass_1_seed37/detail.mp4",
      "poster": "media/sweep_grind_mass_1_seed37/detail_poster.png",
      "ok": true,
-     "frames": 583,
+     "frames": 787,
      "fps": 30.0,
-     "duration_s": 19.433333,
+     "duration_s": 26.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.408,
+     "s_per_frame": 3.255,
      "hidden_for_this_camera": []
     }
    },
@@ -28009,46 +28009,64 @@
      "target": null
     },
     {
-     "id": "a05_grind",
-     "action": "idle",
+     "id": "a05_tap_portafilter",
+     "action": "handle_prop",
      "t": 7.1899999999999995,
-     "t_end": 12.19,
+     "t_end": 12.59,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "portafilter"
+    },
+    {
+     "id": "a06_grind",
+     "action": "idle",
+     "t": 12.59,
+     "t_end": 17.59,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
     },
     {
-     "id": "a06_look_portafilter",
+     "id": "a07_left_back",
+     "action": "retreat",
+     "t": 17.59,
+     "t_end": 18.99,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "a08_look_portafilter",
      "action": "look_at",
-     "t": 12.19,
-     "t_end": 12.79,
+     "t": 18.99,
+     "t_end": 19.59,
      "mechanism": "kinematic",
      "hand": null,
      "target": "cradle_rest"
     },
     {
-     "id": "a07_move_portafilter",
+     "id": "a09_move_portafilter",
      "action": "pick_place",
-     "t": 12.19,
-     "t_end": 16.98,
+     "t": 18.99,
+     "t_end": 23.779999999999998,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "portafilter"
     },
     {
-     "id": "a08_right_back",
+     "id": "a10_right_back",
      "action": "retreat",
-     "t": 16.98,
-     "t_end": 18.38,
+     "t": 23.779999999999998,
+     "t_end": 25.179999999999996,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a09_end",
+     "id": "a11_end",
      "action": "idle",
-     "t": 18.38,
-     "t_end": 19.38,
+     "t": 25.179999999999996,
+     "t_end": 26.179999999999996,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
@@ -28060,8 +28078,8 @@
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 7.1899999999999995,
-     "t_end": 12.19
+     "t_start": 12.59,
+     "t_end": 17.59
     }
    ],
    "measured_events": [],
@@ -28083,23 +28101,31 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a05_grind",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a06_look_portafilter",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a07_move_portafilter",
+     "step": "a05_tap_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a08_right_back",
+     "step": "a06_grind",
      "mechanism": "kinematic"
     },
     {
-     "step": "a09_end",
+     "step": "a07_left_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a08_look_portafilter",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a09_move_portafilter",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "a10_right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a11_end",
      "mechanism": "kinematic"
     }
    ],
@@ -28132,40 +28158,40 @@
    "owner_review": "pending",
    "profile": "preview",
    "timing": {
-    "total_s": 21.38,
+    "total_s": 28.179999999999996,
     "control_hz": 100,
     "fps": 30,
-    "n_frames": 643,
+    "n_frames": 847,
     "frame_time_s": "index / fps"
    },
-   "trajectory_hash": "9ba7cdc113d2cab12ce4e0fb81fdfc7fe4a5f18d46ee40942d522a5769b0c446",
+   "trajectory_hash": "e07a819a67b9799e129497356ce0758412118f345d6cf08a296702845edb9cc7",
    "views": {
     "external": {
      "src": "media/sweep_grind_mass_2_seed37/external.mp4",
      "poster": "media/sweep_grind_mass_2_seed37/external_poster.png",
      "ok": true,
-     "frames": 643,
+     "frames": 847,
      "fps": 30.0,
-     "duration_s": 21.433333,
+     "duration_s": 28.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.683,
+     "s_per_frame": 2.826,
      "hidden_for_this_camera": []
     },
     "ego": {
      "src": "media/sweep_grind_mass_2_seed37/ego.mp4",
      "poster": "media/sweep_grind_mass_2_seed37/ego_poster.png",
      "ok": true,
-     "frames": 643,
+     "frames": 847,
      "fps": 30.0,
-     "duration_s": 21.433333,
+     "duration_s": 28.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.846,
+     "s_per_frame": 3.23,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -28176,14 +28202,14 @@
      "src": "media/sweep_grind_mass_2_seed37/detail.mp4",
      "poster": "media/sweep_grind_mass_2_seed37/detail_poster.png",
      "ok": true,
-     "frames": 643,
+     "frames": 847,
      "fps": 30.0,
-     "duration_s": 21.433333,
+     "duration_s": 28.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.445,
+     "s_per_frame": 3.217,
      "hidden_for_this_camera": []
     }
    },
@@ -28225,55 +28251,73 @@
      "target": null
     },
     {
-     "id": "a05_grind",
-     "action": "idle",
+     "id": "a05_tap_portafilter",
+     "action": "handle_prop",
      "t": 7.1899999999999995,
-     "t_end": 12.19,
-     "mechanism": "kinematic",
-     "hand": null,
-     "target": null
+     "t_end": 12.59,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "portafilter"
     },
     {
-     "id": "a06_grind_2",
+     "id": "a06_grind",
      "action": "idle",
-     "t": 12.19,
-     "t_end": 14.19,
+     "t": 12.59,
+     "t_end": 17.59,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
     },
     {
-     "id": "a07_look_portafilter",
+     "id": "a07_grind_2",
+     "action": "idle",
+     "t": 17.59,
+     "t_end": 19.59,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "a08_left_back",
+     "action": "retreat",
+     "t": 19.59,
+     "t_end": 20.99,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "a09_look_portafilter",
      "action": "look_at",
-     "t": 14.19,
-     "t_end": 14.79,
+     "t": 20.99,
+     "t_end": 21.59,
      "mechanism": "kinematic",
      "hand": null,
      "target": "cradle_rest"
     },
     {
-     "id": "a08_move_portafilter",
+     "id": "a10_move_portafilter",
      "action": "pick_place",
-     "t": 14.19,
-     "t_end": 18.98,
+     "t": 20.99,
+     "t_end": 25.779999999999998,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "portafilter"
     },
     {
-     "id": "a09_right_back",
+     "id": "a11_right_back",
      "action": "retreat",
-     "t": 18.98,
-     "t_end": 20.38,
+     "t": 25.779999999999998,
+     "t_end": 27.179999999999996,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a10_end",
+     "id": "a12_end",
      "action": "idle",
-     "t": 20.38,
-     "t_end": 21.38,
+     "t": 27.179999999999996,
+     "t_end": 28.179999999999996,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
@@ -28285,16 +28329,16 @@
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 7.1899999999999995,
-     "t_end": 12.19
+     "t_start": 12.59,
+     "t_end": 17.59
     },
     {
      "source": "planned",
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 12.19,
-     "t_end": 14.19
+     "t_start": 17.59,
+     "t_end": 19.59
     }
    ],
    "measured_events": [],
@@ -28316,27 +28360,35 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a05_grind",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a06_grind_2",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a07_look_portafilter",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a08_move_portafilter",
+     "step": "a05_tap_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a09_right_back",
+     "step": "a06_grind",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_end",
+     "step": "a07_grind_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a08_left_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a09_look_portafilter",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a10_move_portafilter",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "a11_right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a12_end",
      "mechanism": "kinematic"
     }
    ],
@@ -28369,40 +28421,40 @@
    "owner_review": "pending",
    "profile": "preview",
    "timing": {
-    "total_s": 23.379999999999995,
+    "total_s": 30.179999999999996,
     "control_hz": 100,
     "fps": 30,
-    "n_frames": 703,
+    "n_frames": 907,
     "frame_time_s": "index / fps"
    },
-   "trajectory_hash": "e1aa48e07942a5e410a9864f72be08cf952d17508957f9fdd29acf3593959e13",
+   "trajectory_hash": "79207783b0c1f6680c0158195dd6090ccaabd53df61bbaccc3938bdf5d094099",
    "views": {
     "external": {
      "src": "media/sweep_grind_mass_3_seed37/external.mp4",
      "poster": "media/sweep_grind_mass_3_seed37/external_poster.png",
      "ok": true,
-     "frames": 703,
+     "frames": 907,
      "fps": 30.0,
-     "duration_s": 23.433333,
+     "duration_s": 30.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.444,
+     "s_per_frame": 2.995,
      "hidden_for_this_camera": []
     },
     "ego": {
      "src": "media/sweep_grind_mass_3_seed37/ego.mp4",
      "poster": "media/sweep_grind_mass_3_seed37/ego_poster.png",
      "ok": true,
-     "frames": 703,
+     "frames": 907,
      "fps": 30.0,
-     "duration_s": 23.433333,
+     "duration_s": 30.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.814,
+     "s_per_frame": 3.124,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -28413,14 +28465,14 @@
      "src": "media/sweep_grind_mass_3_seed37/detail.mp4",
      "poster": "media/sweep_grind_mass_3_seed37/detail_poster.png",
      "ok": true,
-     "frames": 703,
+     "frames": 907,
      "fps": 30.0,
-     "duration_s": 23.433333,
+     "duration_s": 30.233333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.229,
+     "s_per_frame": 3.298,
      "hidden_for_this_camera": []
     }
    },
@@ -28462,55 +28514,73 @@
      "target": null
     },
     {
-     "id": "a05_grind",
-     "action": "idle",
+     "id": "a05_tap_portafilter",
+     "action": "handle_prop",
      "t": 7.1899999999999995,
-     "t_end": 12.19,
-     "mechanism": "kinematic",
-     "hand": null,
-     "target": null
+     "t_end": 12.59,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "portafilter"
     },
     {
-     "id": "a06_grind_2",
+     "id": "a06_grind",
      "action": "idle",
-     "t": 12.19,
-     "t_end": 16.189999999999998,
+     "t": 12.59,
+     "t_end": 17.59,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
     },
     {
-     "id": "a07_look_portafilter",
+     "id": "a07_grind_2",
+     "action": "idle",
+     "t": 17.59,
+     "t_end": 21.59,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "a08_left_back",
+     "action": "retreat",
+     "t": 21.59,
+     "t_end": 22.99,
+     "mechanism": "kinematic",
+     "hand": "left",
+     "target": null
+    },
+    {
+     "id": "a09_look_portafilter",
      "action": "look_at",
-     "t": 16.189999999999998,
-     "t_end": 16.79,
+     "t": 22.99,
+     "t_end": 23.59,
      "mechanism": "kinematic",
      "hand": null,
      "target": "cradle_rest"
     },
     {
-     "id": "a08_move_portafilter",
+     "id": "a10_move_portafilter",
      "action": "pick_place",
-     "t": 16.189999999999998,
-     "t_end": 20.979999999999997,
+     "t": 22.99,
+     "t_end": 27.779999999999998,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "portafilter"
     },
     {
-     "id": "a09_right_back",
+     "id": "a11_right_back",
      "action": "retreat",
-     "t": 20.979999999999997,
-     "t_end": 22.379999999999995,
+     "t": 27.779999999999998,
+     "t_end": 29.179999999999996,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a10_end",
+     "id": "a12_end",
      "action": "idle",
-     "t": 22.379999999999995,
-     "t_end": 23.379999999999995,
+     "t": 29.179999999999996,
+     "t_end": 30.179999999999996,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
@@ -28522,16 +28592,16 @@
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 7.1899999999999995,
-     "t_end": 12.19
+     "t_start": 12.59,
+     "t_end": 17.59
     },
     {
      "source": "planned",
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 12.19,
-     "t_end": 16.189999999999998
+     "t_start": 17.59,
+     "t_end": 21.59
     }
    ],
    "measured_events": [],
@@ -28553,27 +28623,35 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a05_grind",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a06_grind_2",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a07_look_portafilter",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a08_move_portafilter",
+     "step": "a05_tap_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a09_right_back",
+     "step": "a06_grind",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_end",
+     "step": "a07_grind_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a08_left_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a09_look_portafilter",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a10_move_portafilter",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "a11_right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a12_end",
      "mechanism": "kinematic"
     }
    ],
@@ -28606,40 +28684,40 @@
    "owner_review": "pending",
    "profile": "preview",
    "timing": {
-    "total_s": 30.879999999999995,
+    "total_s": 37.68,
     "control_hz": 100,
     "fps": 30,
-    "n_frames": 928,
+    "n_frames": 1132,
     "frame_time_s": "index / fps"
    },
-   "trajectory_hash": "c78cbb71b285241729899a59c76db705efa9a243ae594d10c335a13ef5f33f18",
+   "trajectory_hash": "98d080d4c93886453f774f881b2739ce7bdd2fbd8a1121b7b9c7bce4f6e3fa8f",
    "views": {
     "external": {
      "src": "media/sweep_tamp_pressure_1_seed37/external.mp4",
      "poster": "media/sweep_tamp_pressure_1_seed37/external_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.076,
+     "s_per_frame": 2.99,
      "hidden_for_this_camera": []
     },
     "ego": {
      "src": "media/sweep_tamp_pressure_1_seed37/ego.mp4",
      "poster": "media/sweep_tamp_pressure_1_seed37/ego_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.417,
+     "s_per_frame": 3.296,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -28650,14 +28728,14 @@
      "src": "media/sweep_tamp_pressure_1_seed37/detail.mp4",
      "poster": "media/sweep_tamp_pressure_1_seed37/detail_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.493,
+     "s_per_frame": 3.315,
      "hidden_for_this_camera": []
     }
    },
@@ -28699,82 +28777,100 @@
      "target": null
     },
     {
-     "id": "a05_grind",
-     "action": "idle",
+     "id": "a05_tap_portafilter",
+     "action": "handle_prop",
      "t": 7.1899999999999995,
-     "t_end": 12.19,
+     "t_end": 12.59,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "portafilter"
+    },
+    {
+     "id": "a06_left_back",
+     "action": "retreat",
+     "t": 12.59,
+     "t_end": 13.99,
      "mechanism": "kinematic",
-     "hand": null,
+     "hand": "left",
      "target": null
     },
     {
-     "id": "a06_grind_2",
+     "id": "a07_wait",
      "action": "idle",
-     "t": 12.19,
-     "t_end": 16.189999999999998,
+     "t": 13.99,
+     "t_end": 18.990000000000002,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
     },
     {
-     "id": "a07_look_portafilter",
+     "id": "a08_wait_2",
+     "action": "idle",
+     "t": 18.990000000000002,
+     "t_end": 22.990000000000002,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "a09_look_portafilter",
      "action": "look_at",
-     "t": 16.189999999999998,
-     "t_end": 16.79,
+     "t": 22.990000000000002,
+     "t_end": 23.590000000000003,
      "mechanism": "kinematic",
      "hand": null,
      "target": "cradle_rest"
     },
     {
-     "id": "a08_move_portafilter",
+     "id": "a10_move_portafilter",
      "action": "pick_place",
-     "t": 16.189999999999998,
-     "t_end": 20.979999999999997,
+     "t": 22.990000000000002,
+     "t_end": 27.78,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "portafilter"
     },
     {
-     "id": "a09_right_back",
+     "id": "a11_right_back",
      "action": "retreat",
-     "t": 20.979999999999997,
-     "t_end": 22.379999999999995,
+     "t": 27.78,
+     "t_end": 29.18,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a10_look_tamper",
+     "id": "a12_look_tamper",
      "action": "look_at",
-     "t": 22.379999999999995,
-     "t_end": 22.979999999999997,
+     "t": 29.18,
+     "t_end": 29.78,
      "mechanism": "kinematic",
      "hand": null,
      "target": "prop_home.tamper"
     },
     {
-     "id": "a11_press_down_tamper",
+     "id": "a13_press_down_tamper",
      "action": "use_tool",
-     "t": 22.379999999999995,
-     "t_end": 28.479999999999997,
+     "t": 29.18,
+     "t_end": 35.28,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "tamper"
     },
     {
-     "id": "a12_right_back",
+     "id": "a14_right_back",
      "action": "retreat",
-     "t": 28.479999999999997,
-     "t_end": 29.879999999999995,
+     "t": 35.28,
+     "t_end": 36.68,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a13_end",
+     "id": "a15_end",
      "action": "idle",
-     "t": 29.879999999999995,
-     "t_end": 30.879999999999995,
+     "t": 36.68,
+     "t_end": 37.68,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
@@ -28786,16 +28882,16 @@
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 7.1899999999999995,
-     "t_end": 12.19
+     "t_start": 13.99,
+     "t_end": 18.990000000000002
     },
     {
      "source": "planned",
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 12.19,
-     "t_end": 16.189999999999998
+     "t_start": 18.990000000000002,
+     "t_end": 22.990000000000002
     }
    ],
    "measured_events": [],
@@ -28817,39 +28913,47 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a05_grind",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a06_grind_2",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a07_look_portafilter",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a08_move_portafilter",
+     "step": "a05_tap_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a09_right_back",
+     "step": "a06_left_back",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_look_tamper",
+     "step": "a07_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a11_press_down_tamper",
+     "step": "a08_wait_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a09_look_portafilter",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a10_move_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a12_right_back",
+     "step": "a11_right_back",
      "mechanism": "kinematic"
     },
     {
-     "step": "a13_end",
+     "step": "a12_look_tamper",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a13_press_down_tamper",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "a14_right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a15_end",
      "mechanism": "kinematic"
     }
    ],
@@ -28882,40 +28986,40 @@
    "owner_review": "pending",
    "profile": "preview",
    "timing": {
-    "total_s": 30.879999999999995,
+    "total_s": 37.68,
     "control_hz": 100,
     "fps": 30,
-    "n_frames": 928,
+    "n_frames": 1132,
     "frame_time_s": "index / fps"
    },
-   "trajectory_hash": "6c966e50ccf76a3474d2c71c7b8a26a79f3c86f4afd3f2325d08e7f168124fdb",
+   "trajectory_hash": "2dec12faf5b4197316cadb89ad3967b16dbc1d6a07e7a8f4926aa16091f74d40",
    "views": {
     "external": {
      "src": "media/sweep_tamp_pressure_2_seed37/external.mp4",
      "poster": "media/sweep_tamp_pressure_2_seed37/external_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.222,
+     "s_per_frame": 3.082,
      "hidden_for_this_camera": []
     },
     "ego": {
      "src": "media/sweep_tamp_pressure_2_seed37/ego.mp4",
      "poster": "media/sweep_tamp_pressure_2_seed37/ego_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.837,
+     "s_per_frame": 3.154,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -28926,14 +29030,14 @@
      "src": "media/sweep_tamp_pressure_2_seed37/detail.mp4",
      "poster": "media/sweep_tamp_pressure_2_seed37/detail_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 4.017,
+     "s_per_frame": 3.262,
      "hidden_for_this_camera": []
     }
    },
@@ -28975,82 +29079,100 @@
      "target": null
     },
     {
-     "id": "a05_grind",
-     "action": "idle",
+     "id": "a05_tap_portafilter",
+     "action": "handle_prop",
      "t": 7.1899999999999995,
-     "t_end": 12.19,
+     "t_end": 12.59,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "portafilter"
+    },
+    {
+     "id": "a06_left_back",
+     "action": "retreat",
+     "t": 12.59,
+     "t_end": 13.99,
      "mechanism": "kinematic",
-     "hand": null,
+     "hand": "left",
      "target": null
     },
     {
-     "id": "a06_grind_2",
+     "id": "a07_wait",
      "action": "idle",
-     "t": 12.19,
-     "t_end": 16.189999999999998,
+     "t": 13.99,
+     "t_end": 18.990000000000002,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
     },
     {
-     "id": "a07_look_portafilter",
+     "id": "a08_wait_2",
+     "action": "idle",
+     "t": 18.990000000000002,
+     "t_end": 22.990000000000002,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "a09_look_portafilter",
      "action": "look_at",
-     "t": 16.189999999999998,
-     "t_end": 16.79,
+     "t": 22.990000000000002,
+     "t_end": 23.590000000000003,
      "mechanism": "kinematic",
      "hand": null,
      "target": "cradle_rest"
     },
     {
-     "id": "a08_move_portafilter",
+     "id": "a10_move_portafilter",
      "action": "pick_place",
-     "t": 16.189999999999998,
-     "t_end": 20.979999999999997,
+     "t": 22.990000000000002,
+     "t_end": 27.78,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "portafilter"
     },
     {
-     "id": "a09_right_back",
+     "id": "a11_right_back",
      "action": "retreat",
-     "t": 20.979999999999997,
-     "t_end": 22.379999999999995,
+     "t": 27.78,
+     "t_end": 29.18,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a10_look_tamper",
+     "id": "a12_look_tamper",
      "action": "look_at",
-     "t": 22.379999999999995,
-     "t_end": 22.979999999999997,
+     "t": 29.18,
+     "t_end": 29.78,
      "mechanism": "kinematic",
      "hand": null,
      "target": "prop_home.tamper"
     },
     {
-     "id": "a11_press_down_tamper",
+     "id": "a13_press_down_tamper",
      "action": "use_tool",
-     "t": 22.379999999999995,
-     "t_end": 28.479999999999997,
+     "t": 29.18,
+     "t_end": 35.28,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "tamper"
     },
     {
-     "id": "a12_right_back",
+     "id": "a14_right_back",
      "action": "retreat",
-     "t": 28.479999999999997,
-     "t_end": 29.879999999999995,
+     "t": 35.28,
+     "t_end": 36.68,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a13_end",
+     "id": "a15_end",
      "action": "idle",
-     "t": 29.879999999999995,
-     "t_end": 30.879999999999995,
+     "t": 36.68,
+     "t_end": 37.68,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
@@ -29062,16 +29184,16 @@
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 7.1899999999999995,
-     "t_end": 12.19
+     "t_start": 13.99,
+     "t_end": 18.990000000000002
     },
     {
      "source": "planned",
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 12.19,
-     "t_end": 16.189999999999998
+     "t_start": 18.990000000000002,
+     "t_end": 22.990000000000002
     }
    ],
    "measured_events": [],
@@ -29093,39 +29215,47 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a05_grind",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a06_grind_2",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a07_look_portafilter",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a08_move_portafilter",
+     "step": "a05_tap_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a09_right_back",
+     "step": "a06_left_back",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_look_tamper",
+     "step": "a07_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a11_press_down_tamper",
+     "step": "a08_wait_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a09_look_portafilter",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a10_move_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a12_right_back",
+     "step": "a11_right_back",
      "mechanism": "kinematic"
     },
     {
-     "step": "a13_end",
+     "step": "a12_look_tamper",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a13_press_down_tamper",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "a14_right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a15_end",
      "mechanism": "kinematic"
     }
    ],
@@ -29158,40 +29288,40 @@
    "owner_review": "pending",
    "profile": "preview",
    "timing": {
-    "total_s": 30.879999999999995,
+    "total_s": 37.68,
     "control_hz": 100,
     "fps": 30,
-    "n_frames": 928,
+    "n_frames": 1132,
     "frame_time_s": "index / fps"
    },
-   "trajectory_hash": "3e23cb8793735da1dcc8cfdbf101fc52e6381db581e3ec70bfa820b392ec9ab5",
+   "trajectory_hash": "d5e82a4312b987edaff41c8f3fe514d2f853a5cc0956b46b9601160b14bd19b9",
    "views": {
     "external": {
      "src": "media/sweep_tamp_pressure_3_seed37/external.mp4",
      "poster": "media/sweep_tamp_pressure_3_seed37/external_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.207,
+     "s_per_frame": 2.919,
      "hidden_for_this_camera": []
     },
     "ego": {
      "src": "media/sweep_tamp_pressure_3_seed37/ego.mp4",
      "poster": "media/sweep_tamp_pressure_3_seed37/ego_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 4.027,
+     "s_per_frame": 3.332,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -29202,14 +29332,14 @@
      "src": "media/sweep_tamp_pressure_3_seed37/detail.mp4",
      "poster": "media/sweep_tamp_pressure_3_seed37/detail_poster.png",
      "ok": true,
-     "frames": 928,
+     "frames": 1132,
      "fps": 30.0,
-     "duration_s": 30.933333,
+     "duration_s": 37.733333,
      "width": 960,
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 4.03,
+     "s_per_frame": 3.258,
      "hidden_for_this_camera": []
     }
    },
@@ -29251,82 +29381,100 @@
      "target": null
     },
     {
-     "id": "a05_grind",
-     "action": "idle",
+     "id": "a05_tap_portafilter",
+     "action": "handle_prop",
      "t": 7.1899999999999995,
-     "t_end": 12.19,
+     "t_end": 12.59,
+     "mechanism": "assisted_grasp",
+     "hand": "left",
+     "target": "portafilter"
+    },
+    {
+     "id": "a06_left_back",
+     "action": "retreat",
+     "t": 12.59,
+     "t_end": 13.99,
      "mechanism": "kinematic",
-     "hand": null,
+     "hand": "left",
      "target": null
     },
     {
-     "id": "a06_grind_2",
+     "id": "a07_wait",
      "action": "idle",
-     "t": 12.19,
-     "t_end": 16.189999999999998,
+     "t": 13.99,
+     "t_end": 18.990000000000002,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
     },
     {
-     "id": "a07_look_portafilter",
+     "id": "a08_wait_2",
+     "action": "idle",
+     "t": 18.990000000000002,
+     "t_end": 22.990000000000002,
+     "mechanism": "kinematic",
+     "hand": null,
+     "target": null
+    },
+    {
+     "id": "a09_look_portafilter",
      "action": "look_at",
-     "t": 16.189999999999998,
-     "t_end": 16.79,
+     "t": 22.990000000000002,
+     "t_end": 23.590000000000003,
      "mechanism": "kinematic",
      "hand": null,
      "target": "cradle_rest"
     },
     {
-     "id": "a08_move_portafilter",
+     "id": "a10_move_portafilter",
      "action": "pick_place",
-     "t": 16.189999999999998,
-     "t_end": 20.979999999999997,
+     "t": 22.990000000000002,
+     "t_end": 27.78,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "portafilter"
     },
     {
-     "id": "a09_right_back",
+     "id": "a11_right_back",
      "action": "retreat",
-     "t": 20.979999999999997,
-     "t_end": 22.379999999999995,
+     "t": 27.78,
+     "t_end": 29.18,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a10_look_tamper",
+     "id": "a12_look_tamper",
      "action": "look_at",
-     "t": 22.379999999999995,
-     "t_end": 22.979999999999997,
+     "t": 29.18,
+     "t_end": 29.78,
      "mechanism": "kinematic",
      "hand": null,
      "target": "prop_home.tamper"
     },
     {
-     "id": "a11_press_down_tamper",
+     "id": "a13_press_down_tamper",
      "action": "use_tool",
-     "t": 22.379999999999995,
-     "t_end": 28.479999999999997,
+     "t": 29.18,
+     "t_end": 35.28,
      "mechanism": "assisted_grasp",
      "hand": "right",
      "target": "tamper"
     },
     {
-     "id": "a12_right_back",
+     "id": "a14_right_back",
      "action": "retreat",
-     "t": 28.479999999999997,
-     "t_end": 29.879999999999995,
+     "t": 35.28,
+     "t_end": 36.68,
      "mechanism": "kinematic",
      "hand": "right",
      "target": null
     },
     {
-     "id": "a13_end",
+     "id": "a15_end",
      "action": "idle",
-     "t": 29.879999999999995,
-     "t_end": 30.879999999999995,
+     "t": 36.68,
+     "t_end": 37.68,
      "mechanism": "kinematic",
      "hand": null,
      "target": null
@@ -29338,16 +29486,16 @@
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 7.1899999999999995,
-     "t_end": 12.19
+     "t_start": 13.99,
+     "t_end": 18.990000000000002
     },
     {
      "source": "planned",
      "type": "effect",
      "id": "fx_grind",
      "mechanism": "illustrative_effect",
-     "t_start": 12.19,
-     "t_end": 16.189999999999998
+     "t_start": 18.990000000000002,
+     "t_end": 22.990000000000002
     }
    ],
    "measured_events": [],
@@ -29369,39 +29517,47 @@
      "mechanism": "kinematic"
     },
     {
-     "step": "a05_grind",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a06_grind_2",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a07_look_portafilter",
-     "mechanism": "kinematic"
-    },
-    {
-     "step": "a08_move_portafilter",
+     "step": "a05_tap_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a09_right_back",
+     "step": "a06_left_back",
      "mechanism": "kinematic"
     },
     {
-     "step": "a10_look_tamper",
+     "step": "a07_wait",
      "mechanism": "kinematic"
     },
     {
-     "step": "a11_press_down_tamper",
+     "step": "a08_wait_2",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a09_look_portafilter",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a10_move_portafilter",
      "mechanism": "assisted_grasp"
     },
     {
-     "step": "a12_right_back",
+     "step": "a11_right_back",
      "mechanism": "kinematic"
     },
     {
-     "step": "a13_end",
+     "step": "a12_look_tamper",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a13_press_down_tamper",
+     "mechanism": "assisted_grasp"
+    },
+    {
+     "step": "a14_right_back",
+     "mechanism": "kinematic"
+    },
+    {
+     "step": "a15_end",
      "mechanism": "kinematic"
     }
    ],
@@ -34929,7 +35085,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.997,
+     "s_per_frame": 3.256,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -35093,7 +35249,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.49,
+     "s_per_frame": 3.151,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -35364,7 +35520,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.264,
+     "s_per_frame": 3.21,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -35518,7 +35674,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.89,
+     "s_per_frame": 3.222,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -35703,7 +35859,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 2.934,
+     "s_per_frame": 3.229,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -35844,7 +36000,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.313,
+     "s_per_frame": 3.222,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -36010,7 +36166,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.118,
+     "s_per_frame": 3.175,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -36203,7 +36359,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.198,
+     "s_per_frame": 3.156,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -36474,7 +36630,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 4.065,
+     "s_per_frame": 3.186,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -36638,7 +36794,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.581,
+     "s_per_frame": 3.354,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -37099,7 +37255,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.306,
+     "s_per_frame": 3.139,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -37265,7 +37421,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.315,
+     "s_per_frame": 3.418,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -37406,7 +37562,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.414,
+     "s_per_frame": 2.989,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -37560,7 +37716,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.119,
+     "s_per_frame": 3.199,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -37701,7 +37857,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.107,
+     "s_per_frame": 3.376,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -38024,7 +38180,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.525,
+     "s_per_frame": 3.365,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",
@@ -38476,7 +38632,7 @@
      "height": 540,
      "engine": "CYCLES",
      "device": "OPTIX",
-     "s_per_frame": 3.147,
+     "s_per_frame": 2.993,
      "hidden_for_this_camera": [
       "Human.eyebrow001",
       "Human.eyelashes01",

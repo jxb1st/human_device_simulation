@@ -5,7 +5,7 @@
  "seed": 37,
  "scene_id": "kitchen_coffee_machine",
  "device_id": "coffee_machine",
- "created": "2026-10-21T01:19:40+00:00",
+ "created": "2026-10-22T07:05:35+00:00",
  "versions": {
   "blender": "4.5.14",
   "mujoco": "3.5.0",
@@ -70,15 +70,15 @@
    "mechanism": "kinematic"
   },
   {
-   "step": "a09_hot_water",
+   "step": "a09_wait",
    "mechanism": "kinematic"
   },
   {
-   "step": "a10_hot_water_2",
+   "step": "a10_wait_2",
    "mechanism": "kinematic"
   },
   {
-   "step": "a11_hot_water_3",
+   "step": "a11_wait_3",
    "mechanism": "kinematic"
   },
   {
@@ -140,7 +140,7 @@
   "illustrative_effect: lights, display and paper output are authored visual effects; no heating, printing or electronics are simulated.",
   "Kinematic human body (IK-driven); no whole-body balance, muscle or human contact simulation."
  ],
- "inputs_hash": "6f1f1675eec214561e90feadb5181f6dc6eb50b8eb40bb9175a7ec0d962adfca",
+ "inputs_hash": "e634ef06ee66dde9b865146fb3aaae45abe09704f0ec83a18948118a98a06fc1",
  "status": "rendered_preview",
  "render": {
   "preview": {
@@ -149,7 +149,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.128,
+    "seconds_per_frame": null,
     "frames": 1032,
     "resolution": [
      960,
@@ -163,7 +163,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.669,
+    "seconds_per_frame": 3.24,
     "frames": 1032,
     "resolution": [
      960,
@@ -181,7 +181,7 @@
     "engine": "CYCLES",
     "device": "OPTIX",
     "gpu_renderer": null,
-    "seconds_per_frame": 3.24,
+    "seconds_per_frame": null,
     "frames": 1032,
     "resolution": [
      960,
@@ -195,7 +195,7 @@
  "owner_review": "pending",
  "trajectory_hash": "4120da6f8257b4742491932ec1052c9648216fefa026187e4bbed73706be09e2",
  "stages": {
-  "inputs_hash": "6f1f1675eec214561e90feadb5181f6dc6eb50b8eb40bb9175a7ec0d962adfca",
+  "inputs_hash": "e634ef06ee66dde9b865146fb3aaae45abe09704f0ec83a18948118a98a06fc1",
   "compile": true,
   "bake_targets": true,
   "bake_run": true
