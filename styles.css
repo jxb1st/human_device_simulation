@@ -60,10 +60,13 @@ table.acttable td:nth-child(2){min-width:180px}table.acttable td.fb{max-width:30
 .kf figcaption{font-size:.7rem;color:var(--muted);padding-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:860px){.partfig{grid-template-columns:1fr}.vids{grid-template-columns:1fr}.devhero{grid-template-columns:1fr}}
 
-.flowpre{margin:12px 0 6px}.flow{display:flex;gap:6px;align-items:stretch;margin:0 0 8px}
+.flowpre{margin:12px 0 6px}.flowpost{margin:0 0 8px}.flow{display:flex;gap:6px;align-items:stretch;margin:0 0 6px}
 .stage{flex:1 1 0;min-width:0;background:var(--panel);border-radius:10px;border-top:4px solid var(--c);padding:10px 12px 12px;display:flex;flex-direction:column}
 .stage.pre{border-top-color:transparent;border-left:4px solid var(--c);flex-direction:row;flex-wrap:wrap;gap:4px 18px;align-items:center}
-.stage.pre .schips,.stage.pre .sout,.stage.pre .swhere{margin:0}
+.stage.post{border-top-color:transparent;border-left:4px solid var(--c);flex-direction:row;flex-wrap:wrap;gap:4px 18px;align-items:center;opacity:.6}
+.stage.pre .schips,.stage.pre .sout,.stage.pre .swhere,.stage.post .schips,.stage.post .swhere{margin:0}
+table.trace th{text-align:left;font-weight:500;font-size:.72rem;color:var(--muted);padding:4px 8px;white-space:nowrap}table.trace td{vertical-align:top;font-size:.8rem}
+table.trace td:first-child{min-width:13em}table.trace td:nth-child(4),table.trace td:nth-child(5){min-width:12em}table.acttable tr.rej td.why{color:#f2784b}table.trace td:last-child{color:var(--muted)}table.trace code{font-size:.76rem;background:var(--panel-2);padding:0 4px;border-radius:3px}
 .flow .arr{flex:none;width:10px;height:16px;align-self:center;color:var(--muted)}
 .sname{font-weight:600}.sname i{font-style:normal;display:inline-block;min-width:1.4em;height:1.4em;line-height:1.4em;text-align:center;border-radius:50%;background:var(--c);color:#0f1412;font-size:.78rem;margin-right:8px;font-weight:700}
 .schips{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}.schips span{background:var(--panel-2);border-left:3px solid var(--c);padding:1px 7px;border-radius:4px;font-size:.74rem;color:var(--ink)}
